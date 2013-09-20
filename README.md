@@ -26,7 +26,7 @@ Init repo only for a particular device :
 
 for example, to init only trees needed to build m7ul :
 
-    $ repo init -u https://github.com/AICP/platform_manifest.git -b jb-mr2 -g all,-notdefault,m7ul,htc
+    $ repo init -u https://github.com/AICP/platform_manifest.git -b jb-mr2 -g all,-notdefault,m7,htc
 
 Init repo for multiple devices :
 
