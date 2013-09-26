@@ -62,7 +62,7 @@
   <project path="device/htc/evita" name="AOKP/device_htc_evita" remote="aokp" revision="jb-mr2" groups="notdefault,device,evita" />
   <project path="device/htc/m7ul" name="AOKP/device_htc_m7ul" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7" />
   <project path="device/htc/m7att" name="AOKP/device_htc_m7att" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7" />
-  <project path="device/htc/m7tmo" name="AOKP/device_htc_m7tmo" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7" />
+  <project path="device/htc/m7tmo" name="AICP/android_device_htc_m7tmo" remote="aicp" revision="jb-mr2" groups="notdefault,device,m7" />
   <project path="device/htc/m7spr" name="AOKP/device_htc_m7spr" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7" />
   <project path="device/htc/m7-common" name="AICP/android_device_htc_m7-common" remote="aicp" revision="jb-mr2" groups="notdefault,device,m7" />
   <project path="device/htc/msm8960-common" name="AOKP/device_htc_msm8960-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7,evita" />
