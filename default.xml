@@ -515,4 +515,13 @@
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr2" />
 
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="jb-mr2" />
+ 
+  <!-- Voice Plus send messages Through Google  Voice -->
+
+  <project path="packages/apps/VoicePlus"         name="CyanogenMod/android_packages_apps_VoicePlus"          remote="cm"   revision="cm-10.2" />
+  <project path="external/koush/ion"              name="CyanogenMod/ion"                          remote="cm"   revision="cm-10.2" />
+  <project path="external/koush/AndroidAsync"     name="CyanogenMod/AndroidAsync"                 remote="cm"   revision="cm-10.2" />
+  <project path="external/gson"                   name="CyanogenMod/android_external_gson"        remote="cm"   revision="cm-10.2" />
+
+
 </manifest>
