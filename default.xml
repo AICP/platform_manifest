@@ -25,6 +25,9 @@
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
+  <remote  name="xplodwild"
+           fetch="https://github.com/" />
+
   <default revision="refs/tags/android-4.3_r3.1"
            remote="aosp"
            sync-j="4" />
@@ -167,6 +170,7 @@
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
+  <project path="external/Focal" name="xplodwild/android_external_Focal" remote="xplodwild" revision="cm-10.2" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" remote="cm" revision="cm-10.2" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="cm" revision="cm-10.2" />
@@ -392,6 +396,7 @@
   <project path="packages/apps/Email" name="AOKP/packages_apps_Email" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Focal" name="xplodwild/android_packages_apps_Focal" remote="xplodwild" revision="cm-10.2" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="AOKP/packages_apps_Gallery2" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
