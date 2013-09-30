@@ -49,6 +49,7 @@
   <project path="development" name="platform/development" />
   <project path="device/acer/a510" name="AOKP/device_acer_a510" remote="aokp" revision="jb-mr2" groups="notdefault,device,a510" />
   <project path="device/asus/flo" name="AOKP/device_asus_flo" remote="aokp" revision="jb-mr2" groups="notdefault,device,flo" />
+  <project path="device/asus/deb" name="AICP/android_device_asus_deb"  remote="aicp" revision="jb-mr2" groups="notdefault,device,deb" />
   <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="jb-mr2" groups="notdefault,device,grouper" />
   <project path="device/asus/tilapia" name="AOKP/device_asus_tilapia" remote="aokp" revision="jb-mr2" groups="notdefault,device,tilapia" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.2" groups="device" />
@@ -362,6 +363,7 @@
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.2" />
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-10.2" groups="notdefault,kernel,grouper" />
   <project path="kernel/asus/tf101" name="AOKP/kernel_asus_tf101" remote="aokp" revision="jb" groups="notdefault,kernel,tf101" />
+  <project path="kernel/asus/deb" name="AICP/android_kernel_asus_flo" remote="aicp" revision="jb-mr2" groups="notdefault,kernel,flo" />
   <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="cm" revision="cm-10.2" groups="notdefault,kernel,flo,mako" />
   <project path="kernel/htc/m7" name="AICP/android_kernel_htc_m7" remote="aicp" revision="jb-mr2" groups="notdefault,kernel,m7" />
   <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="cm" revision="cm-10.2" groups="notdefault,kernel,evita" />
@@ -514,6 +516,7 @@
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,samsung" />
   <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,sony" />
   <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,asus" />
+  <project path="vendor/asus/deb"   name="AICP/proprietary_vendor_asus_deb"  remote="aicp" revision="jb-mr2" groups="notdefault,vendor,asus" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr2" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr2" />
@@ -532,3 +535,5 @@
 
 
 </manifest>
+
+
