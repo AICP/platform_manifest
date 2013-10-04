@@ -538,7 +538,7 @@
 
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" revision="jb-mr2" >
       <copyfile src="tools/build-aicp.sh" dest="build-aicp.sh" />
-
+  </project>
 </manifest>
 
 
