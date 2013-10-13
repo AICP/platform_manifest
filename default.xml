@@ -71,7 +71,7 @@
   <project path="device/htc/m7tmo" name="AICP/android_device_htc_m7tmo" remote="aicp" revision="jb-mr2" groups="notdefault,device,m7,m7tmo" />
   <project path="device/htc/m7spr" name="AOKP/device_htc_m7spr" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7,m7spr" />
   <project path="device/htc/m7-common" name="AICP/android_device_htc_m7-common" remote="aicp" revision="jb-mr2" groups="notdefault,device,m7,m7att,m7spr,m7tmo,m7ul" />
-  <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="cm" revision="cm-10.2" groups="notdefault,device,m7,m7att,m7spr,m7tmo,m7ul,evita" />
+  <project path="device/htc/msm8960-common" name="AOKP/device_htc_msm8960-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7,m7att,m7spr,m7tmo,m7ul,evita" />
   <project path="device/htc/tegra3-common" name="AICP/device_htc_tegra3-common" remote="aicp" revision="jb-mr2" groups="notdefault,device,endeavoru" />
   <project path="device/htc/s4-common" name="AOKP/device_htc_s4-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,htc,evita" />
   <project path="device/lge/iprj-common" name="AOKP/device_lge_iprj-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,p930,su640,vs920" />
