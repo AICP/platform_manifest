@@ -370,7 +370,7 @@
   <project path="kernel/asus/tf101" name="AOKP/kernel_asus_tf101" remote="aokp" revision="jb" groups="notdefault,kernel,tf101" />
   <project path="kernel/asus/tf201" name="AICP/android_kernel_asus_tf201" remote="aicp" revision="jb-mr2"  groups="notdefault,kernel,tf201" />
   <project path="kernel/asus/deb" name="AICP/android_kernel_asus_flo" remote="aicp" revision="jb-mr2" groups="notdefault,kernel,flo" />
-  <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="cm" revision="cm-10.2" groups="notdefault,kernel,flo,mako" />
+  <project path="kernel/google/msm" name="AICP/android_kernel_google_msm" remote="aicp" revision="jb-mr2" groups="notdefault,kernel,flo,mako" />
   <project path="kernel/htc/m7" name="AICP/android_kernel_htc_m7" remote="aicp" revision="jb-mr2" groups="notdefault,kernel,m7,m7att,m7spr,m7tmo,m7ul" />
   <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="cm" revision="cm-10.2" groups="notdefault,kernel,evita" />
   <project path="kernel/htc/endeavoru" name="CyanogenMod/android_kernel_htc_endeavoru" remote="cm" revision="cm-10.2" groups="notdefault,kernel,endeavoru" />
