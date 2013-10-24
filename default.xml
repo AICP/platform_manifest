@@ -45,7 +45,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.2" />
   <project path="cts" name="platform/cts" groups="cts"/>
-  <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr2" />
+  <project path="dalvik" name="AICP/dalvik" remote="aicp" revision="jb-mr2" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -426,7 +426,7 @@
   <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="AOKP/packages_apps_PackageInstaller" remote="aokp" revision="jb-mr2" />
-  <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="aokp" revision="jb-mr2" />
+  <project path="packages/apps/Phone" name="AICP/packages_apps_Phone" remote="aicp" revision="jb-mr2" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
