@@ -7,7 +7,7 @@
 
   <remote  name="aicp"
            fetch="https://github.com/"
-           review="gerrit.zips.net" />
+           review="gerrit.aicp-rom.com" />
 
   <remote  name="aokp"
            fetch="https://github.com/"
