@@ -71,10 +71,10 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="notdefault,device" />
   <project path="device/htc/endeavoru" name="AICP/device_htc_endeavoru" remote="aicp" revision="jb-mr2" groups="notdefault,device,endeavoru" />
   <project path="device/htc/evita" name="AOKP/device_htc_evita" remote="aokp" revision="jb-mr2" groups="notdefault,device,evita" />
-  <project path="device/htc/m7ul" name="AOKP/device_htc_m7ul" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7,m7ul" />
-  <project path="device/htc/m7att" name="AOKP/device_htc_m7att" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7,m7att" />
-  <project path="device/htc/m7tmo" name="AICP/android_device_htc_m7tmo" remote="aicp" revision="jb-mr2" groups="notdefault,device,m7,m7tmo" />
-  <project path="device/htc/m7spr" name="AOKP/device_htc_m7spr" remote="aokp" revision="jb-mr2" groups="notdefault,device,m7,m7spr" />
+  <project path="device/htc/m7ul"  name="AICP/device_htc_m7ul"  remote="aicp" revision="jb-mr2" groups="notdefault,device,m7,m7ul" />
+  <project path="device/htc/m7att" name="AICP/device_htc_m7att" remote="aicp" revision="jb-mr2" groups="notdefault,device,m7,m7att" />
+  <project path="device/htc/m7tmo" name="AICP/device_htc_m7tmo" remote="aicp" revision="jb-mr2" groups="notdefault,device,m7,m7tmo" />
+  <project path="device/htc/m7spr" name="AICP/device_htc_m7spr" remote="aicp" revision="jb-mr2" groups="notdefault,device,m7,m7spr" />
   <project path="device/htc/m7-common" name="AICP/android_device_htc_m7-common" remote="aicp" revision="jb-mr2" groups="notdefault,device,m7,m7att,m7spr,m7tmo,m7ul" />
   <project path="device/htc/msm8960-common" name="AICP/device_htc_msm8960-common" remote="aicp" revision="jb-mr2" groups="notdefault,device,m7,m7att,m7spr,m7tmo,m7ul,evita" />
   <project path="device/htc/tegra3-common" name="AICP/device_htc_tegra3-common" remote="aicp" revision="jb-mr2" groups="notdefault,device,endeavoru" />
@@ -528,7 +528,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 -->
   <project path="vendor/aicp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr2" />
-  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="muppets" revision="cm-10.2" groups="notdefault,vendor,htc" />
+  <project path="vendor/htc" name="AICP/proprietary_vendor_htc" remote="aicp" revision="jb-mr2" groups="notdefault,vendor,htc" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,lge" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,motorola" />
   <project path="vendor/oppo" name="AOKP/vendor_oppo" remote="aokp" revision="jb-mr2" groups="notdefault,vendor,oppo" />
