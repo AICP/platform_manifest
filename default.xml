@@ -473,7 +473,7 @@
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
-  <project path="packages/wallpapers/PhaseBeam" name="omnirom/android_packages_wallpapers_PhaseBeam" remote="omnirom" revision="android-4.3" />
+  <project path="packages/wallpapers/PhaseBeam" name="omnirom/android_packages_wallpapers_PhaseBeam" remote="omnirom" revision="android-4.4" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-10.2" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
