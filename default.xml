@@ -186,7 +186,6 @@
   <project path="external/f2fs-tools" name="AOKP/external_f2fs-tools" remote="aokp" revision="jb-mr2" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
-  <project path="external/Focal" name="xplodwild/android_external_Focal" remote="xplodwild" revision="master" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" remote="cm" revision="cm-10.2" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="cm" revision="cm-10.2" />
