@@ -407,7 +407,7 @@
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="jb-mr2" />
-  <project path="packages/apps/Calculator" name="AOKP/packages_apps_Calculator" remote="aokp" revision="jb-mr2" />
+  <project path="packages/apps/Calculator" name="AICP/packages_apps_Calculator" remote="aicp" revision="jb-mr2" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/CellBroadcastReceiver" name="AOKP/packages_apps_CellBroadcastReceiver" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/CDMATools" name="AOKP/packages_apps_CDMATools" remote="aokp" revision="jb-mr2" />
