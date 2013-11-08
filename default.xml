@@ -412,7 +412,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="AOKP/packages_apps_CellBroadcastReceiver" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/CDMATools" name="AOKP/packages_apps_CDMATools" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="aokp" revision="jb-mr2" />
+  <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" remote="aicp" revision="jb-mr2" />
   <project path="packages/apps/ContactsCommon" name="AOKP/packages_apps_ContactsCommon" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/DashClock" name="omnirom/android_packages_apps_DashClock" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="jb-mr2" />
