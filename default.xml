@@ -120,6 +120,7 @@
   <project path="device/samsung/manta" name="AOKP/device_samsung_manta" remote="aokp" revision="jb-mr2" groups="notdefault,device,manta" />
   <project path="device/samsung/msm8660-common" name="AOKP/device_samsung_msm8660-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,hercules" />
   <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
+  <project path="device/samsung/n7000" name="AICP/device_samsung_n7000" remote="aicp" revision="jb-mr2" groups="notdefault,device,n7000" />
   <project path="device/samsung/omap4-common" name="CyanogenMod/android_device_samsung_omap4-common" remote="cm" revision="cm-10.2" groups="notdefault,device,i9100g" />
   <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw,hercules" />
   <project path="device/samsung/smdk4412-common" name="AOKP/device_samsung_smdk4412-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,t0lte,t0lteatt,t0ltetmo,i605,l900,i9300" />
@@ -438,6 +439,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.2" groups="notdefault,n7000" />
   <project path="packages/apps/ROMControl" name="AICP/packages_apps_ROMControl" remote="aicp" revision="jb-mr2" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" revision="jb-mr2" />
