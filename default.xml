@@ -102,7 +102,7 @@
   <project path="device/samsung/d2tmo" name="AOKP/device_samsung_d2tmo" remote="aokp" revision="jb-mr2" groups="notdefault,device,d2,d2tmo" />
   <project path="device/samsung/d2usc" name="AOKP/device_samsung_d2usc" remote="aokp" revision="jb-mr2" groups="notdefault,device,d2,d2usc" />
   <project path="device/samsung/d2vzw" name="AOKP/device_samsung_d2vzw" remote="aokp" revision="jb-mr2" groups="notdefault,device,d2,d2vzw" />
-  <project path="device/samsung/galaxys2-common" name="AOKP/device_samsung_galaxys2-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,hercules,i9100,i9100g" />
+  <project path="device/samsung/galaxys2-common" name="AOKP/device_samsung_galaxys2-common" remote="aokp" revision="jb-mr2" groups="notdefault,device,hercules,i9100,i9100g,n7000" />
   <project path="device/samsung/hercules" name="AOKP/device_samsung_hercules" remote="aokp" revision="jb-mr2" groups="notdefault,device,hercules" />
   <project path="device/samsung/i605" name="AOKP/device_samsung_i605" remote="aokp" revision="jb-mr2" groups="notdefault,device,i605" />
   <project path="device/samsung/i9100" name="AOKP/device_samsung_i9100" remote="aokp" revision="jb-mr2" groups="notdefault,device,i9100" />
