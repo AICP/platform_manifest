@@ -34,7 +34,7 @@
 
   <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
-           sync-j="4" />
+           sync-j="16" />
 
   <project path="build" name="AICP/build" remote="aicp" revision="jb-mr2" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
