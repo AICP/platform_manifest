@@ -418,7 +418,7 @@
   <project path="packages/apps/DashClock" name="omnirom/android_packages_apps_DashClock" remote="omnirom" revision="android-4.3" />
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="jb-mr2" />
   <project path="packages/apps/Dialer" name="AOKP/packages_apps_Dialer" remote="aokp" revision="jb-mr2" />
-  <project path="packages/apps/Email" name="AOKP/packages_apps_Email" remote="aokp" revision="jb-mr2" />
+  <project path="packages/apps/Email" name="AICP/android_packages_apps_Email" remote="aicp" revision="jb-mr2" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Focal" name="xplodwild/android_packages_apps_Focal" remote="xplodwild" revision="cm-10.2" />
