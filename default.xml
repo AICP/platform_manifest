@@ -384,7 +384,7 @@
   <project path="kernel/google/msm" name="AICP/android_kernel_google_msm" remote="aicp" revision="jb-mr2" groups="notdefault,kernel,flo,mako" />
   <project path="kernel/htc/m7" name="AICP/android_kernel_htc_m7" remote="aicp" revision="jb-mr2" groups="notdefault,kernel,m7,m7att,m7spr,m7tmo,m7ul" />
   <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="cm" revision="cm-10.2" groups="notdefault,kernel,evita" />
-  <project path="kernel/htc/endeavoru" name="CyanogenMod/android_kernel_htc_endeavoru" remote="cm" revision="cm-10.2" groups="notdefault,kernel,endeavoru" />
+  <project path="kernel/htc/endeavoru" name="AICP/android_kernel_htc_endeavoru" remote="aicp" revision="jb-mr2" groups="notdefault,kernel,endeavoru" />
   <project path="kernel/lge/iproj" name="CyanogenMod/lge-kernel-iproj" remote="cm" revision="cm-10.1" groups="notdefault,kernel,p930,su640,vs920" />
   <project path="kernel/lge/mako" name="AOKP/kernel_lge_mako" remote="aokp" revision="jb-mr2" groups="notdefault,kernel,mako" />
   <project path="kernel/motorola/omap4-common" name="CyanogenMod/android_kernel_motorola_omap4-common" remote="cm" revision="cm-10.1" groups="notdefault,kernel,solana,spyder,maserati,tyger,targa" />
