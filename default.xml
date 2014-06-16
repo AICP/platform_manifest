@@ -18,7 +18,7 @@
 
   <remote  name="cm"
            fetch="https://github.com/" 
-           review="review.cyanogemod.org" />
+           review="review.cyanogenmod.org" />
 
   <remote name="omni"
            fetch="https://github.com/"
@@ -84,35 +84,34 @@
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
-  <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
-  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" />
-  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/openssl" name="CyanogenMod/android_external_chromium_org_third_party_openssl" />
-  <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-
-  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
+  <project path="external/chromium" name="platform/external/chromium" />
+  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
+  <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk"/>
+  <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="cm" revision="cm-11.0" />
+  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
+  <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
+  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
+  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" />
+  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" />
+  <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" />
+  <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" />
+  <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" />
+  <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" />
+  <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" />
+  <project path="external/chromium_org/third_party/openssl" name="CyanogenMod/android_external_chromium_org_third_party_openssl" remote="cm" revision="cm-11.0" />
+  <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" />
+  <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" />
+  <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" />
+  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" />
+  <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" />
+  <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" />
+  <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" />
+  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" />
+  <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
+  <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
   <project path="external/clang" name="AOKP/external_clang" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
