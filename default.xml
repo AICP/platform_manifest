@@ -6,25 +6,25 @@
            review="https://android-review.googlesource.com/" />
 
   <remote name="github"
-           fetch="https://github.com/" />
+           fetch="ssh://git@github.com" />
 
   <remote name="aicp"
-           fetch="https://github.com/"
+           fetch="ssh://git@github.com"
            review="gerrit.aicp-rom.com" />
 
   <remote  name="aokp"
-           fetch="https://github.com/"
+           fetch="ssh://git@github.com"
            review="gerrit.aokp.co" />
 
   <remote  name="cm"
-           fetch="https://github.com/" />
+           fetch="ssh://git@github.com" />
 
   <remote name="omni"
-           fetch="https://github.com/"
+           fetch="ssh://git@github.com"
            review="gerrit.omnirom.org" />
 
   <remote name="slim"
-           fetch="https://github.com/"
+           fetch="ssh://git@github.com"
            review="gerrit.slimroms.net" />
 
   <remote   name="maxwen"
