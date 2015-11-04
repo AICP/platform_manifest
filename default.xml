@@ -125,12 +125,14 @@
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="cm" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk,qcom_msm8x26" remote="cm" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" remote="cm" />
+  <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="cm" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" remote="cm" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" remote="cm" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" remote="cm" />
   <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" remote="cm" />
   <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" remote="cm" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="cm" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="cm" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" remote="cm" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" remote="cm" />
