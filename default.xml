@@ -315,7 +315,7 @@
   <!-- END AICP -->
 
   <!-- Anti-piracy support -->
-  <!-- <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" /> -->
+  <project path="packages/services/AntiPiracy" name="ContentGuard/AntiPiracySupport" remote="github" revision="Android-6.0.1" />
 
   <!-- BEGIN AOSP -->
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
