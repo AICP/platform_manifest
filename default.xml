@@ -302,7 +302,6 @@
 -->
 <!-- END CMSDK SAMPLES -->
 
-  <include name="snippets/hal_cm_all.xml" />
 <!-- END CYANOGENMOD -->
 
 <!-- BEGIN AOSP -->
