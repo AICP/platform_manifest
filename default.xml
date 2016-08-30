@@ -37,7 +37,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" />
-  <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
@@ -310,6 +309,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
   <project path="device/generic/mips64" name="device/generic/mips64" groups="pdk" remote="aosp" />
