@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1371a2_ea9ec362",
+        "filename": "snippets/aicp.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2016-10-26T20:01:37Z",
+      "side": 1,
+      "message": "??",
+      "range": {
+        "startLine": 20,
+        "startChar": 32,
+        "endLine": 20,
+        "endChar": 52
+      },
+      "revId": "fe42e841b692bb054e870619c725a97fbed11905",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
