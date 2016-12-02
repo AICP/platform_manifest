@@ -16,6 +16,8 @@
   <project path="packages/apps/OmniSwitch" name="AICP/packages_apps_OmniSwitch" />
   <project path="packages/themes/HexoLibre" name="AICP/packages_themes_HexoLibre" groups="themes" /> -->
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="teamsubstratum" revision="n" />
+  <project path="packages/apps/substratum" name="nicholaschum/substratum" remote="nicholaschum" revision="dev" />  
   <!-- END AICP -->
 
   <!-- CyanogenMod additions -->
