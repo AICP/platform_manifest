@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1abeadc6_d3757433",
+        "filename": "snippets/aicp.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2016-12-04T12:31:24Z",
+      "side": 1,
+      "message": "branch name should be changed to n.\nThere is no master branch name",
+      "range": {
+        "startLine": 19,
+        "startChar": 109,
+        "endLine": 19,
+        "endChar": 116
+      },
+      "revId": "e770cbedc9e62d7fbffc15c9cfea49b629e78314",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
