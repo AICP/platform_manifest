@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da86d52c_921f6209",
+        "filename": "README.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2017-05-11T04:27:25Z",
+      "side": 1,
+      "message": "\"John Doe \u003cjohn.doe@gmail.com\u003e\" instead of Lord Clockan",
+      "range": {
+        "startLine": 113,
+        "startChar": 29,
+        "endLine": 113,
+        "endChar": 64
+      },
+      "revId": "d813ad2b7d4295051d769f42c0ad93ee85512f4c",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
