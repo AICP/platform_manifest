@@ -45,7 +45,7 @@ After a build, if you would like to share your build on XDA (Regular Unofficial 
 an XDA thread. Note that the template is a guideline of sort. You may make your own changes to it (esp please do in the download link) but try
 and make thread as close to this one as possible. This is to aviod cluttering and make stuff organised.
 
-Link : https://dl.dropboxusercontent.com/u/57672206/xda%20template
+Link : https://pastebin.com/8HgY9X0u
 
 
 
