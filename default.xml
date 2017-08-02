@@ -84,6 +84,7 @@
   <project path="external/fuse" name="LineageOS/android_external_fuse" remote="cm" />
   <project path="external/gello-build" name="LineageOS/android_external_gello_build" remote="cm" />
   <project path="external/giflib" name="LineageOS/android_external_giflib" groups="pdk,qcom_msm8x26" remote="cm" />
+  <project path="external/google" name="LineageOS/android_external_google" remote="cm" />
   <project path="external/gmock" name="LineageOS/android_external_gmock" remote="cm" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk-fs" remote="cm" />
   <project path="external/gson" name="LineageOS/android_external_gson" remote="cm" />
