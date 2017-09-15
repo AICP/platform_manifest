@@ -3,10 +3,13 @@
 
   <remote  name="github"
            fetch=".."
-           sync-c="true"
-           sync-j="4"
            review="review.lineageos.org"
            revision="refs/heads/lineage-15.0" />
+
+  <remote  name="aicp"
+           fetch=".."
+           fetch="https://github.com/"
+           review="gerrit.aicp-rom.com" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -18,8 +21,8 @@
 
   <default revision="refs/heads/o8.0"
            remote="aicp"
-           fetch="https://github.com/"
-           review="gerrit.aicp-rom.com" />	   
+           sync-c="true"
+           sync-j="4" />
 
   <!-- AOSP Projects -->
 
