@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- LineageOS additions -->
-  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
+  <!-- AICP additions -->
   <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
+  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
+  <project path="prebuilts/checkstyle" name="AICP/prebuilts_checkstyle" groups="pdk" clone-depth="1" remote="aicp" />
+  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+
+  <!-- LineageOS additions -->
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <!--<project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" />-->
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
@@ -53,7 +57,6 @@
   <project path="packages/services/WeatherService" name="LineageOS/android_packages_services_WeatherService" />
   <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />-->
-  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
   <!--<project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
