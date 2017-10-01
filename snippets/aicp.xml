@@ -3,6 +3,7 @@
 
   <!-- AICP additions -->
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
+  <project path="packages/apps/Bluetooth" name="AICP/packages_apps_Bluetooth" groups="aicp" />
 
   <!-- LineageOS additions -->
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
