@@ -9,6 +9,7 @@
   <project path="packages/apps/Bluetooth" name="AICP/packages_apps_Bluetooth" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+  <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
 
   <!-- LineageOS additions -->
   <project path="external/bash" name="LineageOS/android_external_bash" />
