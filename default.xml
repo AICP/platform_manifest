@@ -16,7 +16,8 @@
   <default revision="refs/heads/staging/lineage-15.1"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="4"
+           sync-f="true" />
 
   <remote  name="aicp"
            fetch="https://github.com/"
