@@ -7,7 +7,8 @@
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
   <project path="packages/apps/Bluetooth" name="AICP/packages_apps_Bluetooth" remote="aicp" />
-  <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" />  
+  <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
+  <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
   <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
