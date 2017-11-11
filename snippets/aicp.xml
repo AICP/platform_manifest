@@ -4,6 +4,7 @@
   <!-- AICP additions -->
   <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
   <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
+  <project path="external/wpa_supplicant_8" name="AICP/external_wpa_supplicant_8" groups="pdk" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
   <project path="packages/apps/Bluetooth" name="AICP/packages_apps_Bluetooth" remote="aicp" />
