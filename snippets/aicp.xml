@@ -23,6 +23,10 @@
   <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
+  <!-- DUI -->
+  <project path="external/DUtils" name="DirtyUnicorns/android_external_DUtils" remote="github" revision="o8x" />
+  <project path="packages/apps/DUI" name="DirtyUnicorns/android_packages_apps_DUI" remote="github" revision="o8x" />
+
   <!-- LineageOS additions -->
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
