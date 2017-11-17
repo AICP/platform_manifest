@@ -2,18 +2,24 @@
 <manifest>
 
   <!-- AICP additions -->
+  <project path="bionic" name="AICP/bionic" groups="pdk" remote="aicp" />
   <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
   <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
+  <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
+  <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
+  <project path="lineage-sdk" name="AICP/lineage-sdk" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
   <project path="packages/apps/Bluetooth" name="AICP/packages_apps_Bluetooth" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/OmniStyle" name="AICP/packages_apps_OmniStyle" remote="aicp" />
+  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
   <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
+  <project path="prebuilts/checkstyle" name="AICP/prebuilts_checkstyle" groups="pdk" clone-depth="1" remote="aicp" />
+  <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
-  <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
 
   <!-- LineageOS additions -->
   <project path="external/bash" name="LineageOS/android_external_bash" />
@@ -47,7 +53,6 @@
   <!--<project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />-->
   <!--<project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />-->
   <!--<project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />-->
-  <project path="lineage-sdk" name="AICP/lineage-sdk" remote="aicp" />
   <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />-->
   <!--<project path="lineage-sdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />-->
   <!--<project path="lineage-sdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" />-->
