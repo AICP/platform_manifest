@@ -11,6 +11,7 @@
   <project path="lineage-sdk" name="AICP/lineage-sdk" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
+  <project path="packages/apps/Bluetooth" name="AICP/packages_apps_Bluetooth" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/DUI" name="AICP/packages_apps_DUI" remote="aicp" />
   <project path="packages/apps/LineageParts" name="AICP/packages_apps_LineageParts" remote="aicp" />
