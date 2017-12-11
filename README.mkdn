@@ -12,7 +12,7 @@ Initializing Repository
 
 Repo initialization:
 
-    $ repo init -u https://github.com/AICP/platform_manifest.git -b o8.0
+    $ repo init -u https://github.com/AICP/platform_manifest.git -b o8.1
 
 
 sync repo :
@@ -22,14 +22,20 @@ sync repo :
 Some info on how to customize your sync:
 
   -f, --force-broken    continue sync even if a project fails to sync
+
   --force-sync          overwrite an existing git directory if it needs to
                         point to a different object directory. WARNING: this
                         may cause loss of data
+
   -l, --local-only      only update working tree, don't fetch
+
   -n, --network-only    fetch only, don't update working tree
+
   -c, --current-branch  fetch only current branch from server
+
   -j JOBS, --jobs=JOBS  projects to fetch simultaneously (default 4)
   --no-clone-bundle     disable use of /clone.bundle on HTTP/HTTPS
+
   --no-tags             don't fetch tags
 
 Smallest/fastest sync:
@@ -62,7 +68,7 @@ After you get a working build, and if you would like to share your build on XDA 
 an XDA thread. Note that the template is a guideline of sort. You may make your own changes to it (esp please do in the download link) but try
 and make your thread as close to this one as possible. This is to avoid cluttering and make stuff organized.
 
-Link : https://raw.githubusercontent.com/AICP/vendor_aicp/o8.0/xda_template/xda_thread-template.txt
+Link : https://raw.githubusercontent.com/AICP/vendor_aicp/o8.1/xda_template/xda_thread-template.txt
 
 
 Uploading to AICP Gerrit
@@ -91,7 +97,7 @@ You can also use:
 
 Example:
 
-    git push ssh://mosimchah@gerrit.aicp-rom.com:29418/AICP/platform_manifest HEAD:refs/for/o8.0
+    git push ssh://mosimchah@gerrit.aicp-rom.com:29418/AICP/platform_manifest HEAD:refs/for/o8.1
 
 
 6th You will get an error about a missing Change-ID in that error it will show you a suggested commit message copy the change id
