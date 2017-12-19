@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ab98748c_dd3895bf",
+        "filename": "snippets/aicp.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 773
+      },
+      "writtenOn": "2017-12-19T12:25:23Z",
+      "side": 1,
+      "message": "I don\u0027t think there is a staging/lineage-15.1-caf-8996 for Media repos",
+      "range": {
+        "startLine": 121,
+        "startChar": 123,
+        "endLine": 121,
+        "endChar": 153
+      },
+      "revId": "ac4bfb2e6b14b4c17ac7de3af734c2a2f0cf268c",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
