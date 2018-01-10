@@ -72,7 +72,7 @@
   <!--<project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />-->
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
   <project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />
-  <!--<project path="system/extras/su" name="LineageOS/android_system_extras_su" />-->
+  <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
 
   <!-- CodeAurora additions -->
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />
