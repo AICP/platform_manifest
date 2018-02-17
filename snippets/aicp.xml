@@ -18,6 +18,7 @@
   <project path="packages/apps/OmniStyle" name="AICP/packages_apps_OmniStyle" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
+  <project path="packages/overlays/Lineage" name="AICP/packages_overlays_Lineage" remote="aicp" />
   <project path="packages/providers/DownloadProvider" name="AICP/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
   <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" />
