@@ -27,6 +27,7 @@
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="prebuilts/checkstyle" name="AICP/prebuilts_checkstyle" groups="pdk" clone-depth="1" remote="aicp" />
   <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
+  <project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
   <!-- LineageOS additions -->
