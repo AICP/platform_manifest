@@ -6,6 +6,7 @@
   <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
   <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
   <project path="external/DUtils" name="AICP/external_DUtils" remote="aicp" />
+  <project path="external/bash" name="AICP/external_bash" />
   <project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk" remote="aicp" />
@@ -31,7 +32,6 @@
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
   <!-- LineageOS additions -->
-  <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
   <!--<project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" />-->
   <project path="external/fuse" name="LineageOS/android_external_fuse" />
