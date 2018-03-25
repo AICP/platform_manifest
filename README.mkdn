@@ -58,6 +58,10 @@ You can also build (and see how long it took) for specific devices like this:
     . build/envsetup.sh
     time brunch angler
 
+If you want you can make the lineage SU add-on by doing:
+    lunch aicp_arm64-eng (for arm64 target)
+    mka addonsu
+
 Remember to `make clobber` every now and then!
 
 
