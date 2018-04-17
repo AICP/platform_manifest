@@ -90,7 +90,7 @@ Uploading to AICP Gerrit
 
 (From root android directory)
     . build/envsetup.sh
-    repo start n7.1 path/to/project
+    repo start o8.1 path/to/project
     (Go to repo you are patching, make your changes and commit)
     repo upload .
 For more help on using this tool, use this command: repo help upload
