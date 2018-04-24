@@ -157,3 +157,6 @@ to pick a specific change
 example, to pick this commit: http://gerrit.aicp-rom.com/#/c/36939/
 
     repopick 36939
+
+## Maintainer Application ##
+If you have the necessary skills and would like to become a part of our group by becoming a member, please see this link for further information and maintainer application https://github.com/AICP/platform_manifest/blob/o8.1/Maintainer_Application.md
