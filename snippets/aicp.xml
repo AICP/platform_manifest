@@ -64,7 +64,7 @@
   <project path="lineage-sdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
-  <!--<project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />-->
+  <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
   <project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
