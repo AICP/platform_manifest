@@ -5,7 +5,7 @@
   <project path="bionic" name="AICP/bionic" groups="pdk" remote="aicp" />
   <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
   <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
-  <project path="external/DUtils" name="AICP/external_DUtils" remote="aicp" />
+  <project path="external/DUI" name="AICP/external_DUI" remote="aicp" />
   <project path="external/bash" name="AICP/external_bash" remote="aicp" />
   <project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
@@ -17,7 +17,6 @@
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" groups="pdk-fs" remote="aicp" />
-  <project path="packages/apps/DUI" name="AICP/packages_apps_DUI" remote="aicp" />
   <project path="packages/apps/FMRadio" name="AICP/packages_apps_FMRadio" remote="aicp" />
   <project path="packages/apps/LineageParts" name="AICP/packages_apps_LineageParts" remote="aicp" />
   <project path="packages/apps/OmniStyle" name="AICP/packages_apps_OmniStyle" remote="aicp" />
