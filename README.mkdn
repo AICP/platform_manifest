@@ -138,8 +138,6 @@ So it should look like this once you get all author's information:
 ```bash
 git commit --amend --author "John Doe <john.doe@gmail.com>"
 ```
-Note: If you're a Kanger, Alex Cruz ( @Mazda-- ) will hunt you down, burn you at the stake, and eat you alive!
-
 Picking changes from our gerrit
 -------------------------------
 
