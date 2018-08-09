@@ -29,6 +29,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="bionic" name="bionic" remote="gzosp" />
 <!--
   <project path="frameworks/base" name="frameworks_base" remote="gzosp" />
 -->
