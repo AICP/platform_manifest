@@ -646,4 +646,7 @@
   <!-- GZOSP manifest -->
   <include name="gzosp_default.xml" />
 
+  <!-- CAF manifest -->
+  <include name="caf_default.xml" />
+
 </manifest>
