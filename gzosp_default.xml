@@ -29,8 +29,11 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+<!--
   <project path="frameworks/base" name="frameworks_base" remote="gzosp" />
+-->
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="gzosp" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="gzosp" />
 
 </manifest>
 
