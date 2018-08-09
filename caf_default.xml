@@ -53,5 +53,8 @@
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
 
+  <!-- System QCOM Softapp -->
+  <project path="system/qcom" name="system_qcom" groups="pdk" remote="gzosp81" revision="8.1" />
+
 </manifest>
 
