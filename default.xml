@@ -429,7 +429,6 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84,pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/neuralnetworks/hvxservice" name="platform/hardware/qcom/neuralnetworks/hvxservice" groups="wahoo" remote="aosp" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk-qcom" remote="aosp" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" remote="aosp" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" remote="aosp" />
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" remote="aosp" />
   <project path="kernel/tests" name="kernel/tests" remote="aosp" />
