@@ -32,12 +32,13 @@
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="gzosp" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="gzosp" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="gzosp" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="gzosp" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="gzosp" />
 
   <project path="bionic" name="bionic" remote="gzosp" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="gzosp" />
   <project path="frameworks/base" name="frameworks_base" remote="gzosp" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="gzosp" />
+  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="gzosp" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="gzosp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="gzosp" />
   <project path="system/bt" name="system_bt" remote="gzosp" />
