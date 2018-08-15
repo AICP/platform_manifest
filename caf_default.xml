@@ -35,6 +35,7 @@
 
   <!-- Vendors -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="gzosp" revision="9.0" />
+  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="gzosp" revision="9.0" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="gzosp" revision="9.0" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="gzosp" revision="9.0" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="gzosp" revision="9.0" >
