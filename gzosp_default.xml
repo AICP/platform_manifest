@@ -43,6 +43,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="gzosp" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="gzosp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="gzosp" />
+  <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="gzosp" />
   <project path="system/bt" name="system_bt" remote="gzosp" />
   <project path="system/core" name="system_core" groups="pdk" remote="gzosp" />
   <project path="vendor/gzosp" name="vendor_gzosp" remote="gzosp" />
