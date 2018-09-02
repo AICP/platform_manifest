@@ -13,6 +13,7 @@
   <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" remote="gzosp" revision="9.0-caf-8998" />
 
   <!-- bt -->
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="gzosp" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="gzosp" revision="9.0-caf" />
 
   <!-- Device -->
