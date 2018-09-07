@@ -39,6 +39,7 @@
 
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
   <project path="bionic" name="bionic" remote="gzosp" />
+  <project path="external/json-c" name="external_json-c" remote="gzosp" />
   <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="gzosp" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="gzosp" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="gzosp" />
