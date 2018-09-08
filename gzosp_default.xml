@@ -35,6 +35,7 @@
   <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="gzosp" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="gzosp" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="gzosp" />
+  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="gzosp" />
 
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
   <project path="bionic" name="bionic" remote="gzosp" />
