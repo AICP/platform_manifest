@@ -58,6 +58,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="gzosp" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="gzosp" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
+  <project path="prebuilts/build-tools" name="prebuilts_build-tools" groups="pdk" remote="gzosp" />
   <project path="system/bt" name="system_bt" remote="gzosp" />
   <project path="system/core" name="system_core" groups="pdk" remote="gzosp" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="gzosp" />
