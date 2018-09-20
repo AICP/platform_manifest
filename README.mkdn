@@ -1,37 +1,162 @@
-LineageOS
-===========
-
-Getting started
----------------
-
-To get started with Android/LineageOS, you'll need to get
-familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
-
-To initialize your local repository using the LineageOS trees, use a command like this:
-```
-repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
-```
-Then to sync up:
-```
-repo sync
-```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
+[Android Ice Cold Project](http://aicp-rom.com)
+====================================
 
 
-Submitting patches
-------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
+Download the Source
+===================
 
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
+Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
 
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
+Initializing Repository
+-----------------------
+
+Repo initialization:
+
+    $ repo init -u https://github.com/AICP/platform_manifest.git -b p9.0
 
 
-Buildbot
+sync repo :
+
+    $ repo sync
+
+Some info on how to customize your sync:
+
+  -f, --force-broken    continue sync even if a project fails to sync
+
+  --force-sync          overwrite an existing git directory if it needs to
+                        point to a different object directory. WARNING: this
+                        may cause loss of data
+
+  -l, --local-only      only update working tree, don't fetch
+
+  -n, --network-only    fetch only, don't update working tree
+
+  -c, --current-branch  fetch only current branch from server
+
+  -j JOBS, --jobs=JOBS  projects to fetch simultaneously (default 4)
+  --no-clone-bundle     disable use of /clone.bundle on HTTP/HTTPS
+
+  --no-tags             don't fetch tags
+
+Smallest/fastest sync:
+    $ repo sync --no-tags --no-clone-bundle
+    we already define -c in our default.xml, so no need to add it
+
+***
+
+Building
 --------
 
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
+After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
 
-You can view the current build statuses at [LineageOS Jenkins](https://jenkins.lineageos.org/).
+    . build/envsetup.sh
+    brunch
 
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+
+You can also build (and see how long it took) for specific devices like this:
+
+    . build/envsetup.sh
+    time brunch angler
+
+If you want you can make the lineage SU add-on by doing:
+    lunch aicp_arm64-eng (for arm64 target)
+    mka addonsu
+
+Remember to `make clobber` every now and then!
+
+
+Optional After Successful Build
+--------------------------------
+
+After you get a working build, and if you would like to share your build on XDA (Regular Unofficial Builds), then please use the following Template to create
+an XDA thread. Note that the template is a guideline of sort. You may make your own changes to it (esp please do in the download link) but try
+and make your thread as close to this one as possible. This is to avoid cluttering and make stuff organized.
+
+Link : https://raw.githubusercontent.com/AICP/vendor_aicp/p9.0/xda_template/xda_thread-template.txt
+
+
+Uploading to AICP Gerrit
+---------------
+
+1st You must have local ssh keys on your computer if you do not here is a [guide](http://goo.gl/86CfDP) to generate them.
+
+2nd Make an account on [Gerrit](http://gerrit.aicp-rom.com) login only using GoogleAuth2
+
+3rd Add your ssh public key to your account
+
+4th Make your changes and commit them
+
+5th use the following command to push your commit to gerrit
+
+(From root android directory)
+    . build/envsetup.sh
+    repo start p9.0 path/to/project
+    (Go to repo you are patching, make your changes and commit)
+    repo upload .
+For more help on using this tool, use this command: repo help upload
+
+You can also use:
+
+    git push ssh://USERNAME@gerrit.aicp-rom.com:29418/AICP/REPO_NAME HEAD:refs/for/branch-name
+
+Example:
+
+    git push ssh://username@gerrit.aicp-rom.com:29418/AICP/platform_manifest HEAD:refs/for/p9.0
+
+
+6th You will get an error about a missing Change-ID in that error it will show you a suggested commit message copy the change id
+
+7th Do the following command and add the change id to the end of the commit message
+
+    git commit --amend
+
+Here is an example of what the commit message should look like:
+
+> Add how to push to gerrit
+>
+> Change-Id: I93949d30d732de35222d9d78d1f94e33e4bffc47
+
+8th use the same command to push to gerrit and if you did everything properly it will be up on gerrit
+
+
+
+## Maintain Authorship ##
+Always make sure if you submit a patch/fix that you maintain authorship.
+This is very important to not only us but to the entire open source community. It's what keeps it going and encourages more developers to contribute their work.
+
+If you manually cherry pick a patch/fix add the original author prior to pushing to our gerrit.
+This task is very easy and is usually done after you commit a patch/fix locally.
+
+i.e - Once you type in "git commit -a" the commit message and you have saved it, type in the following:
+
+```bash
+git commit --amend --author "Author <email@address.com>"
+```
+
+So it should look like this once you get all author's information:
+
+```bash
+git commit --amend --author "John Doe <john.doe@gmail.com>"
+```
+Picking changes from our gerrit
+-------------------------------
+
+(From root android directory)
+    . build/envsetup.sh
+
+to pick every change from a topic:
+
+    repopick -t topic
+
+to pick a specific change
+
+    repopick commit-number
+
+example, to pick this commit: http://gerrit.aicp-rom.com/#/c/36939/
+
+    repopick 36939
+
+
+## Maintainer Application ##
+If you have the necessary skills and would like to become a part of our group by becoming a maintainer,
+please see [this link](https://github.com/AICP/vendor_aicp/blob/p9.0/Maintainer_Application.md) for further information and maintainer application.
