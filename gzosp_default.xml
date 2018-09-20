@@ -40,6 +40,7 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
   <project path="bionic" name="bionic" remote="gzosp" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="gzosp" />
+  <project path="device/gzosp/sepolicy" name="device_gzosp_sepolicy" remote="gzosp" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="gzosp" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="gzosp" />
   <project path="external/json-c" name="external_json-c" remote="gzosp" />
