@@ -62,6 +62,7 @@
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="gzosp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="gzosp" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="gzosp" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="gzosp" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" groups="pdk" remote="gzosp" />
