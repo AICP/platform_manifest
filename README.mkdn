@@ -34,6 +34,7 @@ Some info on how to customize your sync:
   -c, --current-branch  fetch only current branch from server
 
   -j JOBS, --jobs=JOBS  projects to fetch simultaneously (default 4)
+
   --no-clone-bundle     disable use of /clone.bundle on HTTP/HTTPS
 
   --no-tags             don't fetch tags
