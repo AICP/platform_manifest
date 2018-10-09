@@ -1,43 +1,165 @@
-GZOSP
-========
+[Android Ice Cold Project](http://aicp-rom.com)
+====================================
 
-To initialize your local repository, use this command:
 
-	repo init -u https://github.com/GZOSP/manifest.git -b 9.0
+Download the Source
+===================
 
-Submitting Patches
-------------------
+Please read the [AOSP building instructions](https://source.android.com/source/index.html) before proceeding.
 
-We're open source, and patches are always welcome!
-To do this, you will need an account setup with our gerrit server and a changeid hooks.
-To add the changeid hook in a project, use the following commands:
+Initializing Repository
+-----------------------
 
-	cd <project>
-	scp -p -P 29418 <username>@review.gzospgzr.com:hooks/commit-msg ${gitdir}/hooks/
+Repo initialization:
 
-You can also install the hook globally in all local GZOSP projects
+    $ repo init -u https://github.com/AICP/platform_manifest.git -b p9.0
 
-	repo forall -c 'gitdir=$(git rev-parse --git-dir); scp -p -P 29418 <username>@review.gzospgzr.com:hooks/commit-msg ${gitdir}/hooks/'
 
-Go have a coffee while this runs
+sync repo :
 
-You can send patches by using these commands:
+    $ repo sync
 
-    cd <project>
-    git add --all
-    git commit
-    git push ssh://<username>@review.gzospgzr.com:29418/GZOSP/<project> HEAD:refs/for/<branch>
+Some info on how to customize your sync:
 
-This will commit your changes into a single commit.
-Make sure your git has the changeid hooks added.
-If you are going to make extra additions, just repeat steps, but instead of
+  -f, --force-broken    continue sync even if a project fails to sync
 
-	git commit
+  --force-sync          overwrite an existing git directory if it needs to
+                        point to a different object directory. WARNING: this
+                        may cause loss of data
 
-use
+  -l, --local-only      only update working tree, don't fetch
 
-	git commit --amend
+  -n, --network-only    fetch only, don't update working tree
 
-Gerrit will recognize it as a new patchset.
+  -c, --current-branch  fetch only current branch from server
 
-To view the status of your and others patches, visit [GZOSP Code Review](http://review.gzospgzr.com)
+  -j JOBS, --jobs=JOBS  projects to fetch simultaneously (default 4)
+
+  --no-clone-bundle     disable use of /clone.bundle on HTTP/HTTPS
+
+  --no-tags             don't fetch tags
+
+Smallest/fastest sync:
+
+    $ repo sync --no-tags --no-clone-bundle
+
+    Note: we already define -c in our default.xml, so no need to add it
+
+***
+
+Building
+--------
+
+After the sync is finished, please read the [instructions from the Android site](https://source.android.com/source/building.html) on how to build.
+
+    . build/envsetup.sh
+    brunch
+
+
+You can also build (and see how long it took) for specific devices like this:
+
+    . build/envsetup.sh
+    time brunch angler
+
+Remember to `make clobber` every now and then!
+
+
+Optional After Successful Build
+--------------------------------
+
+After you get a working build, and if you would like to share your build on XDA (Regular Unofficial Builds), then please use the following template to create
+an XDA thread. Note that the template is a guideline of sort. You may make your own changes to it (especially please change the download link), but try
+to stick as close as possible to the template. This is to avoid cluttering and make stuff organized.
+
+Link : https://raw.githubusercontent.com/AICP/vendor_aicp/p9.0/xda_template/xda_thread-template.txt
+
+
+Uploading to AICP Gerrit
+---------------
+
+1st You must have local ssh keys on your computer if you do not here is a [guide](https://help.github.com/articles/connecting-to-github-with-ssh/) to generate them
+
+2nd Make an account on [Gerrit](http://gerrit.aicp-rom.com) login only using GoogleAuth2
+
+3rd Add your ssh public key to your account
+
+4th Make your changes and commit them
+
+5th use the following command to push your commit to gerrit
+
+    (From root android directory)
+    . build/envsetup.sh
+    repo start p9.0 path/to/project
+    cd path/to/project
+    repo upload .
+
+For more help on using this tool, use this command:
+
+    repo help upload
+
+You can also use:
+
+    git push ssh://USERNAME@gerrit.aicp-rom.com:29418/AICP/REPO_NAME HEAD:refs/for/branch-name
+
+Example:
+
+    git push ssh://USERNAME@gerrit.aicp-rom.com:29418/AICP/platform_manifest HEAD:refs/for/p9.0
+
+
+6th You will get an error about a missing Change-ID in that error it will show you a suggested commit message copy the change id
+
+7th Do the following command and add the Change-ID to the end of the commit message
+
+    git commit --amend
+
+Here is an example of what the commit message should look like:
+
+> Add how to push to gerrit
+>
+> Change-Id: I93949d30d732de35222d9d78d1f94e33e4bffc47
+
+8th use the same command to push to gerrit and if you did everything properly it will be up on gerrit
+
+
+
+## Maintaining Authorship ##
+Always make sure if you submit a patch/fix that you maintain authorship.
+This is very important to not only us but to the entire open source community. It's what keeps it going and encourages more developers to contribute their work.
+
+If you manually cherry pick a patch/fix add the original author prior to pushing to our gerrit.
+This task is very easy and is usually done after you commit a patch/fix locally.
+
+i.e - Once you type in "git commit -a" the commit message and you have saved it, type in the following:
+
+```bash
+git commit --amend --author "Author <email@address.com>"
+```
+
+So it should look like this once you get all author's information:
+
+```bash
+git commit --amend --author "John Doe <john.doe@gmail.com>"
+```
+
+Picking changes from our gerrit
+-------------------------------
+
+(From root android directory)
+    . build/envsetup.sh
+
+to pick every change from a topic:
+
+    repopick -t topic
+
+to pick a specific change
+
+    repopick commit-number
+
+example, to pick this commit: https://gerrit.aicp-rom.com/#/c/36939/
+
+    repopick 36939
+
+
+## Maintainer Application ##
+If you have the necessary skills and would like to become a part of our group by becoming a maintainer,
+please see [this link](https://github.com/AICP/vendor_aicp/blob/p9.0/Maintainer_Application.md) for further information and maintainer application.
