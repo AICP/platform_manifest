@@ -11,6 +11,7 @@
   <remove-project name="build" />
   <remove-project name="build_soong" />
   <remove-project name="frameworks_base" />
+  <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="packages_apps_Settings" />
   <remove-project name="vendor_gzosp" />
 
@@ -35,6 +36,7 @@
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
+  <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" groups="pdk-fs" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
