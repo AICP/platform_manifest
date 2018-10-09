@@ -43,6 +43,7 @@
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
   <project path="lineage-sdk" name="AICP/lineage-sdk" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
+  <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" groups="pdk-fs" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
