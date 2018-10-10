@@ -30,6 +30,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/qcom/sepolicy-legacy" name="AICP/device_qcom_sepolicy-legacy" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
