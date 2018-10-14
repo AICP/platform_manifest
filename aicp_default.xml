@@ -6,6 +6,11 @@
            review="gerrit.aicp-rom.com"
            revision="refs/heads/p9.0" />
 
+  <remote  name="laos"
+           fetch="https://github.com/LineageOS"
+           review="review.lineageos.org"
+           revision="refs/heads/lineage-16.0" />
+
   <!-- Remove unused projects -->
   <remove-project name="manifest" />
   <remove-project name="bionic" />
