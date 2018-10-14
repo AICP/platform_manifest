@@ -6,6 +6,11 @@
            review="gerrit.aicp-rom.com"
            revision="refs/heads/p9.0" />
 
+  <remote  name="laos"
+           fetch="https://github.com/LineageOS"
+           review="review.lineageos.org"
+           revision="refs/heads/lineage-16.0" />
+
   <!-- Remove unused projects -->
   <remove-project name="manifest" />
   <remove-project name="bionic" />
@@ -37,6 +42,10 @@
   </project>
   <project path="bionic" name="AICP/bionic" remote="aicp" />
   <project path="device/qcom/sepolicy-legacy" name="AICP/device_qcom_sepolicy-legacy" remote="aicp" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="laos" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="laos" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="laos" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="laos" />
   <project path="frameworks/av" name="AICP/frameworks_av" remote="aicp" groups="pdk" />
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="AICP/frameworks_native" remote="aicp" groups="pdk" />
