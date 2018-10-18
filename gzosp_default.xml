@@ -59,6 +59,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="gzosp" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="gzosp" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" groups="pdk" remote="gzosp" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="gzosp" />

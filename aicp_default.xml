@@ -22,7 +22,7 @@
   <remove-project name="frameworks_base" />
   <remove-project name="frameworks_native" />
   <remove-project name="hardware_interfaces" />
-  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="packages_apps_Dialer" />
   <remove-project name="packages_apps_Settings" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="system_core" />
