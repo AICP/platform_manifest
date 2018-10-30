@@ -18,7 +18,6 @@
   <remove-project name="build_soong" />
   <remove-project name="device_gzosp_sepolicy" />
   <remove-project name="device_qcom_sepolicy" />
-  <remove-project name="external_tinycompress" />
   <remove-project name="frameworks_av" />
   <remove-project name="frameworks_base" />
   <remove-project name="frameworks_native" />
@@ -48,7 +47,6 @@
   <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
   <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
   <project path="device/qcom/sepolicy-legacy" name="AICP/device_qcom_sepolicy-legacy" remote="aicp" />
-  <project path="external/tinycompress" name="AICP/external_tinycompress" remote="aicp" />
   <project path="frameworks/av" name="AICP/frameworks_av" remote="aicp" groups="pdk" />
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="AICP/frameworks_native" remote="aicp" groups="pdk" />
