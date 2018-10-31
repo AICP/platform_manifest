@@ -57,6 +57,7 @@
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
   <project path="packages/apps/OmniStyle" name="AICP/packages_apps_OmniStyle" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" groups="pdk-fs" />
+  <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
   <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" />
   <project path="system/tools/dtbtool" name="AICP/system_tools_dtbtool" remote="aicp" groups="pdk-cw-fs,pdk-fs" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
