@@ -25,6 +25,7 @@
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="packages_apps_Settings" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="system_core" />
   <remove-project name="vendor_gzosp" />
 
 
@@ -59,6 +60,7 @@
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" groups="pdk-fs" />
   <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
   <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" />
+  <project path="system/core" name="AICP/system_core" remote="aicp" groups="pdk" />
   <project path="system/tools/dtbtool" name="AICP/system_tools_dtbtool" remote="aicp" groups="pdk-cw-fs,pdk-fs" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
