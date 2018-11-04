@@ -11,6 +11,11 @@
            review="review.lineageos.org"
            revision="refs/heads/lineage-16.0" />
 
+  <remote  name="omni"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org" 
+           revision="refs/heads/android-9.0" />
+
   <!-- Remove unused projects -->
   <remove-project name="manifest" />
   <remove-project name="bionic" />
@@ -62,5 +67,8 @@
   <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" />
   <project path="system/core" name="AICP/system_core" remote="aicp" groups="pdk" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+
+  <!-- Omni repositories -->
+  <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omni" />
 
 </manifest>
