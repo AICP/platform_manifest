@@ -11,6 +11,11 @@
            review="review.lineageos.org"
            revision="refs/heads/lineage-16.0" />
 
+  <remote  name="omni"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org"
+           revision="refs/heads/android-9.0" />
+
   <!-- Remove unused projects -->
   <remove-project name="manifest" />
   <remove-project name="bionic" />
@@ -65,5 +70,8 @@
 
   <!-- Lineage repositories -->
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="lineage" />
+
+  <!-- Omni repositories -->
+  <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omni" />
 
 </manifest>
