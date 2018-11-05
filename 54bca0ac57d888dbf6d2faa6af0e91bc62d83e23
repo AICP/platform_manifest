@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "05706927_59fbd262",
+        "filename": "aicp_default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2018-11-05T05:05:52Z",
+      "side": 1,
+      "message": "whitespace...",
+      "range": {
+        "startLine": 16,
+        "startChar": 38,
+        "endLine": 16,
+        "endChar": 39
+      },
+      "revId": "54bca0ac57d888dbf6d2faa6af0e91bc62d83e23",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
