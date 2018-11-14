@@ -29,7 +29,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="gzosp" />
+  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="gzosp" />
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" groups="pdk-qcom" remote="gzosp" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="gzosp" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="gzosp" />
