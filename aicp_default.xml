@@ -31,6 +31,7 @@
   <remove-project name="packages_apps_Settings" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="system_core" />
+  <remove-project name="system_sepolicy" />
   <remove-project name="vendor_gzosp" />
 
 
@@ -66,6 +67,7 @@
   <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
   <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" />
   <project path="system/core" name="AICP/system_core" remote="aicp" groups="pdk" />
+  <project path="system/sepolicy" name="AICP/system_sepolicy" remote="aicp" groups="pdk" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
   <!-- Lineage repositories -->
