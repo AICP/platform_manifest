@@ -66,6 +66,7 @@
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
   <project path="packages/apps/Pulse" name="AICP/packages_apps_DUI" remote="aicp" />
+  <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" groups="pdk-fs" />
   <project path="packages/apps/SnapdragonCamera" name="AICP/packages_apps_SnapdragonCamera" remote="aicp" />
   <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
