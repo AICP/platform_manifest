@@ -86,4 +86,16 @@
   <!-- Omni repositories -->
   <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omni" />
 
+  <project path="hardware/qcom/msm8998" name="AICP/hardware_qcom_msm8998" groups="qcom_msm8998,pdk-qcom" remote="aicp" />
+  <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" groups="qcom_sdm845" remote="aosp" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" groups="vendor,qcom_sdm845" remote="aosp" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="platform/hardware/qcom/sdm845/display" groups="qcom_sdm845" remote="aosp" />
+  <project path="hardware/qcom/sdm845/gps" name="platform/hardware/qcom/sdm845/gps" groups="qcom_sdm845" remote="aosp" />
+  <project path="hardware/qcom/sdm845/media" name="platform/hardware/qcom/sdm845/media" groups="qcom_sdm845" remote="aosp" />
+  <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" groups="qcom_sdm845" remote="aosp" />
+  <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" groups="qcom_sdm845" remote="aosp" />
+
 </manifest>
