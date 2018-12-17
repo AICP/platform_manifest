@@ -35,6 +35,7 @@
   <remove-project name="packages_services_Telecomm" />
   <remove-project name="system_core" />
   <remove-project name="system_sepolicy" />
+  <remove-project name="vendor_codeaurora_telephony" />
   <remove-project name="vendor_gzosp" />
 
 
@@ -83,6 +84,8 @@
   <!-- Lineage repositories -->
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="lineage" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
+
 
   <!-- Omni repositories -->
   <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omni" />
