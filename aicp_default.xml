@@ -30,6 +30,7 @@
   <remove-project name="packages_apps_Dialer" />
   <remove-project name="packages_apps_Launcher3" />
   <remove-project name="packages_apps_Settings" />
+  <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="packages_services_Telecomm" />
   <remove-project name="system_core" />
