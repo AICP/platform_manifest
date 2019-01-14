@@ -26,6 +26,7 @@
   <remove-project name="frameworks_av" />
   <remove-project name="frameworks_base" />
   <remove-project name="frameworks_native" />
+  <remove-project name="frameworks_opt_telephony" />
   <remove-project name="hardware_interfaces" />
   <remove-project name="packages_apps_Dialer" />
   <remove-project name="packages_apps_Launcher3" />
@@ -35,7 +36,9 @@
   <remove-project name="packages_services_Telecomm" />
   <remove-project name="system_core" />
   <remove-project name="system_sepolicy" />
+  <remove-project name="system_vold" />
   <remove-project name="vendor_gzosp" />
+  <remove-project name="vendor_qcom_opensource_cryptfs_hw" />
 
 
   <!-- AICP repositories -->
@@ -63,6 +66,7 @@
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
   <project path="frameworks/opt/jamesdsp" name="AICP/frameworks_opt_jamesdsp" remote="aicp" />
   <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="aicp" groups="pdk" />
   <project path="hardware/interfaces" name="AICP/hardware_interfaces" groups="pdk" remote="aicp" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
@@ -79,7 +83,9 @@
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" remote="aicp" />
   <project path="system/core" name="AICP/system_core" remote="aicp" groups="pdk" />
   <project path="system/sepolicy" name="AICP/system_sepolicy" remote="aicp" groups="pdk" />
+  <project path="system/vold" name="system_vold" remote="aicp" groups="pdk" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="aicp" />
 
   <!-- Lineage repositories -->
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
