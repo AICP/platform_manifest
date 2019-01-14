@@ -72,6 +72,7 @@
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
   <project path="packages/apps/DSPManager" name="AICP/packages_apps_DSPManager" remote="aicp" />
+  <project path="packages/apps/FMRadio" name="AICP/packages_apps_FMRadio" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" groups="pdk-fs" />
   <project path="packages/apps/SmartNav" name="AICP/packages_apps_SmartNav" remote="aicp" />
