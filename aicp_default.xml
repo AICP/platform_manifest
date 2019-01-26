@@ -40,6 +40,7 @@
   <remove-project name="packages_apps_Launcher3" />
   <remove-project name="packages_apps_Settings" />
   <remove-project name="platform/packages/apps/MusicFX" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="packages_services_Telecomm" />
   <remove-project name="system_core" />
@@ -88,6 +89,7 @@
   <project path="packages/apps/SnapdragonCamera" name="AICP/packages_apps_SnapdragonCamera" remote="aicp" />
   <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
   <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
+  <project path="packages/providers/MediaProvider" name="AICP/packages_providers_MediaProvider" remote="aicp" />
   <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
   <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" />
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" remote="aicp" />
