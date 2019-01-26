@@ -73,6 +73,7 @@
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
   <project path="packages/apps/DSPManager" name="AICP/packages_apps_DSPManager" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
+  <project path="packages/apps/MusicFX" name="AICP/packages_apps_MusicFX" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" groups="pdk-fs" />
   <project path="packages/apps/SmartNav" name="AICP/packages_apps_SmartNav" remote="aicp" />
   <project path="packages/apps/SnapdragonCamera" name="AICP/packages_apps_SnapdragonCamera" remote="aicp" />
