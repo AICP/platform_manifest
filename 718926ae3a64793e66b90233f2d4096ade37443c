@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b468feac_0de34c8e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 475,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2019-01-27T20:24:57Z",
+      "side": 0,
+      "message": "use remove-project instead of removing it from default.xml",
+      "revId": "718926ae3a64793e66b90233f2d4096ade37443c",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": false
+    }
+  ]
+}
