@@ -16,6 +16,9 @@
            review="gerrit.omnirom.org"
            revision="refs/heads/android-9.0" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
   <!-- Remove unused projects -->
   <remove-project name="manifest" />
   <remove-project name="bionic" />
