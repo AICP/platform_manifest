@@ -39,6 +39,7 @@
   <remove-project name="hardware_qcom_display" />
   <remove-project name="hardware_qcom_gps" />
   <remove-project name="hardware_qcom_media" />
+  <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="packages_apps_Dialer" />
   <remove-project name="packages_apps_Launcher3" />
   <remove-project name="packages_apps_Settings" />
@@ -83,6 +84,7 @@
   <project path="hardware/interfaces" name="AICP/hardware_interfaces" groups="pdk" remote="aicp" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
+  <project path="packages/apps/DeskClock" name="AICP/packages_apps_DeskClock" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
   <project path="packages/apps/DSPManager" name="AICP/packages_apps_DSPManager" remote="aicp" />
   <project path="packages/apps/FMRadio" name="AICP/packages_apps_FMRadio" remote="aicp" />
