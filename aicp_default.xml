@@ -6,6 +6,14 @@
            review="gerrit.aicp-rom.com"
            revision="refs/heads/p9.0" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="invictrix"
+           fetch="https://github.com/InvictrixRom"
+           review="review.invictrixrom.com"
+           revision="refs/heads/inv-9.0" />
+
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
            review="review.lineageos.org"
@@ -15,9 +23,6 @@
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org"
            revision="refs/heads/android-9.0" />
-
-  <remote  name="gitlab"
-           fetch="https://gitlab.com/" />
 
   <!-- Remove unused projects -->
   <remove-project name="manifest" />
@@ -103,6 +108,9 @@
   <project path="system/vold" name="AICP/system_vold" remote="aicp" groups="pdk" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="AICP/vendor_qcom_opensource_cryptfs_hw" remote="aicp" />
+
+  <!-- Invictrix repositories -->
+  <project path="packages/apps/SmartNavSettings" name="packages_apps_SmartNavSettings" remote="invictrix" />
 
   <!-- Lineage repositories -->
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
