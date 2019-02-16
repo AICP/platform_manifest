@@ -43,6 +43,9 @@
   <!--Keymaster -->
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="lineage" />
 
+  <!-- System QCOM Softapp -->
+  <project path="system/qcom" name="android_system_qcom" remote="lineage" />
+
   <!-- Thermal/VR -->
   <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="lineage" />
@@ -69,9 +72,6 @@
 
   <!-- Ril -->
   <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="gzosp" revision="9.0-caf" />
-
-  <!-- System QCOM Softapp -->
-  <project path="system/qcom" name="system_qcom" remote="gzosp" revision="9.0" />
 
   <!-- Vendors -->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="gzosp" revision="9.0" />
