@@ -56,6 +56,7 @@
   <remove-project name="packages_services_Telecomm" />
   <remove-project name="system_core" />
   <remove-project name="system_sepolicy" />
+  <remove-project name="system_update_engine" />
   <remove-project name="system_vold" />
   <remove-project name="vendor_gzosp" />
   <remove-project name="vendor_qcom_opensource_cryptfs_hw" />
@@ -89,7 +90,6 @@
   <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
   <project path="frameworks/opt/telephony" name="AICP/frameworks_opt_telephony" remote="aicp" groups="pdk" />
   <project path="hardware/interfaces" name="AICP/hardware_interfaces" groups="pdk" remote="aicp" />
-  <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
   <project path="packages/apps/DeskClock" name="AICP/packages_apps_DeskClock" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
@@ -101,6 +101,7 @@
   <project path="packages/apps/SmartNav" name="AICP/packages_apps_SmartNav" remote="aicp" />
   <project path="packages/apps/SnapdragonCamera" name="AICP/packages_apps_SnapdragonCamera" remote="aicp" />
   <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
+  <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" remote="aicp" />
   <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
   <project path="packages/providers/DownloadProvider" name="AICP/packages_providers_DownloadProvider" remote="aicp" />
   <project path="packages/providers/MediaProvider" name="AICP/packages_providers_MediaProvider" remote="aicp" />
@@ -110,6 +111,7 @@
   <project path="prebuilts/clang/host/linux-x86" name="AICP/prebuilts_clang_host_linux-x86" groups="pdk" remote="aicp" />
   <project path="system/core" name="AICP/system_core" remote="aicp" groups="pdk" />
   <project path="system/sepolicy" name="AICP/system_sepolicy" remote="aicp" groups="pdk" />
+  <project path="system/update_engine" name="AICP/system_update_engine" remote="aicp" groups="pdk" />
   <project path="system/vold" name="AICP/system_vold" remote="aicp" groups="pdk" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="AICP/vendor_qcom_opensource_cryptfs_hw" remote="aicp" />
