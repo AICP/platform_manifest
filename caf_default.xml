@@ -59,8 +59,8 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="lineage" />
 
   <!-- Ril -->
-  <project path="hardware/ril" name="hardware_ril" revision="lineage-16.0" remote="lineage" />
-  <project path="hardware/ril-caf" name="hardware_ril" revision="lineage-16.0-caf" remote="lineage" />
+  <project path="hardware/ril" name="android_hardware_ril" revision="lineage-16.0" remote="lineage" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" revision="lineage-16.0-caf" remote="lineage" />
 
 <!-- GZOSP repos -->
 
