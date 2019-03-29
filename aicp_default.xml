@@ -1,0 +1,146 @@
+<<<<<<< HEAD   (b37ca5 Merge "manifest: Track system_bt from AICP" into q10.0)
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aicp"
+           fetch="https://github.com/"
+           review="gerrit.aicp-rom.com"
+           revision="refs/heads/p9.0" />
+
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           review="review.lineageos.org"
+           revision="refs/heads/lineage-16.0" />
+
+  <remote  name="omni"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org"
+           revision="refs/heads/android-9.0" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!-- Remove unused projects -->
+  <remove-project name="manifest" />
+  <remove-project name="bionic" />
+  <remove-project name="build" />
+  <remove-project name="build_soong" />
+  <remove-project name="device_gzosp_sepolicy" />
+  <remove-project name="device_qcom_sepolicy" />
+  <remove-project name="external_libnfc-nxp" />
+  <remove-project name="frameworks_av" />
+  <remove-project name="frameworks_base" />
+  <remove-project name="frameworks_native" />
+  <remove-project name="frameworks_opt_net_wifi" />
+  <remove-project name="frameworks_opt_telephony" />
+  <remove-project name="hardware_interfaces" />
+  <remove-project name="hardware_libhardware" />
+  <remove-project name="hardware_libhardware_legacy" />
+  <remove-project name="hardware_nxp_nfc" />
+  <remove-project name="hardware_qcom_audio" />
+  <remove-project name="hardware_qcom_bootctrl" />
+  <remove-project name="hardware_qcom_camera" />
+  <remove-project name="hardware_qcom_display" />
+  <remove-project name="hardware_qcom_gps" />
+  <remove-project name="hardware_qcom_media" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="packages_apps_Dialer" />
+  <remove-project name="packages_apps_Launcher3" />
+  <remove-project name="packages_apps_Nfc" />
+  <remove-project name="packages_apps_Settings" />
+  <remove-project name="platform/packages/apps/MusicFX" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <remove-project name="packages_services_Telecomm" />
+  <remove-project name="system_core" />
+  <remove-project name="system_sepolicy" />
+  <remove-project name="system_vold" />
+  <remove-project name="vendor_gzosp" />
+  <remove-project name="vendor_qcom_opensource_cryptfs_hw" />
+  <remove-project name="android_vendor_codeaurora_telephony" />
+
+  <!-- AICP repositories -->
+  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
+  <project path="build/make" name="AICP/build" remote="aicp" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="AICP/build_soong"  remote="aicp" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bionic" name="AICP/bionic" remote="aicp" />
+  <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
+  <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
+  <project path="device/qcom/sepolicy-legacy" name="AICP/device_qcom_sepolicy-legacy" remote="aicp" />
+  <project path="frameworks/av" name="AICP/frameworks_av" remote="aicp" groups="pdk" />
+  <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" name="AICP/frameworks_native" remote="aicp" groups="pdk" />
+  <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
+  <project path="frameworks/opt/jamesdsp" name="AICP/frameworks_opt_jamesdsp" remote="aicp" />
+  <project path="frameworks/opt/net/wifi" name="AICP/frameworks_opt_net_wifi" remote="aicp" />
+  <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
+  <project path="frameworks/opt/telephony" name="AICP/frameworks_opt_telephony" remote="aicp" groups="pdk" />
+  <project path="hardware/interfaces" name="AICP/hardware_interfaces" groups="pdk" remote="aicp" />
+  <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
+  <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
+  <project path="packages/apps/DeskClock" name="AICP/packages_apps_DeskClock" remote="aicp" />
+  <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
+  <project path="packages/apps/DSPManager" name="AICP/packages_apps_DSPManager" remote="aicp" />
+  <project path="packages/apps/FMRadio" name="AICP/packages_apps_FMRadio" remote="aicp" />
+  <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
+  <project path="packages/apps/MusicFX" name="AICP/packages_apps_MusicFX" remote="aicp" />
+  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" groups="pdk-fs" />
+  <project path="packages/apps/SmartNav" name="AICP/packages_apps_SmartNav" remote="aicp" />
+  <project path="packages/apps/SnapdragonCamera" name="AICP/packages_apps_SnapdragonCamera" remote="aicp" />
+  <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
+  <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
+  <project path="packages/providers/DownloadProvider" name="AICP/packages_providers_DownloadProvider" remote="aicp" />
+  <project path="packages/providers/MediaProvider" name="AICP/packages_providers_MediaProvider" remote="aicp" />
+  <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
+  <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" />
+  <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" remote="aicp" />
+  <project path="prebuilts/clang/host/linux-x86" name="AICP/prebuilts_clang_host_linux-x86" groups="pdk" remote="aicp" />
+  <project path="system/core" name="AICP/system_core" remote="aicp" groups="pdk" />
+  <project path="system/sepolicy" name="AICP/system_sepolicy" remote="aicp" groups="pdk" />
+  <project path="system/vold" name="AICP/system_vold" remote="aicp" groups="pdk" />
+  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="AICP/vendor_qcom_opensource_cryptfs_hw" remote="aicp" />
+  <project path="vendor/codeaurora/telephony" name="AICP/vendor_codeaurora_telephony" remote="aicp" />
+
+  <!-- Lineage repositories -->
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
+  <project path="external/vim" name="android_external_vim" remote="lineage" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lineage" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" groups="pdk" remote="lineage" />
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lineage" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="lineage" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="lineage" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineage" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" />
+  <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="lineage" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="lineage" />
+
+  <!-- Omni repositories -->
+  <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omni" />
+
+</manifest>
+>>>>>>> CHANGE (01663e manifest: Track frameworks_opt_net_wifi)
