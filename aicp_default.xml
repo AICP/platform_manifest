@@ -30,6 +30,7 @@
   <remove-project name="frameworks_av" />
   <remove-project name="frameworks_base" />
   <remove-project name="frameworks_native" />
+  <remove-project name="frameworks_opt_net_wifi" />
   <remove-project name="frameworks_opt_telephony" />
   <remove-project name="hardware_interfaces" />
   <remove-project name="hardware_libhardware" />
@@ -84,6 +85,7 @@
   <project path="frameworks/native" name="AICP/frameworks_native" remote="aicp" groups="pdk" />
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
   <project path="frameworks/opt/jamesdsp" name="AICP/frameworks_opt_jamesdsp" remote="aicp" />
+  <project path="frameworks/opt/net/wifi" name="AICP/frameworks_opt_net_wifi" remote="aicp" />
   <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
   <project path="frameworks/opt/telephony" name="AICP/frameworks_opt_telephony" remote="aicp" groups="pdk" />
   <project path="hardware/interfaces" name="AICP/hardware_interfaces" groups="pdk" remote="aicp" />
