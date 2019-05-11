@@ -43,11 +43,12 @@
   <remove-project name="hardware_qcom_display" />
   <remove-project name="hardware_qcom_gps" />
   <remove-project name="hardware_qcom_media" />
-  <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="packages_apps_Dialer" />
   <remove-project name="packages_apps_Launcher3" />
   <remove-project name="packages_apps_Nfc" />
   <remove-project name="packages_apps_Settings" />
+  <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -57,13 +58,13 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="packages_services_Telecomm" />
   <remove-project name="system_core" />
+  <remove-project name="system_netd" />
   <remove-project name="system_sepolicy" />
   <remove-project name="system_update_engine" />
   <remove-project name="system_vold" />
   <remove-project name="vendor_gzosp" />
   <remove-project name="vendor_qcom_opensource_cryptfs_hw" />
   <remove-project name="android_vendor_codeaurora_telephony" />
-  <remove-project name="system_netd" />
 
   <!-- AICP repositories -->
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
@@ -113,19 +114,20 @@
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" remote="aicp" />
   <project path="prebuilts/clang/host/linux-x86" name="AICP/prebuilts_clang_host_linux-x86" groups="pdk" remote="aicp" />
   <project path="system/core" name="AICP/system_core" remote="aicp" groups="pdk" />
+  <project path="system/netd" name="AICP/system_netd" remote="aicp" />
   <project path="system/sepolicy" name="AICP/system_sepolicy" remote="aicp" groups="pdk" />
   <project path="system/update_engine" name="AICP/system_update_engine" remote="aicp" groups="pdk" />
   <project path="system/vold" name="AICP/system_vold" remote="aicp" groups="pdk" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="AICP/vendor_qcom_opensource_cryptfs_hw" remote="aicp" />
   <project path="vendor/codeaurora/telephony" name="AICP/vendor_codeaurora_telephony" remote="aicp" />
-  <project path="system/netd" name="AICP/system_netd" remote="aicp" />
 
   <!-- Lineage repositories -->
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
-  <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
+  <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk" remote="lineage" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lineage" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
