@@ -43,11 +43,12 @@
   <remove-project name="hardware_qcom_display" />
   <remove-project name="hardware_qcom_gps" />
   <remove-project name="hardware_qcom_media" />
-  <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="packages_apps_Dialer" />
   <remove-project name="packages_apps_Launcher3" />
   <remove-project name="packages_apps_Nfc" />
   <remove-project name="packages_apps_Settings" />
+  <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
@@ -122,10 +123,11 @@
   <project path="system/netd" name="AICP/system_netd" remote="aicp" />
 
   <!-- Lineage repositories -->
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
-  <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
+  <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk" remote="lineage" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lineage" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
