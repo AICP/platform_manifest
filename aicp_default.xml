@@ -32,6 +32,7 @@
   <remove-project name="frameworks_native" />
   <remove-project name="frameworks_opt_net_wifi" />
   <remove-project name="frameworks_opt_telephony" />
+  <remove-project name="hardware_broadcom_wlan" />
   <remove-project name="hardware_interfaces" />
   <remove-project name="hardware_libhardware" />
   <remove-project name="hardware_libhardware_legacy" />
@@ -122,6 +123,7 @@
   <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk" remote="lineage" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lineage" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" groups="pdk" remote="lineage" />
