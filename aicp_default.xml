@@ -63,6 +63,7 @@
   <remove-project name="vendor_gzosp" />
   <remove-project name="vendor_qcom_opensource_cryptfs_hw" />
   <remove-project name="android_vendor_codeaurora_telephony" />
+  <remove-project name="system_netd" />
 
   <!-- AICP repositories -->
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
@@ -118,6 +119,7 @@
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="AICP/vendor_qcom_opensource_cryptfs_hw" remote="aicp" />
   <project path="vendor/codeaurora/telephony" name="AICP/vendor_codeaurora_telephony" remote="aicp" />
+  <project path="system/netd" name="AICP/system_netd" remote="aicp" />
 
   <!-- Lineage repositories -->
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
