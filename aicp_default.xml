@@ -105,6 +105,7 @@
   <project path="packages/apps/MusicFX" name="AICP/packages_apps_MusicFX" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" groups="pdk-fs" />
   <project path="packages/apps/SmartNav" name="AICP/packages_apps_SmartNav" remote="aicp" />
+  <project path="packages/apps/Snap" name="AICP/packages_apps_Snap" remote="aicp" />
   <project path="packages/apps/SnapdragonCamera" name="AICP/packages_apps_SnapdragonCamera" remote="aicp" />
   <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
   <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" remote="aicp" />
