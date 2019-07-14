@@ -49,6 +49,7 @@
   <remove-project name="packages_apps_Nfc" />
   <remove-project name="packages_apps_Settings" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/icu" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/MusicFX" />
@@ -57,6 +58,7 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/timezone" />
   <remove-project name="packages_services_Telecomm" />
   <remove-project name="system_core" />
   <remove-project name="system_netd" />
@@ -126,6 +128,7 @@
 
   <!-- Lineage repositories -->
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" />
+  <project path="external/icu" name="android_external_icu" groups="pdk" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
@@ -145,6 +148,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="lineage" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/extras/su" name="android_system_extras_su" remote="lineage" />
+  <project path="system/timezone" name="android_system_timezone" groups="pdk" remote="lineage" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineage" />
