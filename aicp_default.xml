@@ -50,6 +50,7 @@
   <remove-project name="packages_apps_Settings" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/skia" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/MusicFX" />
@@ -88,6 +89,7 @@
   <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
   <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
   <project path="device/qcom/sepolicy-legacy" name="AICP/device_qcom_sepolicy-legacy" remote="aicp" />
+  <project path="external/skia" name="AICP/external_skia" remote="aicp" groups="pdk,qcom_msm8x26" />
   <project path="frameworks/av" name="AICP/frameworks_av" remote="aicp" groups="pdk" />
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="AICP/frameworks_native" remote="aicp" groups="pdk" />
