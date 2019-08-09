@@ -60,7 +60,9 @@
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/timezone" />
+  <remove-project name="platform/test/vts-testcase/vndk" />
   <remove-project name="packages_services_Telecomm" />
   <remove-project name="system_core" />
   <remove-project name="system_netd" />
@@ -154,7 +156,9 @@
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="lineage" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/extras/su" name="android_system_extras_su" remote="lineage" />
+  <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" groups="pdk" remote="lineage" />
+  <project path="test/vts-testcase/vndk" name="android_test_vts-testcase_vndk" groups="vts,pdk" remote="lineage" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineage" />
