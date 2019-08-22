@@ -160,6 +160,11 @@ example, to pick this commit: https://gerrit.aicp-rom.com/#/c/36939/
     repopick 36939
 
 
+Additonal build info
+-------------------------------
+https://github.com/AICP/vendor_aicp/blob/p9.0/Aicp_Info.md
+
+
 ## Maintainer Application ##
 If you have the necessary skills and would like to become a part of our group by becoming a maintainer,
 please see [this link](https://github.com/AICP/vendor_aicp/blob/p9.0/Maintainer_Application.md) for further information and maintainer application.
