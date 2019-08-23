@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7d7127fb_f965bbd5",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2019-08-23T12:16:30Z",
+      "side": 1,
+      "message": "Gallery2",
+      "revId": "33cbfdf2942afdbd36234288ba52a6eb1f77da16",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": true
+    }
+  ]
+}
