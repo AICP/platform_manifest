@@ -180,4 +180,7 @@
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="omni" />
   <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omni" />
 
+  <!-- PE repositories -->
+  <project path="packages/apps/Longshot" name="PixelExperience/packages_apps_Longshot" revision="pie-plus" remote="github" />
+
 </manifest>
