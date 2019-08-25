@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f33a4d10_2de6559a",
+        "filename": "aicp_default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2019-08-25T09:07:17Z",
+      "side": 1,
+      "message": "I think we should add a PE-remote",
+      "revId": "414a2d6c2deb864d9f58b53ff4514f2358662ac6",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": true
+    }
+  ]
+}
