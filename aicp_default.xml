@@ -112,7 +112,6 @@
   <project path="packages/apps/DSPManager" name="AICP/packages_apps_DSPManager" remote="aicp" />
   <project path="packages/apps/FMRadio" name="AICP/packages_apps_FMRadio" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
-  <project path="packages/apps/Longshot" name="AICP/packages_apps_Longshot" remote="aicp" />
   <project path="packages/apps/JamesDSPManager" name="AICP/packages_apps_JamesDSPManager" remote="aicp" />
   <project path="packages/apps/MusicFX" name="AICP/packages_apps_MusicFX" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" groups="pdk-fs" />
