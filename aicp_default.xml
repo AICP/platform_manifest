@@ -50,6 +50,8 @@
   <remove-project name="packages_apps_Settings" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/libcups" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/packages/apps/DeskClock" />
@@ -62,6 +64,7 @@
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/keymaster" />
+  <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/timezone" />
   <remove-project name="platform/test/vts-testcase/vndk" />
   <remove-project name="packages_services_Telecomm" />
@@ -140,6 +143,8 @@
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
   <project path="external/icu" name="android_external_icu" groups="pdk" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
+  <project path="external/libcups" name="android_external_libcups" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+  <project path="external/libhevc" name="android_external_libhevc" groups="pdk" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
   <project path="external/vim" name="android_external_vim" remote="lineage" />
@@ -176,6 +181,7 @@
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/extras/su" name="android_system_extras_su" remote="lineage" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="lineage" />
+  <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" groups="pdk" remote="lineage" />
   <project path="test/vts-testcase/vndk" name="android_test_vts-testcase_vndk" groups="vts,pdk" remote="lineage" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
