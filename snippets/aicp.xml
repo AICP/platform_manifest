@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- AICP additions -->
-  <project path="platform_manifest" name="platform_manifest" remote="aicp" />
-  <project path="vendor/aicp" name="vendor_aicp" remote="aicp" />
+  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
+  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
 </manifest>
