@@ -4,5 +4,6 @@
   <!-- AICP additions -->
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
-
+  <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
+  <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
 </manifest>
