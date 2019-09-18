@@ -50,5 +50,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" />
   <project path="prebuilts/r8" name="LineageOS/android_prebuilts_r8" groups="pdk" clone-depth="1" remote="lineage" />
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="lineage" />
+  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="lineage" />
+
 
 </manifest>
