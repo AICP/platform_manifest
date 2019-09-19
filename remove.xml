@@ -36,5 +36,4 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
 
-
 </manifest>
