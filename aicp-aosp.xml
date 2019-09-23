@@ -30,6 +30,7 @@
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" remote="lineage" />
   <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" remote="lineage" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
+  <project path="hardware/nxp/nfc" name="LineageOS/android_hardware_nxp_nfc" groups="pdk" remote="lineage" />
   <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk-qcom" remote="lineage" />
   <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="lineage" />
