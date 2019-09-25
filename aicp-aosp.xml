@@ -3,6 +3,7 @@
 
   <!-- AICP AOSP Repos -->
   <project path="bionic" name="AICP/bionic" groups="pdk" remote="aicp" />
+  <project path="bootable/recovery" name="AICP/bootable_recovery" groups="pdk" remote="aicp" />
   <project path="build/make" name="AICP/build" groups="pdk" remote="aicp" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -19,6 +20,7 @@
   <project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
+  <project path="packages/apps/DeskClock" name="AICP/packages_apps_DeskClock" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" groups="pdk-fs" remote="aicp" />
