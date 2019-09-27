@@ -31,6 +31,7 @@
   <!-- LineageOS AOSP Repos -->
   <project path="art" name="LineageOS/android_art" groups="pdk" remote="lineage" />
   <project path="device/generic/goldfish" name="LineageOS/android_device_generic_goldfish" groups="pdk" remote="lineage" />
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" remote="lineage" revision="master"/>
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="lineage" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="lineage" />
   <project path="external/selinux" name="LineageOS/android_external_selinux" groups="pdk" remote="lineage" />
