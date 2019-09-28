@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c01dbafd_d18dda4b",
+        "filename": "aicp-default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2019-09-28T20:48:41Z",
+      "side": 1,
+      "message": "omnirom/android_packages_apps_OmniRecord",
+      "range": {
+        "startLine": 54,
+        "startChar": 49,
+        "endLine": 54,
+        "endChar": 81
+      },
+      "revId": "78a725ac4f014e7fc3f76d390bcf70d7c388ef3c",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": true
+    }
+  ]
+}
