@@ -37,6 +37,7 @@
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
   <project path="frameworks/opt/jamesdsp" name="AICP/frameworks_opt_jamesdsp" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
+  <project path="packages/apps/JamesDSPManager" name="AICP/packages_apps_JamesDSPManager" remote="aicp" />
   <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
