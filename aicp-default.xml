@@ -34,6 +34,9 @@
   <include name="aicp-caf.xml" />
 
   <!-- AICP additions -->
+  <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
+  <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aicp" />
+  <project path="device/qcom/sepolicy-legacy-um" name="AICP/device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="q10.0-legacy-um" remote="aicp" />
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
   <project path="frameworks/opt/jamesdsp" name="AICP/frameworks_opt_jamesdsp" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
