@@ -32,11 +32,11 @@
   <project path="art" name="LineageOS/android_art" groups="pdk" remote="lineage" />
   <project path="device/generic/goldfish" name="LineageOS/android_device_generic_goldfish" groups="pdk" remote="lineage" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="lineage" />
-  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="lineage" />
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="lineage" revision="refs/changes/09/256309/1" />
   <project path="external/selinux" name="LineageOS/android_external_selinux" groups="pdk" remote="lineage" />
   <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" remote="lineage" />
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" remote="lineage" />
-  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" remote="lineage" />
+  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" remote="lineage" revision="refs/changes/81/258181/1" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="lineage" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
   <project path="hardware/nxp/nfc" name="LineageOS/android_hardware_nxp_nfc" groups="pdk" remote="lineage" />
