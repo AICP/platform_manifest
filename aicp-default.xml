@@ -18,7 +18,7 @@
            review="gerrit.omnirom.org"
            revision="refs/heads/android-10"
            sync-j="8" />
- 
+
    <remote  name="github"
            fetch="git://github.com/"
            sync-c="true"
@@ -34,7 +34,7 @@
   <include name="aicp-caf.xml" />
 
   <!-- AICP additions -->
-  <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
+  <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" revision="refs/changes/26/94526/3" />
   <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aicp" />
   <project path="device/qcom/sepolicy-legacy-um" name="AICP/device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="q10.0-legacy-um" remote="aicp" />
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
