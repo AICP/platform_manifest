@@ -19,19 +19,19 @@
   </project>
   <project path="external/tinycompress" name="weirddroid7/external_tinycompress" groups="pdk" remote="aicp" revision="q10.0-r18rebase" />
   <project path="frameworks/av" name="eyosen/frameworks_av" groups="pdk" remote="eyosen" />
-  <project path="frameworks/base" name="eyosen/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="eyosen" />
+  <project path="frameworks/base" name="weirddroid7/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" revision="q10.0-r18rebaseplus" />
   <project path="frameworks/native" name="eyosen/frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="eyosen" />
   <project path="hardware/interfaces" name="eyosen/hardware_interfaces" groups="pdk" remote="eyosen" />
   <project path="packages/apps/DeskClock" name="eyosen/packages_apps_DeskClock" groups="pdk-fs" remote="eyosen" />
   <project path="packages/apps/Dialer" name="eyosen/packages_apps_Dialer" groups="pdk-fs" remote="eyosen" />
   <project path="packages/apps/Launcher3" name="eyosen/packages_apps_Launcher3" groups="pdk-fs" remote="eyosen" />
-  <project path="packages/apps/Settings" name="semdoc/packages_apps_Settings" groups="pdk-fs" remote="aicp" revision="q10.0_r18rebase" />
+  <project path="packages/apps/Settings" name="weirddroid7/packages_apps_Settings" groups="pdk-fs" remote="aicp" revision="q10.0-r18rebaseplus" />
   <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" groups="pdk-fs" remote="aicp" />
   <project path="packages/providers/DownloadProvider" name="eyosen/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="eyosen" />
   <project path="packages/providers/MediaProvider" name="eyosen/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="eyosen" />
   <project path="packages/services/Telecomm" name="eyosen/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="eyosen" />
   <project path="packages/services/Telephony" name="eyosen/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="eyosen" />
-  <project path="system/core" name="eyosen/system_core" groups="pdk" remote="eyosen" />
+  <project path="system/core" name="weirddroid7/system_core" groups="pdk" remote="aicp" revision="q10.0-r18rebaseplus" />
   <project path="system/netd" name="eyosen/system_netd" groups="pdk" remote="eyosen" />
   <project path="system/vold" name="weirddroid7/system_vold" groups="pdk" remote="aicp" revision="q10.0-r18rebase" />
   <project path="system/update_engine" name="weirddroid7/system_update_engine" groups="pdk" remote="aicp" revision="q10.0-r18rebase" />
