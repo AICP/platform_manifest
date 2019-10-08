@@ -21,6 +21,7 @@
   <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/apps/DeskClock" name="AICP/packages_apps_DeskClock" groups="pdk-fs" remote="aicp" />
+  <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" groups="pdk-fs" remote="aicp" />
