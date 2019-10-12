@@ -55,4 +55,5 @@
 
   <!-- Omni additions -->
   <project path="packages/apps/omniRecord" name="omnirom/android_packages_apps_omniRecord" remote="omni" />
+  <project path="packages/apps/Phonograph" name="omnirom/android_packages_apps_Phonograph" remote="omni" />
 </manifest>
