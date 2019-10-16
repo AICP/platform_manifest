@@ -3,8 +3,10 @@
 
   <remote  name="aicp"
            fetch="git://github.com/"
-           review="gerrit.aicp-rom.com"
-           revision="refs/heads/q10.0"
+           review="gerrit.aicp-rom.com" />
+  <default revision="refs/heads/q10.0"
+           remote="aicp"
+           sync-c="true"
            sync-j="8" />
 
   <remote  name="lineage"
@@ -18,7 +20,7 @@
            review="gerrit.omnirom.org"
            revision="refs/heads/android-10"
            sync-j="8" />
- 
+
    <remote  name="github"
            fetch="git://github.com/"
            sync-c="true"
