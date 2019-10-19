@@ -7,6 +7,7 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/frameworks/av" />
@@ -15,6 +16,7 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/nxp/nfc" />
@@ -45,6 +47,7 @@
   <remove-project name="platform/prebuilts/r8" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/packages/apps/Browser2" />
 
