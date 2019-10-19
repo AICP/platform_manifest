@@ -33,10 +33,12 @@
   <project path="art" name="LineageOS/android_art" groups="pdk" remote="lineage" />
   <project path="device/generic/goldfish" name="LineageOS/android_device_generic_goldfish" groups="pdk" remote="lineage" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="lineage" />
-  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="lineage" />
   <project path="external/selinux" name="LineageOS/android_external_selinux" groups="pdk" remote="lineage" />
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="lineage" />
   <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" remote="lineage" />
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" remote="lineage" />
+  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="lineage" />
+  <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" remote="lineage" />
   <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" remote="lineage" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="lineage" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
@@ -61,5 +63,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" />
   <project path="prebuilts/r8" name="LineageOS/android_prebuilts_r8" groups="pdk" clone-depth="1" remote="lineage" />
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="lineage" />
+  <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" remote="lineage" />
 
 </manifest>
