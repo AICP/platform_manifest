@@ -34,6 +34,7 @@
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
@@ -42,6 +43,7 @@
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
@@ -57,9 +59,5 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/update_engine" />
-  <remove-project name="platform/packages/apps/Browser2" />
-  <remove-project name="platform/packages/apps/QuickSearchBox" />
-
-
 
 </manifest>
