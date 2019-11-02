@@ -37,6 +37,7 @@
     <!-- AICP additions -->
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
   <project path="frameworks/opt/jamesdsp" name="AICP/frameworks_opt_jamesdsp" remote="aicp" />
+  <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
   <project path="packages/apps/JamesDSPManager" name="AICP/packages_apps_JamesDSPManager" remote="aicp" />
   <project path="prebuilts/clang/host/linux-x86_custom" name="AICP/prebuilts_clang_host_linux-x86" remote="aicp" revision="master" />
