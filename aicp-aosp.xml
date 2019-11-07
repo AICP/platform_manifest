@@ -2,9 +2,9 @@
 <manifest>
 
   <!-- AICP AOSP Repos -->
-  <project path="bionic" name="AICP/bionic" groups="pdk" remote="aicp" />
-  <project path="bootable/recovery" name="AICP/bootable_recovery" groups="pdk" remote="aicp" />
-  <project path="build/make" name="AICP/build" groups="pdk" remote="aicp" >
+  <project path="bionic" name="AICP/bionic" groups="pdk" remote="aicp" revision="q10.0-r9rebase" />
+  <project path="bootable/recovery" name="AICP/bootable_recovery" groups="pdk" remote="aicp" revision="q10.0-r9rebase" />
+  <project path="build/make" name="AICP/build" groups="pdk" remote="aicp" revision="q10.0-r9rebase" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -13,23 +13,23 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="AICP/build_soong" groups="pdk,tradefed" remote="aicp" >
+  <project path="build/soong" name="AICP/build_soong" groups="pdk,tradefed" remote="aicp" revision="q10.0-r9rebase" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
-  <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="hardware/interfaces" name="AICP/hardware_interfaces" groups="pdk" remote="aicp" />
-  <project path="packages/apps/DeskClock" name="AICP/packages_apps_DeskClock" groups="pdk-fs" remote="aicp" />
-  <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" groups="pdk-fs" remote="aicp" />
-  <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" groups="pdk-fs" remote="aicp" />
-  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
+  <project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" revision="q10.0-r9rebase"/>
+  <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp"  revision="q10.0-r9rebase"/>
+  <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="aicp" revision="q10.0-r9rebase"/>
+  <project path="hardware/interfaces" name="AICP/hardware_interfaces" groups="pdk" remote="aicp" revision="q10.0-r9rebase" />
+  <project path="packages/apps/DeskClock" name="AICP/packages_apps_DeskClock" groups="pdk-fs" remote="aicp" revision="q10.0-r9rebase" />
+  <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" groups="pdk-fs" remote="aicp" revision="q10.0-r9rebase" />
+  <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" groups="pdk-fs" remote="aicp" revision="q10.0-r9rebase" />
+  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" revision="q10.0-r9rebase" />
   <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" groups="pdk-fs" remote="aicp" />
-  <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
-  <project path="system/vold" name="AICP/system_vold" groups="pdk" remote="aicp" />
-  <project path="system/update_engine" name="AICP/system_update_engine" groups="pdk" remote="aicp" />
+  <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aicp" revision="q10.0-r9rebase" />
+  <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" revision="q10.0-r9rebase" />
+  <project path="system/vold" name="AICP/system_vold" groups="pdk" remote="aicp" revision="q10.0-r9rebase" />
+  <project path="system/update_engine" name="AICP/system_update_engine" groups="pdk" remote="aicp" revision="q10.0-r9rebase" />
 
   <!-- LineageOS AOSP Repos -->
   <project path="art" name="LineageOS/android_art" groups="pdk" remote="lineage" />
