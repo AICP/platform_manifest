@@ -38,6 +38,7 @@
   <project path="art" name="LineageOS/android_art" groups="pdk" remote="lineage" />
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" remote="lineage" />
   <project path="device/generic/goldfish" name="LineageOS/android_device_generic_goldfish" groups="pdk" remote="lineage" />
+  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="lineage" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="lineage" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="lineage" />
   <project path="external/selinux" name="LineageOS/android_external_selinux" groups="pdk" remote="lineage" />
