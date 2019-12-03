@@ -52,6 +52,7 @@
   <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/icu" />
+  <remove-project name="platform/external/ImageMagick" />
   <remove-project name="platform/external/libcups" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libhevc" />
@@ -150,6 +151,7 @@
   <project path="external/chromium-libpac" name="android_external_chromium-libpac" groups="pdk" remote="lineage" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
   <project path="external/icu" name="android_external_icu" groups="pdk" remote="lineage" />
+  <project path="external/ImageMagick" name="android_external_ImageMagick" groups="pdk" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/libcups" name="android_external_libcups" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="lineage" />
