@@ -82,5 +82,6 @@
   <project path="prebuilts/r8" name="LineageOS/android_prebuilts_r8" groups="pdk" clone-depth="1" remote="lineage" />
   <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" remote="lineage" />
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="lineage" />
+  <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" remote="lineage" />
 
 </manifest>
