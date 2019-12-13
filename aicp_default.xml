@@ -49,6 +49,7 @@
   <remove-project name="packages_apps_Launcher3" />
   <remove-project name="packages_apps_Nfc" />
   <remove-project name="packages_apps_Settings" />
+  <remove-project name="packages_services_BuiltInPrintService" />
   <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/icu" />
@@ -72,9 +73,11 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/security" />
   <remove-project name="platform/system/timezone" />
   <remove-project name="platform/test/vts-testcase/vndk" />
   <remove-project name="packages_services_Telecomm" />
+  <remove-project name="system_bt" />
   <remove-project name="system_core" />
   <remove-project name="system_netd" />
   <remove-project name="system_sepolicy" />
@@ -134,12 +137,15 @@
   <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
   <project path="packages/providers/DownloadProvider" name="AICP/packages_providers_DownloadProvider" remote="aicp" />
   <project path="packages/providers/MediaProvider" name="AICP/packages_providers_MediaProvider" remote="aicp" />
+  <project path="packages/services/BuiltInPrintService" name="AICP/packages_services_BuiltInPrintService" remote="aicp" />
   <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
   <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" />
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" remote="aicp" />
   <project path="prebuilts/clang/host/linux-x86" name="AICP/prebuilts_clang_host_linux-x86" groups="pdk" remote="aicp" />
+  <project path="system/bt" name="AICP/system_bt" remote="aicp" />
   <project path="system/core" name="AICP/system_core" remote="aicp" groups="pdk" />
   <project path="system/netd" name="AICP/system_netd" remote="aicp" />
+  <project path="system/security" name="AICP/system_security" remote="aicp" groups="pdk" />
   <project path="system/sepolicy" name="AICP/system_sepolicy" remote="aicp" groups="pdk" />
   <project path="system/update_engine" name="AICP/system_update_engine" remote="aicp" groups="pdk" />
   <project path="system/vold" name="AICP/system_vold" remote="aicp" groups="pdk" />
