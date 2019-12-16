@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-10.0.0_r11"
+  <default revision="refs/tags/android-10.0.0_r18"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -236,6 +236,7 @@
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk" />
   <project path="external/libffi" name="platform/external/libffi" groups="pdk" />
+  <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/libhevc" name="platform/external/libhevc" groups="pdk" />
   <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
@@ -294,9 +295,9 @@
   <project path="external/nfacct" name="platform/external/nfacct" groups="pdk" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk" />
-  <project path="external/nos/host/android" name="platform/external/nos/host/android" groups="pixel" />
-  <project path="external/nos/host/generic" name="platform/external/nos/host/generic" groups="pixel" />
-  <project path="external/nos/test/system-test-harness" name="platform/external/nos/test/system-test-harness" groups="pixel" />
+  <project path="external/nos/host/android" name="platform/external/nos/host/android" groups="pixel" revision="refs/tags/android-10.0.0_r11" />
+  <project path="external/nos/host/generic" name="platform/external/nos/host/generic" groups="pixel" revision="refs/tags/android-10.0.0_r11" />
+  <project path="external/nos/test/system-test-harness" name="platform/external/nos/test/system-test-harness" groups="pixel" revision="refs/tags/android-10.0.0_r11" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" />
