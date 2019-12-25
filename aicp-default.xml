@@ -41,6 +41,7 @@
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
   <project path="frameworks/opt/jamesdsp" name="AICP/frameworks_opt_jamesdsp" remote="aicp" />
   <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
+  <project path="hardware/lineage/interfaces" name="AICP/hardware_lineage_interfaces" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
   <project path="packages/apps/JamesDSPManager" name="AICP/packages_apps_JamesDSPManager" remote="aicp" />
   <project path="packages/apps/Snap" name="AICP/packages_apps_Snap" remote="aicp" />
@@ -65,7 +66,6 @@
   <project path="external/unrar" name="LineageOS/android_external_unrar" remote="lineage" />
   <project path="external/vim" name="LineageOS/android_external_vim" remote="lineage" />
   <project path="external/zip" name="LineageOS/android_external_zip" remote="lineage" />
-  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="lineage" />
   <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" remote="lineage" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
   <project path="prebuilts/tools-aicp" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
