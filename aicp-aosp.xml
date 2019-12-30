@@ -24,6 +24,7 @@
   <project path="hardware/interfaces" name="AICP/hardware_interfaces" groups="pdk" remote="aicp" />
   <project path="packages/apps/DeskClock" name="AICP/packages_apps_DeskClock" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" groups="pdk-fs" remote="aicp" />
+  <project path="packages/apps/ExactCalculator" name="AICP/packages_apps_ExactCalculator" groups="apps_nfc,pdk-fs" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <project path="packages/providers/DownloadProvider" name="AICP/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
@@ -65,7 +66,6 @@
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="lineagestaging" />
   <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="apps_nfc,pdk-fs" remote="lineagestaging" />
   <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="apps_nfc,pdk-fs" remote="lineagestaging" />
-  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="apps_nfc,pdk-fs" remote="lineage" />
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" groups="apps_nfc,pdk-fs" remote="lineage" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineage" />
   <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="apps_nfc,pdk-fs" remote="lineagestaging" />
