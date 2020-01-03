@@ -61,7 +61,6 @@
   <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="lineagestaging" />
   <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineagestaging" />
   <project path="hardware/qcom/sdm845/display" name="LineageOS/android_hardware_qcom_sdm845_display" groups="qcom_sdm845" remote="lineagestaging" />
-  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="lineage" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="lineagestaging" />
   <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="apps_nfc,pdk-fs" remote="lineagestaging" />
   <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="apps_nfc,pdk-fs" remote="lineagestaging" />
