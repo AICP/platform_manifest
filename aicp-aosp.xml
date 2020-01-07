@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- AICP AOSP Repos -->
+  <project path="art" name="AICP/art" groups="pdk" remote="aicp" />
   <project path="bionic" name="AICP/bionic" groups="pdk" remote="aicp" />
   <project path="bootable/recovery" name="AICP/bootable_recovery" groups="pdk" remote="aicp" />
   <project path="build/make" name="AICP/build" groups="pdk" remote="aicp" >
@@ -37,7 +38,6 @@
   <project path="system/update_engine" name="AICP/system_update_engine" groups="pdk" remote="aicp" />
 
   <!-- LineageOS AOSP Repos -->
-  <project path="art" name="LineageOS/android_art" groups="pdk" remote="lineage" />
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" remote="lineage" />
   <project path="device/generic/goldfish" name="LineageOS/android_device_generic_goldfish" groups="pdk" remote="lineage" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="lineage" />
