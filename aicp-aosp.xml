@@ -32,6 +32,7 @@
   <project path="packages/providers/MediaProvider" name="AICP/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
+  <project path="system/bt" name="AICP/system_bt" groups="pdk" remote="aicp" />
   <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
   <project path="system/netd" name="AICP/system_netd" groups="pdk" remote="aicp" />
   <project path="system/vold" name="AICP/system_vold" groups="pdk" remote="aicp" />
@@ -79,7 +80,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" />
   <project path="prebuilts/r8" name="LineageOS/android_prebuilts_r8" groups="pdk" clone-depth="1" remote="lineage" />
   <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" remote="lineage" />
-  <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="lineage" />
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" remote="lineage" />
 
 </manifest>
