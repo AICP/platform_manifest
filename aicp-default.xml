@@ -40,6 +40,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="AICP/device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="q10.0-legacy-um" remote="aicp" />
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
   <project path="frameworks/opt/jamesdsp" name="AICP/frameworks_opt_jamesdsp" remote="aicp" />
+  <project path="frameworks/opt/net/wifi" name="AICP/frameworks_opt_net_wifi" remote="aicp" />
   <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
   <project path="hardware/lineage/interfaces" name="AICP/hardware_lineage_interfaces" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
