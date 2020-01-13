@@ -35,6 +35,7 @@
   <project path="system/bt" name="AICP/system_bt" groups="pdk" remote="aicp" />
   <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
   <project path="system/netd" name="AICP/system_netd" groups="pdk" remote="aicp" />
+  <project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
   <project path="system/vold" name="AICP/system_vold" groups="pdk" remote="aicp" />
   <project path="system/update_engine" name="AICP/system_update_engine" groups="pdk" remote="aicp" />
 
