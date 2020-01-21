@@ -47,7 +47,6 @@
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="lineage" />
   <project path="external/selinux" name="LineageOS/android_external_selinux" groups="pdk" remote="lineage" />
   <project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" groups="pdk" remote="lineage" />
-  <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" remote="lineage" />
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" remote="lineage" />
   <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="lineage" />
   <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" remote="lineage" />
