@@ -45,6 +45,7 @@
 
   <!-- LineageOS AOSP Repos -->
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" remote="lineage" />
+  <project path="development" name="LineageOS/android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="device/generic/goldfish" name="LineageOS/android_device_generic_goldfish" groups="pdk" remote="lineage" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" remote="lineage" revision="master" clone-depth="1" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="lineage" />
