@@ -16,6 +16,7 @@
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/ppp" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
