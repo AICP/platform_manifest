@@ -58,6 +58,7 @@
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="prebuilts/clang/host/linux-x86_custom" name="AICP/prebuilts_clang_host_linux-x86" remote="aicp" revision="q10.0-custom" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+  <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
 
   <!-- Lineage additions -->
   <project path="external/bash" name="LineageOS/android_external_bash" remote="lineage" />
