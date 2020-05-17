@@ -35,7 +35,6 @@
   <project path="packages/apps/Messaging" name="AICP/packages_apps_Messaging" groups="apps_nfc,pdk-fs" remote="aicp" />
   <project path="packages/apps/PhoneCommon" name="AICP/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
-  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <project path="packages/providers/DownloadProvider" name="AICP/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/providers/MediaProvider" name="AICP/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
