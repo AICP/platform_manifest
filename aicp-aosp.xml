@@ -55,6 +55,7 @@
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="lineage" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="lineage" />
   <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk" remote="lineage" />
+  <project path="external/libtextclassifier" name="LineageOS/android_external_libtextclassifier" groups="pdk" remote="lineage" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="lineage" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="lineage" />
   <project path="external/ppp" name="LineageOS/android_external_ppp" groups="pdk" remote="lineage" />
