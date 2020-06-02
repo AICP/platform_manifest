@@ -23,6 +23,7 @@
   <project path="frameworks/base" name="AICP/frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="frameworks/opt/net/ims" name="AICP/frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aicp" />
+  <project path="frameworks/opt/net/wifi" name="AICP/frameworks_opt_net_wifi" remote="aicp" />
   <project path="frameworks/opt/telephony" name="AICP/frameworks_opt_telephony" groups="pdk" remote="aicp" />
   <project path="hardware/interfaces" name="AICP/hardware_interfaces" groups="pdk" remote="aicp" />
   <project path="hardware/libhardware" name="AICP/hardware_libhardware" groups="pdk" remote="aicp" />
@@ -30,7 +31,6 @@
   <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" groups="apps_nfc,pdk-fs" remote="aicp" />
   <project path="packages/apps/DeskClock" name="AICP/packages_apps_DeskClock" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" groups="pdk-fs" remote="aicp" />
-  <project path="packages/apps/ExactCalculator" name="AICP/packages_apps_ExactCalculator" groups="apps_nfc,pdk-fs" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/Messaging" name="AICP/packages_apps_Messaging" groups="apps_nfc,pdk-fs" remote="aicp" />
   <project path="packages/apps/PhoneCommon" name="AICP/packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
