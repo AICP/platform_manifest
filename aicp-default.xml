@@ -24,6 +24,10 @@
            sync-c="true"
            sync-j="8" />
 
+   <remote  name="gitlab"
+           fetch="https://gitlab.com/"
+           sync-j="8" />
+
   <!-- Remove Packages -->
   <include name="remove.xml" />
 
