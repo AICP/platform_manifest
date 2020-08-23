@@ -100,5 +100,6 @@
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/hardware/interfaces" name="LineageOS/android_system_hardware_interfaces" groups="pdk" remote="lineage" />
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" remote="lineage" />
+  <project path="system/libufdt" name="LineageOS/android_system_libufdt" groups="pdk" remote="lineage" />
 
 </manifest>
