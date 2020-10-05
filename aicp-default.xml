@@ -10,4 +10,16 @@
   <!-- Remove Packages -->
   <include name="remove.xml" />
 
+  <project path="build/make" name="AICP/build" groups="pdk" remote="aicp" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" /> 
+  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+
 </manifest>
