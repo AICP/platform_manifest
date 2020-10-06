@@ -55,10 +55,12 @@
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" remote="lineage" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="lineage" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" remote="lineage" />
+  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" remote="lineage" />
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" remote="lineage" />
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" remote="lineage" />
   <project path="system/core" name="LineageOS/android_system_core" remote="lineage" />
   <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" remote="lineage" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" remote="lineage" />
+  <project path="system/vold" name="LineageOS/android_system_vold" remote="lineage" />
 
 </manifest>
