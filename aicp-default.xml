@@ -57,6 +57,7 @@
   <project path="external/mksh" name="LineageOS/android_external_mksh" remote="lineage" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" remote="lineage" />
   <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" remote="lineage" />
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="lineage" />
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" remote="lineage" />
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" remote="lineage" />
   <project path="system/core" name="LineageOS/android_system_core" remote="lineage" />
