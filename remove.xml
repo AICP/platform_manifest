@@ -7,6 +7,7 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/packages/apps/Updater" />
+  <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
