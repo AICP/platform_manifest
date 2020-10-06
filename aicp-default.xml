@@ -47,7 +47,13 @@
   </project>
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="prebuilts/tools-aicp" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
-  <project path="system/core" name="LineageOS/android_system_core" remote="lineage" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+
+  <!-- LineageOS Additions -->
+
+  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" remote="lineage" />
+  <project path="external/mksh" name="LineageOS/android_external_mksh" remote="lineage" />
+  <project path="system/core" name="LineageOS/android_system_core" remote="lineage" />
+  <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" remote="lineage" />
 
 </manifest>
