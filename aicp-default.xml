@@ -47,6 +47,7 @@
   </project>
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="prebuilts/tools-aicp" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
+  <project path="system/core" name="LineageOS/android_system_core" remote="lineage" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
 </manifest>
