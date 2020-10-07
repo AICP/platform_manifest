@@ -6,6 +6,8 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/bootable/recovery" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/frameworks/av" />
