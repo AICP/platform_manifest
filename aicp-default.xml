@@ -83,6 +83,7 @@
   <project path="external/zip" name="LineageOS/android_external_zip" remote="lineage" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" remote="lineage" />
   <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" remote="lineage" />
+  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" remote="lineage" />
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" remote="lineage" />
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" remote="lineage" />
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="lineage" />
