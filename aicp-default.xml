@@ -53,6 +53,7 @@
 
   <!-- LineageOS Additions -->
 
+  <project path="bionic" name="LineageOS/android_bionic" remote="lineage" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" remote="lineage" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="lineage" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" remote="lineage" />
