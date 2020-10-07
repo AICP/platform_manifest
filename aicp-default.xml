@@ -55,6 +55,7 @@
 
   <project path="bionic" name="LineageOS/android_bionic" remote="lineage" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" remote="lineage" />
+  <project path="development" name="LineageOS/android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="device/generic/goldfish" name="LineageOS/android_device_generic_goldfish" groups="pdk" remote="lineage" />
   <project path="device/generic/goldfish-opengl" name="LineageOS/android_device_generic_goldfish-opengl" groups="pdk" remote="lineage" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="lineage" />
