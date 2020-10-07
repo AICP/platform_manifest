@@ -67,6 +67,7 @@
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" remote="lineage" />
   <project path="external/bash" name="LineageOS/android_external_bash" remote="lineage" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
+  <project path="external/guice" name="LineageOS/android_external_guice" groups="pdk" remote="lineage" />
   <project path="external/htop" name="LineageOS/android_external_htop" remote="lineage" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="lineage" />
@@ -84,7 +85,9 @@
   <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" remote="lineage" />
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" remote="lineage" />
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" remote="lineage" />
-  <project path="system/core" name="LineageOS/android_system_core" remote="lineage" />
+  <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="lineage" />
+  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" remote="lineage" />
+  <project path="system/incremental_delivery" name="LineageOS/android_system_incremental_delivery" groups="pdk" remote="lineage" />
   <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" remote="lineage" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" remote="lineage" />
   <project path="system/vold" name="LineageOS/android_system_vold" remote="lineage" />
