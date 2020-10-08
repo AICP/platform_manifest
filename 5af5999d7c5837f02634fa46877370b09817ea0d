@@ -16,6 +16,24 @@
       "revId": "5af5999d7c5837f02634fa46877370b09817ea0d",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fa404cbb_3b2d55d5",
+        "filename": "aicp-default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2020-10-08T16:53:05Z",
+      "side": 1,
+      "message": "Actually. While we can use clang repo on both Q \u0026 R. why not to rename branch to master for example?",
+      "parentUuid": "f165a7e1_cb11448b",
+      "revId": "5af5999d7c5837f02634fa46877370b09817ea0d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": true
     }
   ]
 }
