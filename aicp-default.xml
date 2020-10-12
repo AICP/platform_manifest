@@ -83,13 +83,14 @@
   <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="lineage" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" remote="lineage" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" remote="lineage" />
- <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="lineage" />
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="lineage" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" remote="lineage" />
   <project path="external/vim" name="LineageOS/android_external_vim" remote="lineage" />
   <project path="external/zip" name="LineageOS/android_external_zip" remote="lineage" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" remote="lineage" />
   <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" remote="lineage" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" remote="lineage" />
+  <project path="packages/apps/Etar" remote="github" name="LineageOS/android_packages_apps_Etar" remote="lineage" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" remote="lineage" />
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" remote="lineage" />
