@@ -14,12 +14,15 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/bt" />
