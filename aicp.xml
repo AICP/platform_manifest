@@ -59,9 +59,11 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
+  <project path="frameworks/native" name="AICP/frameworks_native" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" />
+  <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
 
 </manifest>
