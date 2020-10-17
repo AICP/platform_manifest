@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aicp"
+           fetch="git://github.com/"
+           review="gerrit.aicp-rom.com"
+           revision="refs/heads/r11.0"
+           sync-j="8" />
+
+  <remote  name="lineage"
+           fetch="git://github.com/"
+           review="review.lineageos.org"
+           revision="refs/heads/lineage-18.0"
+           sync-j="8" />
+
+  <remote  name="omni"
+           fetch="git://github.com/"
+           review="gerrit.omnirom.org"
+           revision="refs/heads/android-10"
+           sync-j="8" />
+
+   <remote  name="github"
+           fetch="git://github.com/"
+           sync-c="true"
+           sync-j="8" />
+
+   <remote  name="gitlab"
+           fetch="https://gitlab.com/"
+           sync-j="8" />
+
+  <!-- Remove Packages -->
+  <include name="remove.xml" />
+
+  <!-- Include lineage repos -->
+  <include name="lineage.xml" />
+
+    <!-- AICP additions -->
+  <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
+  <project path="frameworks/opt/jamesdsp" name="AICP/frameworks_opt_jamesdsp" remote="aicp" />
+  <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
+  <project path="packages/apps/JamesDSPManager" name="AICP/packages_apps_JamesDSPManager" remote="aicp" />
+  <project path="prebuilts/clang/host/linux-x86_custom" name="AICP/prebuilts_clang_host_linux-x86" remote="aicp" revision="master" />
+  <project path="prebuilts/tools-aicp" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
+  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+
+ <!-- AICP AOSP Repos -->
+  <project path="build/make" name="AICP/build" groups="pdk" remote="aicp" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" remote="lineage" />
+  <project path="build/soong" name="AICP/build_soong" groups="pdk,tradefed" remote="aicp" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
+  <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
+  <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
+  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" />
+  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
+
+</manifest>
