@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e38dfb38_c0aaf1f4",
+        "filename": "aicp-caf.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1788
+      },
+      "writtenOn": "2020-10-17T19:50:18Z",
+      "side": 1,
+      "message": "Seems that you left a remote\u003d\"lineage\" here ;)",
+      "revId": "605ca64b0fc2d0b6807b6af83b84eaecd3bed47c",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": true
+    }
+  ]
+}
