@@ -34,6 +34,7 @@
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" remote="lineage" />
   <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="lineage" />
   <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" remote="lineage" />
+  <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" remote="lineage" />
   <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" remote="lineage" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />

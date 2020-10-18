@@ -22,6 +22,7 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
@@ -30,6 +31,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/services/Mms" />
   <remove-project name="platform/packages/services/Telecomm" />
