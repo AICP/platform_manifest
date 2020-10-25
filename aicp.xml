@@ -60,8 +60,10 @@
   </project>
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
   <project path="frameworks/native" name="AICP/frameworks_native" remote="aicp" />
+  <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
+  <project path="packages/apps/Messaging" name="AICP/packages_apps_Messaging" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" />
   <project path="packages/apps/ThemePicker" name="AICP/packages_apps_ThemePicker" remote="aicp" />
   <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
