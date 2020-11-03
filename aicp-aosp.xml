@@ -50,10 +50,12 @@
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" remote="lineage" />
   <project path="development" name="LineageOS/android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="device/generic/goldfish" name="LineageOS/android_device_generic_goldfish" groups="pdk" remote="lineage" />
+  <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" remote="lineage" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" remote="lineage" revision="master" clone-depth="1" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="lineage" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="lineage" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="lineage" />
+  <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" remote="lineage" />
   <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk" remote="lineage" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="lineage" />
   <project path="external/libtextclassifier" name="LineageOS/android_external_libtextclassifier" groups="pdk" remote="lineage" />
@@ -102,5 +104,6 @@
   <project path="system/hardware/interfaces" name="LineageOS/android_system_hardware_interfaces" groups="pdk" remote="lineage" />
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" remote="lineage" />
   <project path="system/libufdt" name="LineageOS/android_system_libufdt" groups="pdk" remote="lineage" />
+  <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="lineage" />
 
 </manifest>
