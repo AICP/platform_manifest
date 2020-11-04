@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
@@ -11,6 +12,7 @@
   <remove-project name="device/generic/goldfish-opengl" />
   <remove-project name="platform/external/guice" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
