@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- LineageOS Additions -->
+  <project path="art" name="LineageOS/android_art" remote="lineage" />
   <project path="bionic" name="LineageOS/android_bionic" remote="lineage" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" remote="lineage" />
   <project path="development" name="LineageOS/android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="lineage" />
@@ -18,6 +19,7 @@
   <project path="external/nano" name="LineageOS/android_external_nano" remote="lineage" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage" />
   <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="lineage" />
+  <project path="external/perfetto" name="LineageOS/android_external_perfetto" remote="lineage" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" remote="lineage" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" remote="lineage" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="lineage" />
