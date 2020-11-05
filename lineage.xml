@@ -48,7 +48,6 @@
   <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="lineage" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" remote="lineage" />
   <project path="system/incremental_delivery" name="LineageOS/android_system_incremental_delivery" groups="pdk" remote="lineage" />
   <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" remote="lineage" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" remote="lineage" />
