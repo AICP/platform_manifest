@@ -87,6 +87,11 @@
     <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
     <!--<linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />-->
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_sm8150_data_ipacfg-mgr" groups="qcom_sm8150" remote="lineage" >
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
+    </project>
+    <project path="hardware/qcom/sm8150/display" name="LineageOS/android_hardware_qcom_sm8150_display" groups="qcom_sm8150" remote="lineage" />
+    <project path="hardware/qcom/sm8150/media" name="LineageOS/android_hardware_qcom_sm8150_media" groups="qcom_sm8150" remote="lineage" />
     <!-- add guards for CAF repositories -->
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
