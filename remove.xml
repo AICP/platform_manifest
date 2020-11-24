@@ -26,6 +26,7 @@
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/keymaster" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Calendar" />
