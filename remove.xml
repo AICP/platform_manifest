@@ -60,6 +60,38 @@
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
 
+  <!-- AOSP device trees - can be added back if it's needed -->
+  <remove-project name="device/amlogic/yukawa" />
+  <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="device/generic/opengl-transport" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/bonito" />
+  <remove-project name="device/google/bonito-kernel" />
+  <remove-project name="device/google/bonito-sepolicy" />
+  <remove-project name="device/google/coral"/>
+  <remove-project name="device/google/coral-kernel"/>
+  <remove-project name="device/google/coral-sepolicy"/>
+  <remove-project name="device/google/crosshatch"/>
+  <remove-project name="device/google/crosshatch-kernel"/>
+  <remove-project name="device/google/crosshatch-sepolicy"/>
+  <remove-project name="device/google/cuttlefish"/>
+  <remove-project name="device/google/cuttlefish_kernel"/>
+  <remove-project name="device/google/cuttlefish_vmm"/>
+  <remove-project name="device/google/fuchsia" />
+  <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/sunfish"/>
+  <remove-project name="device/google/sunfish-kernel"/>
+  <remove-project name="device/google/sunfish-sepolicy"/>
+  <remove-project name="device/google/taimen" />
+  <remove-project name="device/google/trout" />
+  <remove-project name="device/google/wahoo" />
+  <remove-project name="device/google/wahoo-kernel" />
+  <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
+  <remove-project name="device/linaro/bootloader/edk2" />
+  <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
+  <remove-project name="device/linaro/hikey" />
+  <remove-project name="device/linaro/hikey-kernel" />
+
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
