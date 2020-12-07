@@ -20,6 +20,7 @@
   <project path="external/mksh" name="LineageOS/android_external_mksh" remote="lineage" />
   <project path="external/nano" name="LineageOS/android_external_nano" remote="lineage" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage" />
+  <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" remote="lineage" />
   <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="lineage" />
   <project path="external/perfetto" name="LineageOS/android_external_perfetto" remote="lineage" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" remote="lineage" />
