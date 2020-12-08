@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2fbeb5d_ac46d865",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2020-12-08T14:31:08Z",
+      "side": 1,
+      "message": "Because, why not ? AICP already ships the gesture typing libs and overlays.",
+      "revId": "20c64e3907ca37843aafb5981913f0a51b64aa2f",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
