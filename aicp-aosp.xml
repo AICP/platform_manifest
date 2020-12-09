@@ -55,6 +55,7 @@
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="lineage" />
   <project path="external/freetype" name="LineageOS/android_external_freetype" groups="pdk" remote="lineage" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="lineage" />
+  <project path="external/libaom" name="LineageOS/android_external_libaom" groups="pdk" remote="lineage" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="lineage" />
   <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" remote="lineage" />
   <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk" remote="lineage" />
@@ -80,6 +81,7 @@
   <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom/sdm845/display" name="LineageOS/android_hardware_qcom_sdm845_display" groups="qcom_sdm845" remote="lineage" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="lineage" />
+  <project path="packages/apps/Car/Settings" name="LineageOS/android_packages_apps_Car_Settings" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="apps_nfc,pdk-fs" remote="lineage" />
   <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="lineage" />
