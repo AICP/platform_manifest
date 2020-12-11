@@ -56,6 +56,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/incremental_delivery" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/netd" />
