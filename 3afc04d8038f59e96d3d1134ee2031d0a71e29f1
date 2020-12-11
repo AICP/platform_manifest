@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32fe7d3d_e172ea0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1828
+      },
+      "writtenOn": "2020-12-11T09:06:27Z",
+      "side": 1,
+      "message": "Now, I can remove patches.txt from my DT 😘",
+      "revId": "3afc04d8038f59e96d3d1134ee2031d0a71e29f1",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
