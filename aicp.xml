@@ -35,7 +35,6 @@
   <include name="lineage.xml" />
 
     <!-- AICP additions -->
-  <project path="bionic" name="AICP/bionic" remote="aicp" />
   <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
   <project path="frameworks/opt/jamesdsp" name="AICP/frameworks_opt_jamesdsp" remote="aicp" />
@@ -44,15 +43,17 @@
   <project path="packages/apps/JamesDSPManager" name="AICP/packages_apps_JamesDSPManager" remote="aicp" />
   <project path="packages/apps/OmniStyle" name="AICP/packages_apps_OmniStyle" remote="aicp" />
   <project path="packages/apps/PartsBin" name="AICP/packages_apps_PartsBin" remote="aicp" />
+  <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
   <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" remote="aicp" />
+  <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
   <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
   <project path="packages/resources/deviceparts" name="AICP/packages_resources_deviceparts" remote="aicp" />
   <project path="packages/resources/devicesettings" name="AICP/packages_resources_devicesettings" remote="aicp" />
   <project path="prebuilts/clang/host/linux-x86_custom" name="AICP/prebuilts_clang_host_linux-x86" remote="aicp" revision="master" />
-  <project path="prebuilts/tools-aicp" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
  <!-- AICP AOSP Repos -->
+  <project path="bionic" name="AICP/bionic" remote="aicp" />
   <project path="build/make" name="AICP/build" groups="pdk" remote="aicp" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -62,7 +63,6 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" remote="lineage" />
   <project path="build/soong" name="AICP/build_soong" groups="pdk,tradefed" remote="aicp" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -75,10 +75,8 @@
   <project path="packages/apps/Messaging" name="AICP/packages_apps_Messaging" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" />
   <project path="packages/apps/ThemePicker" name="AICP/packages_apps_ThemePicker" remote="aicp" />
-  <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
   <project path="packages/apps/WallpaperPicker2" name="AICP/packages_apps_WallpaperPicker2" groups="pdk-fs" remote="aicp" />
   <project path="packages/modules/DnsResolver" name="AICP/packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
