@@ -4,7 +4,7 @@
   <remote  name="aicp"
            fetch="git://github.com/"
            review="gerrit.aicp-rom.com"
-           revision="refs/heads/r11.0"
+           revision="refs/heads/r11.1"
            sync-j="8" />
 
   <remote  name="lineage"
