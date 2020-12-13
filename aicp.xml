@@ -40,6 +40,7 @@
   <project path="frameworks/opt/jamesdsp" name="AICP/frameworks_opt_jamesdsp" remote="aicp" />
   <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
+  <project path="packages/apps/ExactCalculator" name="AICP/packages_apps_ExactCalculator" groups="apps_nfc,pdk-fs" remote="aicp" />
   <project path="packages/apps/JamesDSPManager" name="AICP/packages_apps_JamesDSPManager" remote="aicp" />
   <project path="packages/apps/OmniStyle" name="AICP/packages_apps_OmniStyle" remote="aicp" />
   <project path="packages/apps/PartsBin" name="AICP/packages_apps_PartsBin" remote="aicp" />
