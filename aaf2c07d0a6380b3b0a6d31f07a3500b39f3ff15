@@ -16,6 +16,24 @@
       "message": "lets use our calculator https://github.com/AICP/packages_apps_ExactCalculator/commits/r11.1",
       "revId": "aaf2c07d0a6380b3b0a6d31f07a3500b39f3ff15",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "740a3ff0_683927dc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2020-12-13T14:45:58Z",
+      "side": 1,
+      "message": "ok. Please fix manifest change too. Then it can be merged.",
+      "parentUuid": "6c9c83ed_8d4d7511",
+      "revId": "aaf2c07d0a6380b3b0a6d31f07a3500b39f3ff15",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
