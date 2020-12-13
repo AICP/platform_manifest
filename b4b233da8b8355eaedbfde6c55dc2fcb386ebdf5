@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73ec2632_1f75e08c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2020-12-13T14:57:10Z",
+      "side": 1,
+      "message": "we need this for xz to work https://github.com/LineageOS/android_prebuilts_build-tools/commit/c1ce7c0fa9bb5b2bd0b593390a611395782c413b",
+      "revId": "b4b233da8b8355eaedbfde6c55dc2fcb386ebdf5",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
