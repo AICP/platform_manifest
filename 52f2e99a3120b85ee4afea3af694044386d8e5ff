@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4d6b595f_ed100164",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 492
+      },
+      "writtenOn": "2020-12-15T21:01:50Z",
+      "side": 1,
+      "message": "Needs these repos as well in order to make it work:\nhttps://github.com/dragonGR/packages_apps_Bluetooth/commits/r11.1-qti\nhttps://github.com/dragonGR/system_bt/commits/r11.1-qti",
+      "revId": "52f2e99a3120b85ee4afea3af694044386d8e5ff",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
