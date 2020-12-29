@@ -36,9 +36,11 @@
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/guice" />
+  <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/perfetto" />
@@ -89,11 +91,12 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/incremental_delivery" />
+  <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
-  <remove-project name="platform/system/netd" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
 

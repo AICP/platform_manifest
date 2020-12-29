@@ -11,11 +11,13 @@
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="lineage" />
   <project path="external/bash" name="LineageOS/android_external_bash" remote="lineage" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" remote="lineage" revision="master" clone-depth="1" />
+  <project path="external/cldr" name="LineageOS/android_external_cldr" groups="pdk" remote="lineage" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="lineage" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="lineage" />
   <project path="external/guice" name="LineageOS/android_external_guice" groups="pdk" remote="lineage" />
   <project path="external/htop" name="LineageOS/android_external_htop" remote="lineage" />
+  <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" remote="lineage" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="lineage" />
   <!--<project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="lineage" />-->
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="lineage" />
@@ -74,6 +76,7 @@
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="lineage" />
   <project path="system/incremental_delivery" name="LineageOS/android_system_incremental_delivery" groups="pdk" remote="lineage" />
   <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" groups="pdk" remote="lineage" />
+  <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" remote="lineage" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" remote="lineage" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="lineage" />
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" remote="lineage" />
