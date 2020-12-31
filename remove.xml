@@ -35,6 +35,7 @@
   <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="platform/external/boringssl" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/e2fsprogs" />
@@ -46,6 +47,7 @@
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/toybox" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
