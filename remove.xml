@@ -30,6 +30,7 @@
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/minikin" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/net/ims" />
@@ -95,6 +96,7 @@
   <remove-project name="platform/system/libufdt" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/update_engine" />
