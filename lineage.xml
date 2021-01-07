@@ -41,6 +41,7 @@
   <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="lineage" />
   <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" remote="lineage" />
+  <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel" remote="lineage" />
   <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" remote="lineage" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="LineageOS/android_hardware_knowles_athletico_sound_trigger_hal" groups="coral,generic_fs" remote="lineage" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="lineage" />
@@ -61,6 +62,7 @@
   <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" groups="pdk,tradefed" remote="lineage" />
   <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" remote="lineage" />
+  <project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineage" />
   <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" remote="lineage" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
@@ -111,6 +113,7 @@
   <project path="hardware/qcom-caf/apq8084/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-apq8084" remote="lineage" />
   <project path="hardware/qcom-caf/apq8084/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-apq8084" remote="lineage" />
   <project path="hardware/qcom-caf/apq8084/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-apq8084" remote="lineage" />
+  <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-18.1-caf" />
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
