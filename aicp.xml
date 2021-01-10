@@ -83,6 +83,9 @@
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
 
+    <!-- OMNI additions -->
+  <project path="packages/apps/Phonograph" name="omnirom/android_packages_apps_Phonograph" remote="omni" />
+
   <!-- Other additions -->
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
 </manifest>
