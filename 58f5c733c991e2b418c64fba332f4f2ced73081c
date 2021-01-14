@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc62657f_2a3917a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2021-01-14T20:14:05Z",
+      "side": 1,
+      "message": "You\u0027ll need to pick https://review.lineageos.org/c/LineageOS/android_hardware_qcom_sm8150_data_ipacfg-mgr/+/298348\n\nfor qcom devices, untill it\u0027s merged....",
+      "revId": "58f5c733c991e2b418c64fba332f4f2ced73081c",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
