@@ -83,6 +83,7 @@
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
+  <project path="frameworks/libs/systemui" name="AICP/frameworks_libs_systemui" remote="aicp"/>
 
     <!-- OMNI additions -->
   <project path="packages/apps/Phonograph" name="omnirom/android_packages_apps_Phonograph" remote="omni" />
