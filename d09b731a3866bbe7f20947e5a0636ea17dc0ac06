@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d05468bd_d3f99db5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2021-03-04T23:57:51Z",
+      "side": 1,
+      "message": "wait for lineage https://review.lineageos.org/q/topic:%22Q_asb_2021-03%22+(status:open%20OR%20status:merged)",
+      "revId": "d09b731a3866bbe7f20947e5a0636ea17dc0ac06",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
