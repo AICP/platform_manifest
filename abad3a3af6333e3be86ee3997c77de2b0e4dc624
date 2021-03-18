@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a21cb9b_83537c3e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2021-03-18T20:13:48Z",
+      "side": 1,
+      "message": "we merged https://gerrit.aicp-rom.com/c/AICP/system_sepolicy/+/104662 which is needed. But we still track this repo from LoS. Switch it.",
+      "revId": "abad3a3af6333e3be86ee3997c77de2b0e4dc624",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
