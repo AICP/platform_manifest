@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "792b2ac6_c3b4991a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2021-03-29T17:57:26Z",
+      "side": 1,
+      "message": "SetupWizard is kind of broken at AICP org\n\nShould be fixed at https://github.com/GeoZac/packages_apps_SetupWizard/commits/suw\nWould prefer one with a cleaner history (from current HEAD at LineageOS)",
+      "revId": "e74f75480a18c341bc369c9f1e448305869c8dd2",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
