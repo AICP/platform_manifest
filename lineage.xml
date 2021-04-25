@@ -80,6 +80,7 @@
   <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="lineage" />
   <project path="system/incremental_delivery" name="LineageOS/android_system_incremental_delivery" groups="pdk" remote="lineage" />
+  <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="lineage" />
   <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" remote="lineage" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="lineage" />
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" remote="lineage" />
