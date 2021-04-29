@@ -83,7 +83,6 @@
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="lineage" />
   <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" remote="lineage" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="lineage" />
-  <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" remote="lineage" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="LineageOS/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="lineage" />
