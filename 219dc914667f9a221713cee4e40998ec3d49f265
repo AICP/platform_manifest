@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f57808a5_7b6ad57a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 343
+      },
+      "writtenOn": "2021-06-01T15:38:13Z",
+      "side": 1,
+      "message": "Julian? while on it, can you check on Omni? there should be android-11 branches, I hope...😊",
+      "revId": "219dc914667f9a221713cee4e40998ec3d49f265",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
