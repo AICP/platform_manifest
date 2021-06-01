@@ -16,7 +16,7 @@
   <remote  name="omni"
            fetch="git://github.com/"
            review="gerrit.omnirom.org"
-           revision="refs/heads/android-10"
+           revision="refs/heads/android-11"
            sync-j="8" />
 
    <remote  name="github"
@@ -26,6 +26,7 @@
 
    <remote  name="gitlab"
            fetch="https://gitlab.com/"
+           revision="refs/heads/r11.1"
            sync-j="8" />
 
   <!-- Remove Packages -->
