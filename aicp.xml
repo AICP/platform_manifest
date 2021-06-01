@@ -26,6 +26,7 @@
 
    <remote  name="gitlab"
            fetch="https://gitlab.com/"
+           revision="refs/heads/r11.1"
            sync-j="8" />
 
   <!-- Remove Packages -->
