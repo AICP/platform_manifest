@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7cbfa54a_8d252891",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2021-07-03T11:05:32Z",
+      "side": 1,
+      "message": "M7 need this, and makes this obsolete.\nAlso other old devices will need this with the TARGET_USES_OLD_MNC_FORMAT flag.\n",
+      "revId": "71f2f12507f9092edc3131da2c58b1ac14d6762d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
