@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bf48ef6_0d3e168e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2021-07-08T11:20:15Z",
+      "side": 1,
+      "message": "this is not tracked by main LoS manifest. \n\nBetter to add it to your device dependencies for now ?",
+      "revId": "0eb3907f6d9df50df440df12346d387fec6831b5",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
