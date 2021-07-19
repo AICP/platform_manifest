@@ -34,6 +34,7 @@
   <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" remote="lineage" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" remote="lineage" />
   <project path="external/vim" name="LineageOS/android_external_vim" remote="lineage" />
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
   <project path="external/zip" name="LineageOS/android_external_zip" remote="lineage" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" remote="lineage" />
   <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" remote="lineage" />
