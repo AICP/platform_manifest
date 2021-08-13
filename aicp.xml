@@ -73,6 +73,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="frameworks/av" name="AICP/frameworks_av" groups="pdk" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
   <project path="frameworks/libs/systemui" name="AICP/frameworks_libs_systemui" remote="aicp"/>
   <project path="frameworks/native" name="AICP/frameworks_native" remote="aicp" />
