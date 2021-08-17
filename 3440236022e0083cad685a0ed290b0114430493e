@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34dd6af5_c5e45081",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 6
+      },
+      "writtenOn": "2021-08-17T10:12:37Z",
+      "side": 1,
+      "message": "why are we tracking something that the origin is preparing to remove? Am I missing something?",
+      "revId": "3440236022e0083cad685a0ed290b0114430493e",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
