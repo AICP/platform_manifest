@@ -33,6 +33,24 @@
       "message": "as for the Omni remote, it\u0027s just one repo, I don\u0027t mind either way for that one",
       "revId": "e3cad7251c593e7bc44cc03f23fd804f68383622",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0029cfbd_6f4f66f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2021-09-28T07:31:09Z",
+      "side": 1,
+      "message": "This does clarifiy the doubts I had, thanks",
+      "parentUuid": "5e84859d_25912695",
+      "revId": "e3cad7251c593e7bc44cc03f23fd804f68383622",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
