@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e84859d_25912695",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2021-09-28T07:22:10Z",
+      "side": 1,
+      "message": "While I like improving efficacy the aicp remote is used for roomservice.xml and that sometimes includes repos that aren\u0027t in the aicp org, this change would make it more difficult for maintainers to track outside repos as they would have to define their own remote in the dependencies file\n\nlineage.xml gets updated *directly* from here https://github.com/LineageOS/android/blob/lineage-18.1/snippets/lineage.xml changing the remote this way just creates an unnecessary hassle when updating the file, as of right now we can just copy/paste the entries and add the remote name at the end, with the proposed change we would have to change the repo name as well\n\nhaving said all this I cannot recommend merging this change as is, it would make future updates to the lineage.xml a hassle and the moment it gets merged *every maintainer* that tracks outside repos would have to update their dependencies file",
+      "revId": "e3cad7251c593e7bc44cc03f23fd804f68383622",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
