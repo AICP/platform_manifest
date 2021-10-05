@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44bf8a74_e874deae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2021-10-05T17:12:59Z",
+      "side": 1,
+      "message": "LoS topic: https://review.lineageos.org/q/topic:%22android-11.0.0_r46%22+(status:open%20OR%20status:merged)",
+      "revId": "b34304219a5052586fe8ce83b854dcd8c8268038",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
