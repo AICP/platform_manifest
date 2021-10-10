@@ -81,6 +81,7 @@
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="lineage" />
   <project path="system/incremental_delivery" name="LineageOS/android_system_incremental_delivery" groups="pdk" remote="lineage" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="lineage" />
+  <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="lineage" />
   <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" remote="lineage" />
   <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" remote="lineage" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="lineage" />
