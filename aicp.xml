@@ -99,4 +99,5 @@
 
   <!-- Other additions -->
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
+  <project path="packages/apps/SoftAPManager" name="AICP/packages_apps_SoftAPManager" remote="aicp" />
 </manifest>
