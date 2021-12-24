@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aicp"
+           fetch="git://github.com/"
+           review="gerrit.aicp-rom.com"
+           revision="refs/heads/s12.0"
+           sync-j="8" />
+
+  <remote  name="lineage"
+           fetch="git://github.com/"
+           review="review.lineageos.org"
+           revision="refs/heads/lineage-19.0"
+           sync-j="8" />
+
+  <remote  name="omni"
+           fetch="git://github.com/"
+           review="gerrit.omnirom.org"
+           revision="refs/heads/android-12"
+           sync-j="8" />
+
+   <remote  name="github"
+           fetch="git://github.com/"
+           sync-c="true"
+           sync-j="8" />
+
+   <remote  name="gitlab"
+           fetch="https://gitlab.com/"
+           revision="refs/heads/s12.0"
+           sync-j="8" />
+
+  <!-- Remove Packages -->
+  <include name="remove.xml" />
+
+  <!-- Include lineage repos -->
+  <include name="lineage.xml" />
+
+  </manifest>
