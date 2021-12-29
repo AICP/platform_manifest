@@ -53,5 +53,6 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="system/core" name="IceCOldForward/system_core" groups="pdk" remote="aicp" />
 
 </manifest>
