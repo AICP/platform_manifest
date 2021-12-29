@@ -35,4 +35,21 @@
   <!-- Include lineage repos -->
   <include name="lineage.xml" />
 
-  </manifest>
+ <!-- AICP AOSP Repos -->
+  <project path="art" name="IceColdForward/art" remote="aicp" />
+  <project path="bionic" name="IceColdForward/bionic" remote="aicp" />
+  <project path="build/make" name="IceColdForward/build" groups="pdk" remote="aicp" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="IceColdForward/build_soong" groups="pdk,tradefed" remote="aicp" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+</manifest>
