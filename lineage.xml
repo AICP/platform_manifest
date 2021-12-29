@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<!-- LineageOS Additions -->
+  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" remote="lineage" />
+  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" remote="lineage" />
 
 </manifest>
