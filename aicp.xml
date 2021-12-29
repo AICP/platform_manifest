@@ -34,6 +34,8 @@
 
   <!-- Include lineage repos -->
   <include name="lineage.xml" />
+ <!-- AICP additions -->
+  <project path="vendor/aicp" name="IceColdForward/vendor_aicp" remote="aicp" />
 
  <!-- AICP AOSP Repos -->
   <project path="art" name="IceColdForward/art" remote="aicp" />
