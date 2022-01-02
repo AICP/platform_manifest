@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project name="device/google/atv" />
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/timezonepicker" />
+  <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/modules/adb" />
+  <remove-project name="platform/packages/modules/Connectivity" />
+  <!--<remove-project name="platform/system/sepolicy" />-->
   <remove-project name="platform/system/core" />
 
 <!-- Prebuilts -->
