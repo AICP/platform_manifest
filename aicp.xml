@@ -56,6 +56,7 @@
   </project>
   <project path="frameworks/base" name="IceColdForward/frameworks_base" remote="aicp" />
   <project path="packages/apps/Settings" name="IceColdForward/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
+  <project path="platform_manifest" name="IceColdForward/platform_manifest" remote="aicp" />
   <project path="system/core" name="IceCOldForward/system_core" groups="pdk" remote="aicp" />
 
 </manifest>
