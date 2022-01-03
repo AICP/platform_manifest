@@ -24,11 +24,12 @@
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="lineage" />
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="lineage" />
   <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" remote="lineage" />
   <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" remote="lineage" />
-<project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
 
 <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="LineageOS/android_prebuilts_build-tools" remote="lineage" groups="pdk" clone-depth="1" />
@@ -53,7 +54,7 @@
   <project path="hardware/qcom-caf/msm8994/display" name="AICP/hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="r11.1-caf-8994" remote="aicp" />
   <project path="hardware/qcom-caf/msm8994/media" name="AICP/hardware_qcom_media" groups="qcom,pdk-qcom" revision="r11.1-caf-8994" remote="aicp" />
 
-<!--<project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-19.0-caf" />  -->
+  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-19.0-caf" remote="lineage" />
 
 <!--<project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />-->
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" remote="lineage" />
