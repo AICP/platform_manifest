@@ -28,7 +28,6 @@
   <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" remote="lineage" />
   <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" remote="lineage" />
-  <project path="packages/modules/Connectivity" name="LineageOS/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
 <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
 
 <!-- Prebuilts -->

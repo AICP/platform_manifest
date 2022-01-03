@@ -24,7 +24,6 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/modules/adb" />
-  <remove-project name="platform/packages/modules/Connectivity" />
   <!--<remove-project name="platform/system/sepolicy" />-->
   <remove-project name="platform/system/core" />
 
