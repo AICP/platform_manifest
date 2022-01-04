@@ -89,7 +89,7 @@ Uploading to AICP Gerrit
 
     (From root android directory)
     . build/envsetup.sh
-    repo start r11.1 path/to/project
+    repo start s12.0 path/to/project
     cd path/to/project
     repo upload .
 
