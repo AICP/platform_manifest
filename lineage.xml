@@ -52,9 +52,9 @@
     <!-- add guards for CAF repositories -->
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
   </project>
-  <project path="hardware/qcom-caf/msm8994/audio" name="AICP/hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="r11.1-caf-8994" remote="aicp" />
-  <project path="hardware/qcom-caf/msm8994/display" name="AICP/hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="r11.1-caf-8994" remote="aicp" />
-  <project path="hardware/qcom-caf/msm8994/media" name="AICP/hardware_qcom_media" groups="qcom,pdk-qcom" revision="r11.1-caf-8994" remote="aicp" />
+  <project path="hardware/qcom-caf/msm8994/audio" name="AICP/hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="s12.0-caf-8994" remote="aicp" />
+  <project path="hardware/qcom-caf/msm8994/display" name="AICP/hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="s12.0-caf-8994" remote="aicp" />
+  <project path="hardware/qcom-caf/msm8994/media" name="AICP/hardware_qcom_media" groups="qcom,pdk-qcom" revision="s12.0-caf-8994" remote="aicp" />
 
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-19.0-caf" remote="lineage" />
 
