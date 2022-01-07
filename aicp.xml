@@ -34,11 +34,13 @@
 
   <!-- Include lineage repos -->
   <include name="lineage.xml" />
- <!-- AICP additions -->
+  <!-- AICP additions -->
+  <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
+  <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
   <!--<project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />-->
 
- <!-- AICP AOSP Repos -->
+  <!-- AICP AOSP Repos -->
   <project path="art" name="AICP/art" remote="aicp" />
   <project path="bionic" name="AICP/bionic" remote="aicp" />
   <project path="build/make" name="AICP/build" groups="pdk" remote="aicp" >
