@@ -19,6 +19,8 @@
   <project path="external/guice" name="LineageOS/android_external_guice" groups="pdk" remote="lineage" />
   <project path="external/htop" name="LineageOS/android_external_htop" remote="lineage" />
   <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" remote="lineage" />
+  <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="lineage" />
+  <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" remote="lineage" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="lineage" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="lineage" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="lineage" />
@@ -71,6 +73,7 @@
   <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" remote="lineage" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
   <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" remote="lineage" />
+  <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="lineage" />
   <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" remote="lineage" />
