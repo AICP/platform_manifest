@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ee17b72_de509480",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2022-01-11T13:06:50Z",
+      "side": 1,
+      "message": "needs this:\nhttps://review.lineageos.org/q/project:LineageOS%252Fandroid_vendor_qcom_opensource_dataservices+status:open\n\nand is needed to build librmnetctl from source",
+      "revId": "c0dbe5194d3eb6dc65060642ff76264ac6b88a84",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
