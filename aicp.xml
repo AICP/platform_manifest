@@ -2,25 +2,25 @@
 <manifest>
 
   <remote  name="aicp"
-           fetch="ssh://git@github.com/"
+           fetch="https://git@github.com/"
            review="gerrit.aicp-rom.com"
            revision="refs/heads/s12.0"
            sync-j="8" />
 
   <remote  name="lineage"
-           fetch="ssh://git@github.com/"
+           fetch="https://git@github.com/"
            review="review.lineageos.org"
            revision="refs/heads/lineage-19.0"
            sync-j="8" />
 
   <remote  name="omni"
-           fetch="ssh://git@github.com/"
+           fetch="https://git@github.com/"
            review="gerrit.omnirom.org"
            revision="refs/heads/android-12"
            sync-j="8" />
 
   <remote  name="github"
-           fetch="ssh://git@github.com/"
+           fetch="https://git@github.com/"
            sync-c="true"
            sync-j="8" />
 
