@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "222eca2d_b45e6fe8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2022-01-19T13:41:31Z",
+      "side": 1,
+      "message": "@George: push current AOSP state to s12.0 branch. please push what ever you need",
+      "revId": "52159b43ee5196fba1542c2c030fed23aee8fa55",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
