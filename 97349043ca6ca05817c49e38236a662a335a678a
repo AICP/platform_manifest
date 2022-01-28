@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af77cf40_4f4fcb93",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2022-01-28T16:55:35Z",
+      "side": 1,
+      "message": "so you want to give lineage.xml the structure of the snippet file on LOS.\nThe thing is, we can\u0027t then also simply merge, because we need to add the repos to the remove.xml, when it is tracked by aosp... not sure.\nOpinions?",
+      "revId": "97349043ca6ca05817c49e38236a662a335a678a",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
