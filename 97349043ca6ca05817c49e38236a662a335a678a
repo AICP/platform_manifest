@@ -16,6 +16,24 @@
       "message": "so you want to give lineage.xml the structure of the snippet file on LOS.\nThe thing is, we can\u0027t then also simply merge, because we need to add the repos to the remove.xml, when it is tracked by aosp... not sure.\nOpinions?",
       "revId": "97349043ca6ca05817c49e38236a662a335a678a",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a9071f4_4d64fc5f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2022-01-28T17:47:23Z",
+      "side": 1,
+      "message": "it\u0027s more that their structure makes sense and using their same structure makes it easier to compare and see what we have and don\u0027t have versus what they have and don\u0027t have, our current lineage.xml includes aicp repos, is missing a bunch of caf repos, and has some caf repos in the wrong section, it\u0027s nice to have things organized",
+      "parentUuid": "af77cf40_4f4fcb93",
+      "revId": "97349043ca6ca05817c49e38236a662a335a678a",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
