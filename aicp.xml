@@ -29,6 +29,11 @@
            revision="refs/heads/s12.0"
            sync-j="8" />
 
+  <remote name="proton"
+           fetch="https://github.com/ProtonAOSP"
+           revision="sc"
+           sync-j="8" />
+
   <!-- Remove Packages -->
   <include name="remove.xml" />
 
@@ -80,4 +85,5 @@
 
 <!-- Other additions -->
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
+  <project path="libcore" name="android_libcore" remote="proton" groups="proton" />
 </manifest>
