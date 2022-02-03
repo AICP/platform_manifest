@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f1c0aa5_48ebde13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2022-02-03T12:30:55Z",
+      "side": 1,
+      "message": "- Desclock\n  - Better UI\n    - Bottom navigation\n  - Some features too, I guess\n\n- SettingsIntelligence\n  - Some UI fixes\n    - SettingsIntelligence: Match Settings style\n  - Some optimisations\n    - SettingsIntelligence: Search: Skip showing a few packages\n    - SettingsIntelligence: Regen database on build version change",
+      "revId": "11888a7acc96d068e79f494637e0deddd0c53cc0",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
