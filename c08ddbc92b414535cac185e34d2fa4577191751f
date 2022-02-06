@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65c61caf_3d1ea53d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2022-02-06T14:38:02Z",
+      "side": 1,
+      "message": "Test:\n- Compiles\n- The app is functional (ONLY fast-charge category enabled)",
+      "revId": "c08ddbc92b414535cac185e34d2fa4577191751f",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
