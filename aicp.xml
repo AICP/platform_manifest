@@ -61,6 +61,7 @@
   </project>
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
   <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk" remote="aicp" />
+  <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
   <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
