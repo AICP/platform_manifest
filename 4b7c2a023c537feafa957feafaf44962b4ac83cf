@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7515318_e8498276",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2022-02-10T18:37:20Z",
+      "side": 1,
+      "message": "it\u0027s the R snap - works as expected. We can use this since we have rebased the snap on a newer caf tag",
+      "revId": "4b7c2a023c537feafa957feafaf44962b4ac83cf",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
