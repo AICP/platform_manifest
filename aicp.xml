@@ -67,6 +67,7 @@
   <project path="packages/apps/Messaging" name="AICP/packages_apps_Messaging" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/apps/Nfc" name="AICP/packages_apps_Nfc" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
+  <project path="packages/apps/Snap" name="AICP/packages_apps_Snap" remote="aicp" />
   <project path="packages/apps/ThemePicker" name="AICP/packages_apps_ThemePicker" groups="pdk-fs" remote="aicp" />
   <project path="packages/modules/DnsResolver" name="AICP/packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
