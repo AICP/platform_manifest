@@ -5,6 +5,7 @@
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="lineage" />
   <project path="external/android-nn-driver" name="LineageOS/android_external_android-nn-driver" groups="pdk-lassen" remote="lineage" />
   <project path="external/armnn" name="LineageOS/android_external_armnn" groups="pdk-lassen" remote="lineage" />
+  <project path="external/bash" name="LineageOS/android_external_bash" remote="lineage" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="lineage" />
@@ -12,8 +13,11 @@
   <project path="external/htop" name="LineageOS/android_external_htop" remote="lineage" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="lineage" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="lineage" />
+  <project path="external/nano" name="LineageOS/android_external_nano" remote="lineage" />
   <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" remote="lineage" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="lineage" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+  <project path="external/vim" name="LineageOS/android_external_vim" remote="lineage" />
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" remote="lineage" />
   <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
