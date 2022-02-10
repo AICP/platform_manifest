@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3cb3c10f_3fa7e3d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-02-10T11:20:55Z",
+      "side": 1,
+      "message": "02-09 23:15:59.359 10784 10784 F linker  : CANNOT LINK EXECUTABLE \"/vendor/bin/wifidisplayhalservice\": library \"libwfdaac_vendor.so\" not found: needed by /vendor/lib/libwfdmmsrc_proprietary.so in namespace (default)\n\nwhich we should build here:\n\noneplus/sm8250-common/common.mk\n528:    libwfdaac_vendor\n",
+      "revId": "db02f45b0ce9161d1238e66bcc8b55a12aa1a8ae",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
