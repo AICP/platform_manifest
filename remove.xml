@@ -82,6 +82,7 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/DnsResolver" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/bt" />
