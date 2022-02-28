@@ -39,7 +39,9 @@
   <project path="external/colorkt" name="AICP/external_colorkt" remote="aicp" />
   <project path="external/themelib" name="AICP/external_themelib" remote="aicp" />
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
+  <project path="frameworks/opt/slimrecents" name="AICP/frameworks_opt_slimrecents" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
+  <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
   <!--<project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />-->
 
@@ -62,6 +64,7 @@
   <project path="frameworks/av" name="AICP/frameworks_av" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
   <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk" remote="aicp" />
+  <project path="external/pulse" name="AICP/external_pulse" groups="pdk" remote="aicp" />
   <project path="libcore" name="AICP/libcore" groups="pdk" remote="aicp" />
   <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
