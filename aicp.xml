@@ -59,8 +59,10 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="frameworks/av" name="AICP/frameworks_av" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
   <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk" remote="aicp" />
+  <project path="libcore" name="AICP/libcore" groups="pdk" remote="aicp" />
   <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
@@ -69,9 +71,14 @@
   <project path="packages/apps/PartsBin" name="AICP/packages_apps_PartsBin" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/ThemePicker" name="AICP/packages_apps_ThemePicker" groups="pdk-fs" remote="aicp" />
+  <project path="packages/modules/common" name="AICP/packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
+  <project path="packages/modules/Connectivity" name="AICP/packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/modules/DnsResolver" name="AICP/packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
+  <project path="packages/modules/Permission" name="AICP/packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
+  <project path="packages/modules/Wifi" name="AICP/packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/resources/deviceparts" name="AICP/packages_resources_deviceparts" remote="aicp" />
   <project path="packages/resources/devicesettings" name="AICP/packages_resources_devicesettings" remote="aicp" />
+  <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="prebuilts/clang/host/linux-x86_custom" name="AICP/prebuilts_clang_host_linux-x86" remote="aicp" revision="master" clone-depth="1" />
   <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
