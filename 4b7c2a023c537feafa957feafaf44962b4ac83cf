@@ -16,6 +16,23 @@
       "message": "it\u0027s the R snap - works as expected. We can use this since we have rebased the snap on a newer caf tag",
       "revId": "4b7c2a023c537feafa957feafaf44962b4ac83cf",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdb5994b_0945dfa7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2022-03-06T14:53:36Z",
+      "side": 1,
+      "message": "GrapheneOS camera is also a fairly good alternative with minimalist features",
+      "revId": "4b7c2a023c537feafa957feafaf44962b4ac83cf",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
