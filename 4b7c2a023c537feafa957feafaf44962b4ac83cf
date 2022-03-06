@@ -33,6 +33,24 @@
       "message": "GrapheneOS camera is also a fairly good alternative with minimalist features",
       "revId": "4b7c2a023c537feafa957feafaf44962b4ac83cf",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0cf5312_125ded44",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2022-03-06T18:39:57Z",
+      "side": 1,
+      "message": "I looked through it and it doesn\u0027t seem like it has the same legacy support that snap has, we could probably add it but at that point we\u0027d be maintaining our own fork just like we\u0027d be doing for snap anyway, unless if it provides some real benefits over snap I\u0027m not sure why we should use it",
+      "parentUuid": "cdb5994b_0945dfa7",
+      "revId": "4b7c2a023c537feafa957feafaf44962b4ac83cf",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
