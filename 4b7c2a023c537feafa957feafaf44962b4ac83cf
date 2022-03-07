@@ -68,6 +68,24 @@
       "message": "I agree with Moshe. some maintainers will add \"their\" camera anyway, so basically this is a standard app for legacy devices, I guess.",
       "revId": "4b7c2a023c537feafa957feafaf44962b4ac83cf",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4080ea3_9a80583e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2022-03-07T16:31:31Z",
+      "side": 1,
+      "message": "I guess the issue is resolved then",
+      "parentUuid": "f0cf5312_125ded44",
+      "revId": "4b7c2a023c537feafa957feafaf44962b4ac83cf",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
