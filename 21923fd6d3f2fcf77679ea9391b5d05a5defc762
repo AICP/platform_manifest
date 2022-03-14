@@ -16,6 +16,24 @@
       "message": "not sure if Omni will make an android-12.1 branch, if they do I\u0027ll update their remote",
       "revId": "21923fd6d3f2fcf77679ea9391b5d05a5defc762",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa5aa2df_4497a83f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2022-03-14T06:14:33Z",
+      "side": 1,
+      "message": "Seems the only repo pulled from omni is Phonograph\nSince its not included in any of the s12.x manifest, we can ignore it for now.",
+      "parentUuid": "50bff891_400d829b",
+      "revId": "21923fd6d3f2fcf77679ea9391b5d05a5defc762",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
