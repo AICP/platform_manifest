@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01d7e5fc_e2136d4c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-03-20T19:57:58Z",
+      "side": 1,
+      "message": "NO need to track Nfc repo for only one commit.",
+      "revId": "439dcc6d8d7a5cdc9bf922bba1181f0d4767e9d9",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
