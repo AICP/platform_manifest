@@ -82,6 +82,7 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/modules/adb" />
+  <remove-project name="platform/packages/modules/common" />
   <remove-project name="platform/packages/modules/DnsResolver" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
