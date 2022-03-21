@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "711858f8_a57d275f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-03-21T11:43:04Z",
+      "side": 1,
+      "message": "s12.1 branches created, all needed commits pushed.",
+      "revId": "33d3bc37ebc274595cfc828c34cc81b2fefbd3fd",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
