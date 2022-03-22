@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb00d5a9_838fa482",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2022-03-22T13:00:30Z",
+      "side": 1,
+      "message": "I would like to start with something clean like https://github.com/Claymore1297/frameworks_av/tree/lineage-19.1\n\nThen we can push whatever we need and test before merge. ",
+      "revId": "4eb27c72e7fcac316b13ddaa1beffe80ebf6e60c",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
