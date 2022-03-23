@@ -16,6 +16,23 @@
       "message": "s12.1 branch ready?",
       "revId": "562aa136e40189172bd1da22b09fd14cf390accc",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd6f9ffb_3200e7ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2022-03-23T11:50:49Z",
+      "side": 1,
+      "message": "For when the branch is ready",
+      "revId": "562aa136e40189172bd1da22b09fd14cf390accc",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
