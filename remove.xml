@@ -109,6 +109,7 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/vold" />
 
 <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
