@@ -50,6 +50,23 @@
       "message": "packages/apps/Snap/src/com/android/camera/util/CameraUtil.java:255: error: cannot find symbol\n                com.android.internal.R.integer.config_deviceHardwareKeys);\n                                              ^\n  symbol:   variable config_deviceHardwareKeys\n\nfirst we need  HW-keys.\nI pushed latest LOS-fixes on our tree",
       "revId": "562aa136e40189172bd1da22b09fd14cf390accc",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "85f2c67d_10d4396c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2022-05-06T14:48:49Z",
+      "side": 1,
+      "message": "merge?",
+      "revId": "562aa136e40189172bd1da22b09fd14cf390accc",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
