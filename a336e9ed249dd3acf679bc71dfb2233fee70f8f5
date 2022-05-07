@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf27ee8e_aee38e8e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-05-07T15:08:07Z",
+      "side": 1,
+      "message": "LoS topic: https://review.lineageos.org/q/topic:S_asb_2022-05\n\nBeside the commits in the topic, it needs to pick system_bt commit from LoS Gerrit too.",
+      "revId": "a336e9ed249dd3acf679bc71dfb2233fee70f8f5",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
