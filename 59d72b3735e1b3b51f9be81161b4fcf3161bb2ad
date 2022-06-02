@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29d5fbc2_cc4875f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2022-06-02T22:04:07Z",
+      "side": 1,
+      "message": "I changed it to keep our msm8960 and msm8994 linkfiles enabled\n",
+      "revId": "59d72b3735e1b3b51f9be81161b4fcf3161bb2ad",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
