@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc6fbf59_69528761",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2022-06-03T11:41:50Z",
+      "side": 1,
+      "message": "I added back the commented linkfiles for patchset2",
+      "revId": "60dd3791a4e2abac6922321ecabab0def6c6fe0e",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
