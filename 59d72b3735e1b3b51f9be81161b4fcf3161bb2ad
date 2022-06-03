@@ -33,6 +33,23 @@
       "message": "Lineage has abandoned these repos so if we were to bring back these legacy repos we would need to make our own forks which would require us to remove these repos from lineage.xml anyway, so either way we need this commit imo",
       "revId": "59d72b3735e1b3b51f9be81161b4fcf3161bb2ad",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea517151_cc07aa3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2022-06-03T06:32:14Z",
+      "side": 1,
+      "message": "but you can kick out msm8960 for now",
+      "revId": "59d72b3735e1b3b51f9be81161b4fcf3161bb2ad",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
