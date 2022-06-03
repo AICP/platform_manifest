@@ -50,6 +50,23 @@
       "message": "but you can kick out msm8960 for now",
       "revId": "59d72b3735e1b3b51f9be81161b4fcf3161bb2ad",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "124451c5_10a6d25e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1682
+      },
+      "writtenOn": "2022-06-03T10:40:41Z",
+      "side": 1,
+      "message": "I feel like not messing with my 8916 and 8974 too soon, but if we can track this repos, preferable msm8974 hals from our org, would be lovely.",
+      "revId": "59d72b3735e1b3b51f9be81161b4fcf3161bb2ad",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
