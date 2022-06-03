@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3bf2219a_6d8c5a78",
+        "filename": "lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2022-06-03T11:21:38Z",
+      "side": 0,
+      "message": "Unless if we plan on tracking it from lineage in the future it should be removed from lineage.xml correct?",
+      "parentUuid": "1b5dda5e_1fc8815b",
+      "revId": "77edb2ced3378036eb0de3e9fee66e0f66214cac",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b8990c36_31cbb62f",
         "filename": "lineage.xml",
         "patchSetId": 1
