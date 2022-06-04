@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66fdb923_be382543",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-06-04T20:09:34Z",
+      "side": 1,
+      "message": "naybe add external_selinux too ? as you have in this topic commit for this repo too..",
+      "revId": "5e487929c20e1ee0c405d1a5b696f64aa9c0e000",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
