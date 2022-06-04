@@ -66,6 +66,7 @@
   <project path="frameworks/libs/systemui" name="AICP/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk" remote="aicp" />
   <project path="external/pulse" name="AICP/external_pulse" groups="pdk" remote="aicp" />
+  <project path="external/selinux" name="AICP/external_selinux" groups="pdk" remote="aicp" />
   <project path="hardware/lineage/interfaces" name="AICP/hardware_lineage_interfaces" remote="aicp" />
   <project path="libcore" name="AICP/libcore" groups="pdk" remote="aicp" />
   <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
@@ -88,7 +89,9 @@
   <project path="packages/resources/devicesettings" name="AICP/packages_resources_devicesettings" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
   <project path="prebuilts/clang/host/linux-x86_custom" name="AICP/prebuilts_clang_host_linux-x86" remote="aicp" revision="master" clone-depth="1" />
+  <project path="system/bpf" name="AICP/system_bpf" groups="pdk" remote="aicp" />
   <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
+  <project path="system/netd" name="AICP/system_netd" groups="pdk" remote="aicp" />
   <project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
 
 <!-- AICP CAF Repos -->
