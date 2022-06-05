@@ -36,6 +36,24 @@
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fef8ee10_9d90d016",
+        "filename": "lineage.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2022-06-05T15:12:10Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "3bf2219a_6d8c5a78",
+      "revId": "77edb2ced3378036eb0de3e9fee66e0f66214cac",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b8990c36_31cbb62f",
