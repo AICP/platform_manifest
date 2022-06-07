@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41295908_329dd9e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2022-06-07T17:20:41Z",
+      "side": 1,
+      "message": "can always revert if we don\u0027t want ota updates to work 😊",
+      "revId": "b299fa1e95781733cd31cc0781973fe98147692f",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
