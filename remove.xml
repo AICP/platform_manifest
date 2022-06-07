@@ -35,6 +35,7 @@
   <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
   <remove-project name="device/linaro/hikey" />
   <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/boringssl" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/cldr" />
