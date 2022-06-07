@@ -74,6 +74,7 @@
   <project path="packages/apps/GamingMode" name="AICP/packages_apps_GamingMode" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
   <project path="packages/apps/Messaging" name="AICP/packages_apps_Messaging" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
+  <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" remote="aicp" />
   <project path="packages/apps/PartsBin" name="AICP/packages_apps_PartsBin" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/SimpleDeviceConfig" name="AICP/packages_apps_SimpleDeviceConfig" remote="aicp" />
