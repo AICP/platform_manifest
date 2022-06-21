@@ -71,7 +71,7 @@
   <project path="libcore" name="AICP/libcore" groups="pdk" remote="aicp" />
   <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
-  <project path="packages/apps/GamingMode" name="AICP/packages_apps_GamingMode" remote="aicp" />
+  <project path="packages/apps/GameSpace" name="AICP/packages_apps_GameSpace" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
   <project path="packages/apps/Messaging" name="AICP/packages_apps_Messaging" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" remote="aicp" />
