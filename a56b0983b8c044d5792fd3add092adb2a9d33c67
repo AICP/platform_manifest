@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd592465_6bb9808a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-07-07T19:37:12Z",
+      "side": 1,
+      "message": "the rest of the topic is here: https://review.lineageos.org/q/topic:S_asb_2022-07\n\nthe branches with full history: at my github. To be merged with full history.",
+      "revId": "a56b0983b8c044d5792fd3add092adb2a9d33c67",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
