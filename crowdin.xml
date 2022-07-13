@@ -24,6 +24,6 @@
   <project path="packages/resources/deviceparts" name="AICP/packages_resources_deviceparts" />
 
   <!-- Devicespecific repositories (must be in sync with branch's extra_packages.xml file) -->
-  <!-- <project path="packages/apps/FlipFlap" name="AICP/packages_apps_FlipFlap" /> -->
+  <project path="packages/apps/FlipFlap" name="AICP/packages_apps_FlipFlap" />
   <!-- <project path="packages/apps/JamesDSPManager" name="AICP/packages_apps_JamesDSPManager" /> -->
 </manifest>
