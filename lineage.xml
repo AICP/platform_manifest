@@ -26,6 +26,7 @@
   <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" remote="lineage" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="LineageOS/android_hardware_knowles_athletico_sound_trigger_hal" groups="coral,generic_fs" remote="lineage" />
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="lineage" />
+  <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" remote="lineage" />
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom/sdm845/display" name="LineageOS/android_hardware_qcom_sdm845_display" groups="qcom_sdm845" revision="lineage-19.1" remote="lineage" />
