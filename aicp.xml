@@ -99,6 +99,9 @@
   <project path="hardware/qcom-caf/msm8960/audio" name="AICP/hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="s12.1-caf-8960" remote="aicp" />
   <project path="hardware/qcom-caf/msm8960/display" name="AICP/hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="s12.1-caf-8960" remote="aicp" />
   <project path="hardware/qcom-caf/msm8960/media" name="AICP/hardware_qcom_media" groups="qcom,pdk-qcom" revision="s12.1-caf-8960" remote="aicp" />
+  <project path="hardware/qcom-caf/msm8974/audio" name="AICP/hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="s12.1-caf-8974" remote="aicp" />
+  <project path="hardware/qcom-caf/msm8974/display" name="AICP/hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="s12.1-caf-8974" remote="aicp" />
+  <project path="hardware/qcom-caf/msm8974/media" name="AICP/hardware_qcom_media" groups="qcom,pdk-qcom" revision="s12.1-caf-8974" remote="aicp" />
   <project path="hardware/qcom-caf/msm8994/audio" name="AICP/hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="s12.1-caf-8994" remote="aicp" />
   <project path="hardware/qcom-caf/msm8994/display" name="AICP/hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="s12.1-caf-8994" remote="aicp" />
   <project path="hardware/qcom-caf/msm8994/media" name="AICP/hardware_qcom_media" groups="qcom,pdk-qcom" revision="s12.1-caf-8994" remote="aicp" />
