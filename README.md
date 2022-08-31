@@ -12,7 +12,7 @@ Initializing Repository
 
 Repo initialization:
 
-    $ repo init -u https://github.com/AICP/platform_manifest.git -b s12.1
+    $ repo init -u https://github.com/AICP/platform_manifest.git -b t13.0
 
 
 sync repo :
@@ -71,7 +71,7 @@ After you get a working build, and if you would like to share your build on XDA 
 an XDA thread. Note that the template is a guideline of sort. You may make your own changes to it (especially please change the download link), but try
 to stick as close as possible to the template. This is to avoid cluttering and make stuff organized.
 
-Link : https://raw.githubusercontent.com/AICP/vendor_aicp/s12.1/docs/xda_template/xda_thread-template.txt
+Link : https://raw.githubusercontent.com/AICP/vendor_aicp/t13.0/docs/xda_template/xda_thread-template.txt
 
 
 Uploading to AICP Gerrit
@@ -89,7 +89,7 @@ Uploading to AICP Gerrit
 
     (From root android directory)
     . build/envsetup.sh
-    repo start s12.1 path/to/project
+    repo start t13.0 path/to/project
     cd path/to/project
     repo upload .
 
@@ -103,7 +103,7 @@ You can also use:
 
 Example:
 
-    git push ssh://USERNAME@gerrit.aicp-rom.com:29418/AICP/platform_manifest HEAD:refs/for/s12.1
+    git push ssh://USERNAME@gerrit.aicp-rom.com:29418/AICP/platform_manifest HEAD:refs/for/t13.0
 
 
 6th You will get an error about a missing Change-ID in that error it will show you a suggested commit message copy the change id
@@ -162,9 +162,9 @@ example, to pick this commit: https://gerrit.aicp-rom.com/#/c/36939/
 
 Additonal build info
 -------------------------------
-https://github.com/AICP/vendor_aicp/blob/s12.1/docs/aicpInfo.md
+https://github.com/AICP/vendor_aicp/blob/t13.0/docs/aicpInfo.md
 
 
 ## Maintainer Application ##
 If you have the necessary skills and would like to become a part of our group by becoming a maintainer,
-please see [this link](https://github.com/AICP/vendor_aicp/blob/s12.1/docs/maintainerApplication.md) for further information and maintainer application.
+please see [this link](https://github.com/AICP/vendor_aicp/blob/t13.0/docs/maintainerApplication.md) for further information and maintainer application.
