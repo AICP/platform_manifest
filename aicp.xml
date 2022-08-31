@@ -4,19 +4,19 @@
   <remote  name="aicp"
            fetch="https://git@github.com/"
            review="gerrit.aicp-rom.com"
-           revision="refs/heads/s12.1"
+           revision="refs/heads/t13.0"
            sync-j="8" />
 
   <remote  name="lineage"
            fetch="https://git@github.com/"
            review="review.lineageos.org"
-           revision="refs/heads/lineage-19.1"
+           revision="refs/heads/lineage-20.0"
            sync-j="8" />
 
   <remote  name="omni"
            fetch="https://git@github.com/"
            review="gerrit.omnirom.org"
-           revision="refs/heads/android-12"
+           revision="refs/heads/android-13"
            sync-j="8" />
 
   <remote  name="github"
@@ -26,7 +26,7 @@
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/"
-           revision="refs/heads/s12.1"
+           revision="refs/heads/t13.0"
            sync-j="8" />
 
   <!-- Remove Packages -->
@@ -36,18 +36,15 @@
   <include name="lineage.xml" />
   <!-- AICP additions -->
   <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
-  <project path="external/colorkt" name="AICP/external_colorkt" remote="aicp" />
-  <project path="external/themelib" name="AICP/external_themelib" remote="aicp" />
+  <!--<project path="external/colorkt" name="AICP/external_colorkt" remote="aicp" />
+  <project path="external/themelib" name="AICP/external_themelib" remote="aicp" />-->
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
-  <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
+  <!--<project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
-  <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
+  <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />-->
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
-  <!--<project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />-->
 
   <!-- AICP AOSP Repos -->
-  <project path="art" name="AICP/art" remote="aicp" />
-  <project path="bionic" name="AICP/bionic" remote="aicp" />
   <project path="build/make" name="AICP/build" groups="pdk" remote="aicp" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -63,39 +60,32 @@
   </project>
   <project path="frameworks/av" name="AICP/frameworks_av" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
-  <project path="frameworks/libs/systemui" name="AICP/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
+  <!--<project path="frameworks/libs/systemui" name="AICP/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="aicp" />-->
   <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk" remote="aicp" />
-  <project path="external/pulse" name="AICP/external_pulse" groups="pdk" remote="aicp" />
-  <project path="external/selinux" name="AICP/external_selinux" groups="pdk" remote="aicp" />
-  <project path="hardware/lineage/interfaces" name="AICP/hardware_lineage_interfaces" remote="aicp" />
-  <project path="libcore" name="AICP/libcore" groups="pdk" remote="aicp" />
+  <!--<project path="external/pulse" name="AICP/external_pulse" groups="pdk" remote="aicp" />-->
   <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
-  <project path="packages/apps/GameSpace" name="AICP/packages_apps_GameSpace" remote="aicp" />
+  <!--<project path="packages/apps/GameSpace" name="AICP/packages_apps_GameSpace" remote="aicp" />-->
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
   <project path="packages/apps/Messaging" name="AICP/packages_apps_Messaging" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" remote="aicp" />
-  <project path="packages/apps/PartsBin" name="AICP/packages_apps_PartsBin" remote="aicp" />
+  <!--<project path="packages/apps/Updater" name="AICP/packages_apps_Updater" remote="aicp" />
+  <project path="packages/apps/PartsBin" name="AICP/packages_apps_PartsBin" remote="aicp" />-->
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/SimpleDeviceConfig" name="AICP/packages_apps_SimpleDeviceConfig" remote="aicp" />
-  <project path="packages/apps/Snap" name="AICP/packages_apps_Snap" remote="aicp" />
+  <!--<project path="packages/apps/Snap" name="AICP/packages_apps_Snap" remote="aicp" />-->
   <project path="packages/apps/ThemePicker" name="AICP/packages_apps_ThemePicker" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
-  <project path="packages/modules/Connectivity" name="AICP/packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="packages/modules/DnsResolver" name="AICP/packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="packages/modules/Permission" name="AICP/packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
+  <!--<project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />-->
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" remote="aicp" />
   <project path="packages/resources/deviceparts" name="AICP/packages_resources_deviceparts" remote="aicp" />
   <project path="packages/resources/devicesettings" name="AICP/packages_resources_devicesettings" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
-  <project path="prebuilts/clang/host/linux-x86_custom" name="AICP/prebuilts_clang_host_linux-x86" remote="aicp" revision="master" clone-depth="1" />
-  <project path="system/bpf" name="AICP/system_bpf" groups="pdk" remote="aicp" />
-  <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
-  <project path="system/netd" name="AICP/system_netd" groups="pdk" remote="aicp" />
+  <!--<project path="prebuilts/clang/host/linux-x86_custom" name="AICP/prebuilts_clang_host_linux-x86" remote="aicp" revision="master" clone-depth="1" />-->
+  <!--<project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
+  <project path="system/netd" name="AICP/system_netd" groups="pdk" remote="aicp" />-->
   <project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
 
-<!-- AICP CAF Repos -->
+  <!-- AICP CAF Repos -->
   <project path="hardware/qcom-caf/msm8960/audio" name="AICP/hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="s12.1-caf-8960" remote="aicp" />
   <project path="hardware/qcom-caf/msm8960/display" name="AICP/hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="s12.1-caf-8960" remote="aicp" />
   <project path="hardware/qcom-caf/msm8960/media" name="AICP/hardware_qcom_media" groups="qcom,pdk-qcom" revision="s12.1-caf-8960" remote="aicp" />
@@ -106,7 +96,7 @@
   <project path="hardware/qcom-caf/msm8994/display" name="AICP/hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="s12.1-caf-8994" remote="aicp" />
   <project path="hardware/qcom-caf/msm8994/media" name="AICP/hardware_qcom_media" groups="qcom,pdk-qcom" revision="s12.1-caf-8994" remote="aicp" />
 
-<!-- Other additions -->
+  <!-- Other additions -->
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
-  <project path="vendor/lawnicons" name="ProtonAOSP/android_vendor_lawnicons" remote="github" revision="sc-v2" />
+  <!--<project path="vendor/lawnicons" name="ProtonAOSP/android_vendor_lawnicons" remote="github" revision="sc-v2" />-->
 </manifest>
