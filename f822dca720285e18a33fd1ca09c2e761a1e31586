@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e6f6b5a_cf95e11b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2022-09-01T08:26:13Z",
+      "side": 1,
+      "message": "EmergencyInfo - To fix an issue where contacts couldn\u0027t be added to Emergency Information from Settings app\n\nDocumentUI - Lot of upstream fixes",
+      "revId": "f822dca720285e18a33fd1ca09c2e761a1e31586",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
