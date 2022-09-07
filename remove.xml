@@ -50,6 +50,7 @@
   <remove-project name="platform/external/android-nn-driver" />
   <remove-project name="platform/external/armnn" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/openssh" />
@@ -103,6 +104,7 @@
   <remove-project name="platform/packages/providers/CallLogProvider" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
