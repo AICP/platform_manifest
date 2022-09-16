@@ -39,9 +39,9 @@
   <!--<project path="external/colorkt" name="AICP/external_colorkt" remote="aicp" />
   <project path="external/themelib" name="AICP/external_themelib" remote="aicp" />-->
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
-  <!--<project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
+  <!--<project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />-->
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
-  <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />-->
+  <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
 
   <!-- AICP AOSP Repos -->
@@ -68,14 +68,14 @@
   <!--<project path="packages/apps/GameSpace" name="AICP/packages_apps_GameSpace" remote="aicp" />-->
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
   <project path="packages/apps/Messaging" name="AICP/packages_apps_Messaging" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <!--<project path="packages/apps/Updater" name="AICP/packages_apps_Updater" remote="aicp" />
-  <project path="packages/apps/PartsBin" name="AICP/packages_apps_PartsBin" remote="aicp" />-->
+  <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" remote="aicp" />
+  <!--<project path="packages/apps/PartsBin" name="AICP/packages_apps_PartsBin" remote="aicp" />-->
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/SimpleDeviceConfig" name="AICP/packages_apps_SimpleDeviceConfig" remote="aicp" />
   <!--<project path="packages/apps/Snap" name="AICP/packages_apps_Snap" remote="aicp" />-->
   <project path="packages/apps/ThemePicker" name="AICP/packages_apps_ThemePicker" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
-  <!--<project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />-->
+  <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" remote="aicp" />
   <project path="packages/resources/deviceparts" name="AICP/packages_resources_deviceparts" remote="aicp" />
   <project path="packages/resources/devicesettings" name="AICP/packages_resources_devicesettings" remote="aicp" />
