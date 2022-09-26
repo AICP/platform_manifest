@@ -75,6 +75,7 @@
   <!--<project path="packages/apps/Snap" name="AICP/packages_apps_Snap" remote="aicp" />-->
   <project path="packages/apps/ThemePicker" name="AICP/packages_apps_ThemePicker" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
+  <project path="packages/modules/Connectivity" name="AICP/packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" remote="aicp" />
   <project path="packages/resources/deviceparts" name="AICP/packages_resources_deviceparts" remote="aicp" />
