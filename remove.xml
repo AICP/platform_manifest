@@ -81,6 +81,7 @@
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/tools/mkbootimg" />
