@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f28c3891_bb5b8354",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-10-03T12:39:30Z",
+      "side": 1,
+      "message": "Conflicts with CellBroadcastReceiver. Whole topic leaved for now 2nd look.",
+      "revId": "d20fb715822740e6e86a407d1d86a4a4b23e7e57",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
