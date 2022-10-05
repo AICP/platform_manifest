@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5db66ae_56bd387d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-10-05T22:58:28Z",
+      "side": 1,
+      "message": "LoS topic: https://review.lineageos.org/q/topic:aperture",
+      "revId": "4768631d089060f33e2d0d38d2d6dbf89599a678",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
