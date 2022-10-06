@@ -57,6 +57,7 @@
   <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/frameworks/av" />
@@ -104,6 +105,7 @@
   <remove-project name="platform/packages/providers/CallLogProvider" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
@@ -114,6 +116,7 @@
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/tools/mkbootimg" />
