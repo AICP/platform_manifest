@@ -26,6 +26,7 @@
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="lineage" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="lineage" />
   <project path="external/htop" name="LineageOS/android_external_htop" remote="lineage" />
+  <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" remote="lineage" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="lineage" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="lineage" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="lineage" />
@@ -67,6 +68,7 @@
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="lineage" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="lineage" />
   <project path="kernel/configs" name="LineageOS/android_kernel_configs" groups="vts,pdk" remote="lineage" />
+  <project path="libcore" name="LineageOS/android_libcore" groups="pdk" remote="lineage" />
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="lineage" />
   <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
@@ -105,6 +107,7 @@
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="lineage" />
   <project path="system/memory/lmkd" name="LineageOS/android_system_memory_lmkd" groups="pdk" remote="lineage" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="lineage" />
+  <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" remote="lineage" />
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="lineage" revision="lineage-18.1" />
   <project path="system/tools/mkbootimg" name="LineageOS/android_system_tools_mkbootimg" remote="lineage" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" remote="lineage" />
