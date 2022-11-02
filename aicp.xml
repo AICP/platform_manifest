@@ -58,8 +58,10 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="bionic" name="AICP/bionic" groups="pdk" remote="aicp" />
   <project path="frameworks/av" name="AICP/frameworks_av" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
+  <project path="frameworks/libs/net" name="AICP/frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <!--<project path="frameworks/libs/systemui" name="AICP/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="aicp" />-->
   <project path="frameworks/native" name="AICP/frameworks_native" groups="pdk" remote="aicp" />
   <!--<project path="external/pulse" name="AICP/external_pulse" groups="pdk" remote="aicp" />-->
