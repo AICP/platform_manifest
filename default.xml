@@ -4,12 +4,12 @@
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
 
-  <default revision="refs/tags/android-13.0.0_r11"
+  <default revision="refs/tags/android-13.0.0_r13"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r11" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r13" />
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->
