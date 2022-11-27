@@ -67,7 +67,7 @@
   <!--<project path="external/pulse" name="AICP/external_pulse" groups="pdk" remote="aicp" />-->
   <project path="packages/apps/Contacts" name="AICP/packages_apps_Contacts" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
-  <!--<project path="packages/apps/GameSpace" name="AICP/packages_apps_GameSpace" remote="aicp" />-->
+  <project path="packages/apps/GameSpace" name="AICP/packages_apps_GameSpace" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
   <project path="packages/apps/Messaging" name="AICP/packages_apps_Messaging" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/apps/Nfc" name="AICP/packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="aicp" />
