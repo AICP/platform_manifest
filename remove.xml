@@ -102,6 +102,7 @@
   <remove-project name="platform/packages/modules/common" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/DnsResolver" />
+  <remove-project name="platform/packages/modules/NeuralNetworks" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/CallLogProvider" />
