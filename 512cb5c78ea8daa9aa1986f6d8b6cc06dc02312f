@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3c43ef7_b6d3eadb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2023-02-18T19:25:15Z",
+      "side": 1,
+      "message": "LoS topic: https://review.lineageos.org/q/topic:virt-signing",
+      "revId": "512cb5c78ea8daa9aa1986f6d8b6cc06dc02312f",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
