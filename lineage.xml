@@ -4,6 +4,7 @@
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" remote="lineage" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="lineage" />
   <project path="external/android-nn-driver" name="LineageOS/android_external_android-nn-driver" groups="pdk-lassen" remote="lineage" />
+  <project path="external/angle" name="LineageOS/android_external_angle" groups="pdk" remote="lineage"/>
   <project path="external/armnn" name="LineageOS/android_external_armnn" groups="pdk-lassen" remote="lineage" />
   <project path="external/bash" name="LineageOS/android_external_bash" remote="lineage" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
