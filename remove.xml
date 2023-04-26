@@ -48,7 +48,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/android-nn-driver" />
-  <remove-project ame="platform/external/angle" />
+  <remove-project name="platform/external/angle" />
   <remove-project name="platform/external/armnn" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
