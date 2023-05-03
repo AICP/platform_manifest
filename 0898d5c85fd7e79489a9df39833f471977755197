@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5eecd034_d3abaa67",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2023-05-03T17:48:29Z",
+      "side": 1,
+      "message": "The rest is here: https://review.lineageos.org/q/topic:T_asb_2023-05",
+      "revId": "0898d5c85fd7e79489a9df39833f471977755197",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
