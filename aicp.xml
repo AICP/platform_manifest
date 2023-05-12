@@ -39,7 +39,7 @@
   <!--<project path="external/colorkt" name="AICP/external_colorkt" remote="aicp" />
   <project path="external/themelib" name="AICP/external_themelib" remote="aicp" />-->
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
-  <!--<project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />-->
+  <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
   <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
