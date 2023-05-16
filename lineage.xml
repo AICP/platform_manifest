@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+<!-- Modified AOSP repos -->
+  <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" remote="aosp" revision="refs/tags/android-13.0.0_r49" />
+
 <!-- LineageOS Additions -->
   <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" remote="lineage" />
   <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="lineage" />
@@ -113,6 +117,9 @@
   <project path="system/tools/mkbootimg" name="LineageOS/android_system_tools_mkbootimg" remote="lineage" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" remote="lineage" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="lineage" />
+
+<!-- Modified AOSP repos -->
+  <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" remote="aosp" revision="refs/tags/android-13.0.0_r49" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="LineageOS/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="lineage" />
