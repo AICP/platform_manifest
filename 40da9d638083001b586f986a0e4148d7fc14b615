@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d35cbfef_4d6509d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2023-05-16T22:04:50Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/q/topic:lynx",
+      "revId": "40da9d638083001b586f986a0e4148d7fc14b615",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
