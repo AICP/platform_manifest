@@ -12,6 +12,7 @@
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
   <project path="external/expat" name="LineageOS/android_external_expat" groups="pdk" remote="lineage" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="lineage" />
+  <project path="external/freetype" name="LineageOS/android_external_freetype" groups="pdk" remote="lineage"/>
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="lineage" />
   <project path="external/htop" name="LineageOS/android_external_htop" remote="lineage" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="lineage" />
@@ -74,7 +75,7 @@
   <project path="system/tools/mkbootimg" name="LineageOS/android_system_tools_mkbootimg" remote="lineage" />
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" remote="lineage" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="lineage" />
-
+  <project path="tools/apksig" name="LineageOS/android_tools_apksig" groups="pdk,tradefed" remote="lineage" />
 <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="LineageOS/android_prebuilts_build-tools" remote="lineage" groups="pdk" clone-depth="1" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
