@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15d7d9f8_5de852d9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2023-08-14T04:10:45Z",
+      "side": 1,
+      "message": "Rest of the patches:\nhttps://github.com/GeoZac/frameworks_base t13.0-r72\nhttps://github.com/GeoZac/packages_apps_Launcher3 t13.0-r71\nhttps://github.com/GeoZac/build_make t13.0-r71\nhttps://github.com/GeoZac/packages_services_Telecomm t13.0-r71",
+      "revId": "52b1a916e3b78a78956d920fb34af37c6a500f21",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
