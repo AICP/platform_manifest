@@ -54,6 +54,7 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/selinux" />
