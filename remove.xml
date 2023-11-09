@@ -82,6 +82,7 @@
   <remove-project name="platform/packages/modules/DnsResolver" />
   <remove-project name="platform/packages/modules/NeuralNetworks" />
   <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/modules/StatsD" />
   <remove-project name="platform/packages/modules/Virtualization" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/BlockedNumberProvider" />
@@ -96,6 +97,7 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/system/apex" />
+  <remove-project name="platform/system/ca-certificates" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/keymaster" />
