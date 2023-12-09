@@ -48,6 +48,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project path="external/aac" />
+  <remove-project name="platform/cts" />
   <remove-project name="platform/external/android-nn-driver" />
   <remove-project name="platform/external/angle" />
   <remove-project name="platform/external/armnn" />
@@ -58,6 +59,7 @@
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/pdfium" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/tinycompress" />
