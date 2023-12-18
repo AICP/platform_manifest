@@ -123,7 +123,6 @@
   <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" remote="lineage" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="lineage" />
   <project path="system/memory/lmkd" name="LineageOS/android_system_memory_lmkd" groups="pdk" remote="lineage" />
-  <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" remote="lineage" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="lineage" />
   <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" remote="lineage" />
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="lineage" revision="lineage-18.1" />
