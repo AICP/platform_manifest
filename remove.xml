@@ -34,7 +34,6 @@
   <remove-project name="platform/frameworks/opt/colorpicker" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/timezonepicker" />
-  <remove-project name="platform/hardware/google/camera" />
   <remove-project name="platform/hardware/google/gchips" />
   <remove-project name="platform/hardware/google/graphics_common" />
   <remove-project name="platform/hardware/google/pixel" />

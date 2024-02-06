@@ -131,9 +131,6 @@
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="lineage" />
   <project path="tools/apksig" name="LineageOS/android_tools_apksig" groups="pdk,tradefed" remote="lineage" />
 
-  <!-- Modified AOSP repos -->
-  <project path="hardware/google/camera" name="platform/hardware/google/camera" groups="pdk" remote="aosp" revision="refs/tags/android-13.0.0_r49" />
-
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="LineageOS/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="lineage" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineage" />
