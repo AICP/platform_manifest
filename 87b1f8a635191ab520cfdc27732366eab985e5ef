@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33eee524_ab2b26f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2024-02-28T07:17:45Z",
+      "side": 1,
+      "message": "we need this because of this:\nhttps://github.com/AICP/device_lineage_sepolicy/commit/6470638105b2c82830ed986f474c1bf893f4242a\n\nwhich breaks build",
+      "revId": "87b1f8a635191ab520cfdc27732366eab985e5ef",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
