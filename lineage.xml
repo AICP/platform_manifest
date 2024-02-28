@@ -3,7 +3,6 @@
 <!-- LineageOS Additions -->
   <project path="cts" name="LineageOS/android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" remote="lineage" />
-  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="lineage" />
   <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" remote="lineage"/>
   <project path="external/android-nn-driver" name="LineageOS/android_external_android-nn-driver" groups="pdk-lassen" remote="lineage" />
   <project path="external/angle" name="LineageOS/android_external_angle" groups="pdk" remote="lineage"/>
