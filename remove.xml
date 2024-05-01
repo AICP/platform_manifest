@@ -13,6 +13,7 @@
   <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libcxx" />
@@ -27,7 +28,7 @@
   <remove-project name="platform/external/webp" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/libs/net" />
+  <!-- <remove-project name="platform/frameworks/libs/net" /> -->
   <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/calendar" />
@@ -35,10 +36,12 @@
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/timezonepicker" />
   <remove-project name="platform/hardware/google/gchips" />
-  <remove-project name="platform/hardware/google/graphics_common" />
+  <remove-project name="platform/hardware/google/graphics/common" />
+  <!-- <remove-project name="platform/hardware/google/graphics_common" /> -->
   <remove-project name="platform/hardware/google/pixel" />
   <remove-project name="platform/hardware/google/pixel-sepolicy" />
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/camera" />
@@ -46,9 +49,9 @@
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <!-- <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/qcom/sdm845/gps" />
-  <remove-project name="platform/hardware/qcom/sdm845/media" />
+  <remove-project name="platform/hardware/qcom/sdm845/media" /> -->
   <remove-project name="platform/hardware/qcom/sm7250/display" />
   <remove-project name="platform/hardware/qcom/sm7250/gps" />
   <remove-project name="platform/hardware/qcom/sm7250/media" />
@@ -62,9 +65,12 @@
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/CellBroadcastReceiver"/>
   <remove-project name="platform/packages/apps/Contacts"/>
+  <remove-project name="platform/packages/apps/DeskClock"/>
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/EmergencyInfo" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Messaging"/>
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/OnDeviceAppPrediction" />
