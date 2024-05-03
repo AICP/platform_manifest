@@ -7,20 +7,21 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
-  <remove-project name="platform/cts" />
-  <remove-project name="platform/external/android-nn-driver" />
-  <remove-project name="platform/external/armnn" />
+  <!-- <remove-project name="platform/cts" /> -->
+  <!-- <remove-project name="platform/external/android-nn-driver" /> -->
+  <!-- <remove-project name="platform/external/armnn" /> -->
   <remove-project name="platform/external/avb" />
-  <remove-project name="platform/external/cldr" />
+  <!-- <remove-project name="platform/external/cldr" /> -->
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/gptfdisk" />
-  <remove-project name="platform/external/icu" />
+  <!-- <remove-project name="platform/external/icu" /> -->
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libvpx" />
-  <remove-project name="platform/external/libxml2" />
+  <!-- <remove-project name="platform/external/libxml2" /> -->
   <remove-project name="platform/external/mksh" />
-  <remove-project name="platform/external/pdfium" />
+  <!-- <remove-project name="platform/external/pdfium" /> -->
   <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
@@ -41,7 +42,7 @@
   <remove-project name="platform/hardware/google/pixel" />
   <remove-project name="platform/hardware/google/pixel-sepolicy" />
   <remove-project name="platform/hardware/interfaces" />
-  <remove-project name="platform/hardware/libhardware_legacy" />
+  <!-- <remove-project name="platform/hardware/libhardware_legacy" /> -->
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/camera" />
@@ -61,7 +62,8 @@
   <remove-project name="platform/hardware/qcom/sm8150/media" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
-  <remove-project name="platform/libcore" />
+  <!-- <remove-project name="platform/libcore" /> -->
+  <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/CellBroadcastReceiver"/>
   <remove-project name="platform/packages/apps/Contacts"/>
@@ -82,16 +84,16 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/inputmethods/LeanbackIME" />
-  <remove-project name="platform/packages/modules/adb" />
-  <remove-project name="platform/packages/modules/common" />
-  <remove-project name="platform/packages/modules/Bluetooth" />
-  <remove-project name="platform/packages/modules/Connectivity" />
-  <remove-project name="platform/packages/modules/DnsResolver" />
-  <remove-project name="platform/packages/modules/NeuralNetworks" />
-  <remove-project name="platform/packages/modules/Permission" />
-  <remove-project name="platform/packages/modules/StatsD" />
-  <remove-project name="platform/packages/modules/Virtualization" />
-  <remove-project name="platform/packages/modules/Wifi" />
+  <!-- <remove-project name="platform/packages/modules/adb" /> -->
+  <!-- <remove-project name="platform/packages/modules/common" /> -->
+  <!-- <remove-project name="platform/packages/modules/Bluetooth" /> -->
+  <!-- <remove-project name="platform/packages/modules/Connectivity" /> -->
+  <!-- <remove-project name="platform/packages/modules/DnsResolver" /> -->
+  <!-- <remove-project name="platform/packages/modules/NeuralNetworks" /> -->
+  <!-- <remove-project name="platform/packages/modules/Permission" /> -->
+  <!-- <remove-project name="platform/packages/modules/StatsD" /> -->
+  <!-- <remove-project name="platform/packages/modules/Virtualization" /> -->
+  <!-- <remove-project name="platform/packages/modules/Wifi" /> -->
   <remove-project name="platform/packages/providers/BlockedNumberProvider" />
   <remove-project name="platform/packages/providers/BookmarkProvider" />
   <remove-project name="platform/packages/providers/CalendarProvider" />
@@ -103,8 +105,8 @@
   <remove-project name="platform/packages/services/Mms" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/system/apex" />
-  <remove-project name="platform/system/ca-certificates" />
+  <!-- <remove-project name="platform/system/apex" />
+  <remove-project name="platform/system/ca-certificates" /> -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/keymaster" />
@@ -112,17 +114,17 @@
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/media" />
-  <remove-project name="platform/system/memory/lmkd" />
+  <!-- <remove-project name="platform/system/memory/lmkd" /> -->
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/system/timezone" />
+  <!-- <remove-project name="platform/system/timezone" /> -->
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
-  <remove-project name="platform/tools/apksig" />
+  <!-- <remove-project name="platform/tools/apksig" /> -->
 
 <!-- Prebuilts -->
-  <remove-project name="platform/prebuilts/build-tools" />
+  <!-- <remove-project name="platform/prebuilts/build-tools" /> -->
 
 </manifest>
