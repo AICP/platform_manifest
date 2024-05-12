@@ -21,6 +21,7 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/pdfium" />
   <remove-project name="platform/external/setupcompat" />
+  <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zstd" />
