@@ -4,6 +4,9 @@
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/generic/common" />
+  <remove-project name="device/google/akita" />
+  <remove-project name="device/google/akita-sepolicy" />
+  <remove-project name="device/google/akita-kernel" />
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/barbet" />
   <remove-project name="device/google/barbet-sepolicy" />
