@@ -107,7 +107,7 @@
 
   <!-- Other additions -->
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc-qpr3" />
-  <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" />
+  <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" clone-depth="10" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc-qpr3" />
   <project path="vendor/lawnicons" name="ProtonAOSP/android_vendor_lawnicons" remote="github" revision="sc-qpr3" />
 </manifest>
