@@ -77,6 +77,7 @@
   <project path="system/bt" name="LineageOS/android_system_bt" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" groups="pdk" remote="lineage"/>
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="lineage" />
+  <project path="system/libfmq" name="LineageOS/android_system_libfmq" groups="pdk" remote="lineage" />
   <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" remote="lineage" />
   <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" remote="lineage" />
   <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="lineage" />
