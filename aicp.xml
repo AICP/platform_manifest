@@ -59,7 +59,7 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" remote="lineage" />
-  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" remote="lineage" />
+  <project path="bootable/recovery" name="AICP/bootable_recovery" groups="pdk" remote="aicp" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" remote="lineage" />
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
   <!-- <project path="frameworks/libs/net" name="AICP/frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" remote="aicp" /> -->
