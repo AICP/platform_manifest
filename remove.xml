@@ -59,6 +59,7 @@
   <remove-project name="device/linaro/poplar-kernel" />
 
   <remove-project name="kernel/configs" />
+  <remove-project name="platofrm/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
@@ -78,6 +79,7 @@
   <!-- <remove-project name="platform/external/libxml2" /> -->
   <remove-project name="platform/external/mksh" />
   <!-- <remove-project name="platform/external/pdfium" /> -->
+  <remove-project name="platform/external/robolectric" />
   <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
