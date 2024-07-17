@@ -5,9 +5,11 @@
   <!-- <project path="cts" name="LineageOS/android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="lineage" /> -->
   <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" remote="lineage" />
   <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="lineage" />
+  <project path="device/google/contexthub" name="LineageOS/android_device_google_contexthub" groups="device,pdk" remote="lineage" />
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="lineage" />
   <!-- <project path="external/android-nn-driver" name="LineageOS/android_external_android-nn-driver" groups="pdk-lassen,pdk-gs-arm" remote="lineage" /> -->
   <!-- <project path="external/armnn" name="LineageOS/android_external_armnn" groups="pdk-lassen,pdk-gs-arm" remote="lineage" /> -->
+  <project path="external/arm-trusted-firmware" name="LineageOS/android_external_arm-trusted-firmware" groups="pdk" remote="lineage" />
   <project path="external/avb" name="LineageOS/android_external_avb" groups="pdk" remote="lineage" />
   <project path="external/bash" name="LineageOS/android_external_bash" remote="lineage" />
   <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main" remote="lineage" >
@@ -20,6 +22,7 @@
   <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" remote="lineage" />
   <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" remote="lineage" />
   <!-- <project path="external/cldr" name="LineageOS/android_external_cldr" groups="pdk" remote="lineage" /> -->
+  <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" remote="lineage" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
   <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="lineage" />
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="lineage" />
@@ -46,6 +49,7 @@
   <project path="frameworks/opt/colorpicker" name="LineageOS/android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" remote="lineage" />
   <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="lineage" />
   <project path="hardware/google/gchips" name="LineageOS/android_hardware_google_gchips" groups="pdk-lassen,pdk-gs-arm" remote="lineage" />
   <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm" remote="lineage" />
   <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel" remote="lineage" />
@@ -77,6 +81,7 @@
   <project path="hardware/qcom/sm8150/media" name="LineageOS/android_hardware_qcom_sm8150_media" groups="qcom_sm8150" remote="lineage" />
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="lineage" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="lineage" />
+  <project path="hardware/st/nfc" name="LineageOS/android_hardware_st_nfc" groups="pdk" remote="lineage" />
   <project path="kernel/configs" name="LineageOS/android_kernel_configs" groups="vts,pdk" remote="lineage" />
   <!-- <project path="libcore" name="LineageOS/android_libcore" groups="pdk" remote="lineage" /> -->
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="lineage" />
@@ -113,6 +118,7 @@
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <!-- <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" groups="pdk" remote="lineage" /> -->
   <!-- <project path="system/apex" name="LineageOS/android_system_apex" groups="pdk" remote="lineage" /> -->
+  <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" remote="lineage" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" remote="lineage" />
   <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" remote="lineage" />
