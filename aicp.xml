@@ -89,7 +89,6 @@
   <project path="packages/resources/deviceparts" name="AICP/packages_resources_deviceparts" remote="aicp" />
   <project path="packages/resources/devicesettings" name="AICP/packages_resources_devicesettings" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
-  <!--<project path="prebuilts/clang/host/linux-x86_custom" name="AICP/prebuilts_clang_host_linux-x86" remote="aicp" revision="master" clone-depth="1" />-->
   <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
   <!-- <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" remote="lineage" /> -->
   <project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />
