@@ -79,7 +79,7 @@
   <!-- <project path="packages/apps/SimpleDeviceConfig" name="AICP/packages_apps_SimpleDeviceConfig" remote="aicp" /> -->
   <!--<project path="packages/apps/Snap" name="AICP/packages_apps_Snap" remote="aicp" />-->
   <project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs" remote="lineage" />
-  <!-- <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="lineage" /> -->
+  <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
   <project path="packages/modules/Bluetooth" name="LineageOS/android_packages_modules_Bluetooth" groups="pdk" remote="lineage" />
   <project path="packages/modules/Connectivity" name="AICP/packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/modules/DnsResolver" name="AICP/packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
