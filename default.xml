@@ -85,7 +85,7 @@
   <project path="device/google/felix-kernel" name="device/google/felix-kernel" groups="device,felix" clone-depth="1" />
   <project path="device/google/gs101" name="device/google/gs101" groups="device,slider,bluejay,pdk-gs-arm" />
   <project path="device/google/gs101-sepolicy" name="device/google/gs101-sepolicy" groups="device,slider,bluejay,pdk-gs-arm" />
-    <project path="device/qcom/sepolicy_vndr/sm6225" name="SM6225-AD/device_qcom_sepolicy_vndr" remote="github" revision="lineage-21" />
+  <project path="device/qcom/sepolicy_vndr/sm6225" name="SM6225-AD/device_qcom_sepolicy_vndr" remote="github" revision="lineage-21" />
   <project path="device/google/gs201" name="device/google/gs201" groups="device,cloudripper" />
   <project path="device/google/gs201-sepolicy" name="device/google/gs201-sepolicy" groups="device,cloudripper" />
   <project path="device/google/gs-common" name="device/google/gs-common" groups="device,slider,bluejay,cloudripper,pdk-gs-arm" />
@@ -93,6 +93,17 @@
   <project path="device/google/lynx-sepolicy" name="device/google/lynx-sepolicy" groups="device,lynx" />
   <project path="device/google/lynx-kernel" name="device/google/lynx-kernel" groups="device,lynx" clone-depth="1" />
   <project path="device/google/pantah" name="device/google/pantah" groups="device,cloudripper" />
+  <project path="hardware/qcom-caf/common" name="itsnouralawad/android_hardware_qcom-caf_common" groups="qcom" remote="github" revision="lineage-21.0" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm6225/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm6225/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm6225/Android.mk" />
+  </project>
   <project path="device/google/pantah-sepolicy" name="device/google/pantah-sepolicy" groups="device,cloudripper" />
   <project path="device/google/pantah-kernel" name="device/google/pantah-kernel" groups="device,cloudripper" clone-depth="1" />
   <project path="device/google/raviole" name="device/google/raviole" groups="device,slider,pdk-gs-arm" />
@@ -156,6 +167,13 @@
   <project path="external/bazelbuild-rules_cc" name="platform/external/bazelbuild-rules_cc" groups="pdk" />
   <project path="external/bazelbuild-rules_java" name="platform/external/bazelbuild-rules_java" groups="pdk" />
   <project path="external/bazelbuild-rules_go" name="platform/external/bazelbuild-rules_go" groups="pdk" />
+  <project path="hardware/qcom-caf/sm6225/audio/agm" name="SM6225-AD/vendor_qcom_opensource_agm" remote="github" revision="lineage-21" />
+  <project path="hardware/qcom-caf/sm6225/audio/pal" name="SM6225-AD/vendor_qcom_opensource_arpal-lx" remote="github" revision="lineage-21" />
+  <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="SM6225-AD/hardware_qcom_audio-ar" remote="github" revision="lineage-21" />
+  <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="SM6225-AD/vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="lineage-21" />
+  <project path="hardware/qcom-caf/sm6225/dataipa" name="SM6225-AD/vendor_qcom_opensource_dataipa" remote="github" revision="lineage-21" />
+  <project path="hardware/qcom-caf/sm6225/display" name="SM6225-AD/hardware_qcom_display" remote="github" revision="lineage-21" />
+  <project path="hardware/qcom-caf/sm6225/media" name="SM6225-AD/hardware_qcom_media" remote="github" revision="lineage-21" />
   <project path="external/bazelbuild-kotlin-rules" name="platform/external/bazelbuild-kotlin-rules" groups="pdk" />
   <project path="external/bazelbuild-platforms" name="platform/external/bazelbuild-platforms" groups="pdk" />
   <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" groups="pdk" />
