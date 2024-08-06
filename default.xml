@@ -85,6 +85,7 @@
   <project path="device/google/felix-kernel" name="device/google/felix-kernel" groups="device,felix" clone-depth="1" />
   <project path="device/google/gs101" name="device/google/gs101" groups="device,slider,bluejay,pdk-gs-arm" />
   <project path="device/google/gs101-sepolicy" name="device/google/gs101-sepolicy" groups="device,slider,bluejay,pdk-gs-arm" />
+    <project path="device/qcom/sepolicy_vndr/sm6225" name="SM6225-AD/device_qcom_sepolicy_vndr" remote="github" revision="lineage-21" />
   <project path="device/google/gs201" name="device/google/gs201" groups="device,cloudripper" />
   <project path="device/google/gs201-sepolicy" name="device/google/gs201-sepolicy" groups="device,cloudripper" />
   <project path="device/google/gs-common" name="device/google/gs-common" groups="device,slider,bluejay,cloudripper,pdk-gs-arm" />
