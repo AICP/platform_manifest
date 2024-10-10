@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="platform/build/release" />
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/generic/common" />
@@ -60,6 +61,7 @@
   <remove-project name="device/linaro/poplar-kernel" />
 
   <remove-project name="kernel/configs" />
+  <remove-project name="platform/packages/modules/IntentResolver" />
   <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
