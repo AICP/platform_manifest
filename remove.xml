@@ -126,7 +126,7 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/st/nfc" />
-  <!-- <remove-project name="platform/libcore" /> -->
+  <remove-project name="platform/libcore" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/CellBroadcastReceiver"/>
