@@ -74,6 +74,7 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
   <!-- <remove-project name="platform/cts" /> -->
   <!-- <remove-project name="platform/external/android-nn-driver" /> -->
@@ -168,7 +169,7 @@
   <!-- <remove-project name="platform/packages/modules/NeuralNetworks" /> -->
   <remove-project name="platform/packages/modules/Permission" />
   <!-- <remove-project name="platform/packages/modules/StatsD" /> -->
-  <!-- <remove-project name="platform/packages/modules/Virtualization" /> -->
+  <remove-project name="platform/packages/modules/Virtualization" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/BlockedNumberProvider" />
   <remove-project name="platform/packages/providers/BookmarkProvider" />
