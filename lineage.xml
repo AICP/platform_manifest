@@ -33,6 +33,9 @@
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="lineage" />
   <project path="external/htop" name="LineageOS/android_external_htop" remote="lineage" />
   <!-- <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" remote="lineage" /> -->
+  <project path="external/kotlinc" name="LineageOS/android_external_kotlinc" groups="pdk" remote="lineage" />
+  <project path="external/kotlinx.coroutines" name="LineageOS/android_external_kotlinx.coroutines" groups="pdk" remote="lineage" />
+  <project path="external/kotlinx.serialization" name="LineageOS/android_external_kotlinx.serialization" groups="pdk" remote="lineage" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="lineage" />
   <!-- <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="lineage" /> -->
   <!-- <project path="external/libvpx" name="LineageOS/android_external_libvpx" groups="pdk" remote="lineage" /> -->

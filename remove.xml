@@ -91,6 +91,9 @@
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/giflib" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/kotlinc" />
+  <remove-project name="platform/external/kotlinx.coroutines" />
+  <remove-project name="platform/external/kotlinx.serialization" />
   <!-- <remove-project name="platform/external/icu" /> -->
   <!-- <remove-project name="platform/external/libcxx" /> -->
   <!-- <remove-project name="platform/external/libvpx" /> -->
