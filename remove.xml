@@ -69,8 +69,8 @@
   <remove-project name="device/linaro/poplar-kernel" />
 
   <remove-project name="kernel/configs" />
-  <remove-project name="platform/packages/modules/IntentResolver" />
-  <remove-project name="platform/art" />
+  <!-- <remove-project name="platform/packages/modules/IntentResolver" /> -->
+  <!-- <remove-project name="platform/art" /> -->
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
@@ -90,17 +90,17 @@
   <remove-project name="platform/external/giflib" />
   <remove-project name="platform/external/gptfdisk" />
   <!-- <remove-project name="platform/external/icu" /> -->
-  <remove-project name="platform/external/libcxx" />
-  <remove-project name="platform/external/libvpx" />
+  <!-- <remove-project name="platform/external/libcxx" /> -->
+  <!-- <remove-project name="platform/external/libvpx" /> -->
   <!-- <remove-project name="platform/external/libxml2" /> -->
   <remove-project name="platform/external/mksh" />
   <!-- <remove-project name="platform/external/pdfium" /> -->
   <remove-project name="platform/external/setupcompat" />
-  <remove-project name="platform/external/skia" />
+  <!-- <remove-project name="platform/external/skia" /> -->
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zstd" />
-  <remove-project name="platform/external/webp" />
+  <!-- <remove-project name="platform/external/webp" /> -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <!-- <remove-project name="platform/frameworks/libs/net" /> -->
@@ -138,7 +138,7 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/st/nfc" />
-  <remove-project name="platform/libcore" />
+  <!-- <remove-project name="platform/libcore" /> -->
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/CellBroadcastReceiver"/>
@@ -187,7 +187,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/keymaster" />
-  <remove-project name="platform/system/keymint" />
+  <!-- <remove-project name="platform/system/keymint" /> -->
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/logging" />

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- LineageOS Additions -->
-  <project path="art" name="LineageOS/android_art" groups="pdk" remote="lineage" />
-  <project path="build/release" name="LineageOS/android_build_release" groups="pdk,tradefed" remote="lineage" />
+  <!-- <project path="art" name="LineageOS/android_art" groups="pdk" remote="lineage" /> -->
+  <project path="build/release" name="LineageOS/android_build_release" groups="pdk,tradefed" remote="lineage" revision="lineage-22.1" />
   <!-- <project path="cts" name="LineageOS/android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="lineage" /> -->
   <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" remote="lineage" />
   <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="lineage" />
@@ -33,8 +33,8 @@
   <project path="external/htop" name="LineageOS/android_external_htop" remote="lineage" />
   <!-- <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" remote="lineage" /> -->
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="lineage" />
-  <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="lineage" />
-  <project path="external/libvpx" name="LineageOS/android_external_libvpx" groups="pdk" remote="lineage" />
+  <!-- <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="lineage" /> -->
+  <!-- <project path="external/libvpx" name="LineageOS/android_external_libvpx" groups="pdk" remote="lineage" /> -->
   <!-- <project path="external/libxml2" name="LineageOS/android_external_libxml2" groups="pdk,libxml2" remote="lineage" /> -->
   <!-- <project path="external/pdfium" name="LineageOS/android_external_pdfium" groups="pdk" remote="lineage" /> -->
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="lineage" />
@@ -43,11 +43,11 @@
   <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" remote="lineage" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" remote="lineage" />
   <project path="external/setupcompat" name="LineageOS/android_external_setupcompat" remote="lineage" />
-  <project path="external/skia" name="LineageOS/android_external_skia" groups="pdk,qcom_msm8x26" remote="lineage" />
+  <!-- <project path="external/skia" name="LineageOS/android_external_skia" groups="pdk,qcom_msm8x26" remote="lineage" /> -->
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="lineage" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" remote="lineage" />
   <project path="external/vim" name="LineageOS/android_external_vim" remote="lineage" />
-  <project path="external/webp" name="LineageOS/android_external_webp" groups="pdk,qcom_msm8x26" remote="lineage"/>
+  <!-- <project path="external/webp" name="LineageOS/android_external_webp" groups="pdk,qcom_msm8x26" remote="lineage"/> -->
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
   <project path="external/zstd" name="LineageOS/android_external_zstd" remote="lineage" />
   <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
@@ -88,7 +88,7 @@
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="lineage" />
   <project path="hardware/st/nfc" name="LineageOS/android_hardware_st_nfc" groups="pdk" remote="lineage" />
   <project path="kernel/configs" name="LineageOS/android_kernel_configs" groups="vts,pdk" remote="lineage" />
-  <project path="libcore" name="LineageOS/android_libcore" groups="pdk" remote="lineage" />
+  <!-- <project path="libcore" name="LineageOS/android_libcore" groups="pdk" remote="lineage" /> -->
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" remote="lineage"/>
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="lineage" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" remote="lineage" />
@@ -98,7 +98,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
-  <project path="packages/apps/Catapult" name="LineageOS/android_packages_apps_Catapult" />
+  <project path="packages/apps/Catapult" name="LineageOS/android_packages_apps_Catapult" remote="lineage" />
   <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="lineage" />
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" remote="lineage" />
@@ -127,7 +127,7 @@
   <!-- <project path="packages/modules/NeuralNetworks" name="LineageOS/android_packages_modules_NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="lineage" /> -->
   <!-- <project path="packages/modules/StatsD" name="LineageOS/android_packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="lineage" /> -->
   <!-- <project path="packages/modules/Virtualization" name="LineageOS/android_packages_modules_Virtualization" groups="pdk" remote="lineage" /> -->
-  <project path="packages/modules/IntentResolver" name="LineageOS/android_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="lineage" />
+  <!-- <project path="packages/modules/IntentResolver" name="LineageOS/android_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="lineage" /> -->
   <project path="packages/modules/Wifi" name="LineageOS/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/providers/BlockedNumberProvider" name="LineageOS/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" remote="lineage" />
   <project path="packages/providers/BookmarkProvider" name="LineageOS/android_packages_providers_BookmarkProvider" groups="pdk-fs" remote="lineage" />
@@ -144,7 +144,7 @@
   <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" remote="lineage" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" remote="lineage" />
-  <project path="system/keymint" name="LineageOS/android_system_keymint" groups="pdk" remote="lineage" />
+  <!-- <project path="system/keymint" name="LineageOS/android_system_keymint" groups="pdk" remote="lineage" /> -->
   <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" remote="lineage" />
   <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" remote="lineage" />
   <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" remote="lineage" />
