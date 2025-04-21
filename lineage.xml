@@ -2,6 +2,7 @@
 <manifest>
   <!-- LineageOS Additions -->
   <!-- <project path="art" name="LineageOS/android_art" groups="pdk" remote="lineage" /> -->
+  <project path="bootable/deprecated-ota" name="LineageOS/android_bootable_deprecated-ota" groups="pdk-cw" remote="lineage" />
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" remote="lineage" />
   <!-- <project path="build/release" name="LineageOS/android_build_release" groups="pdk,tradefed" remote="lineage" revision="lineage-22.1" /> -->
   <!-- <project path="cts" name="LineageOS/android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="lineage" /> -->
