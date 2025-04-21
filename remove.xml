@@ -72,6 +72,7 @@
   <!-- <remove-project name="platform/packages/modules/IntentResolver" /> -->
   <!-- <remove-project name="platform/art" /> -->
   <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/deprecated-ota" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/blueprint" />
