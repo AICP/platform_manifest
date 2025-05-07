@@ -5,11 +5,11 @@
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
 
-  <default revision="refs/tags/android-15.0.0_r26"
+  <default revision="refs/tags/android-15.0.0_r32"
            remote="aosp"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r26"/>
+  <superproject name="platform/superproject" remote="aosp" revision="android-15.0.0_r32"/>
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- AOSP Projects -->
