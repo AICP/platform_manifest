@@ -70,7 +70,7 @@
 
   <remove-project name="kernel/configs" />
   <!-- <remove-project name="platform/packages/modules/IntentResolver" /> -->
-  <!-- <remove-project name="platform/art" /> -->
+  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/deprecated-ota" />
   <remove-project name="platform/bootable/recovery" />
@@ -151,6 +151,7 @@
   <remove-project name="platform/packages/apps/EmergencyInfo" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/apps/Messaging"/>
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/OnDeviceAppPrediction" />
