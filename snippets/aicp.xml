@@ -8,13 +8,13 @@
            sync-j="8" />
 
   <remote  name="lineage"
-           fetch="https://git@github.com/"
+           fetch="https://git@github.com/LineageOS"
            review="review.lineageos.org"
            revision="refs/heads/lineage-22.2"
            sync-j="8" />
 
   <remote  name="omni"
-           fetch="https://git@github.com/"
+           fetch="https://git@github.com/omnirom"
            review="gerrit.omnirom.org"
            revision="refs/heads/android-15"
            sync-j="8" />
@@ -76,7 +76,7 @@
   <project path="packages/resources/deviceparts" name="packages_resources_deviceparts" remote="aicp" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="aicp" />
   <project path="platform_manifest" name="platform_manifest" remote="aicp" />
-  <project path="prebuilts/tools-aicp" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
+  <project path="prebuilts/tools-aicp" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
 
   <!-- Other additions -->
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc-qpr3" />
