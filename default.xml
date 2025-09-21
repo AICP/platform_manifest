@@ -3,20 +3,26 @@
 
   <remote  name="github"
            fetch=".."
-           review="review.lineageos.org" />
+           review="review.lineageos.org"
+           sync-c="true"
+           sync-j="8" />
 
   <remote  name="private"
-           fetch="ssh://git@github.com" />
+           fetch="ssh://git@github.com" 
+           sync-c="true"
+           sync-j="8" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-16.0.0_r1" />
+           revision="refs/tags/android-16.0.0_r1" 
+           sync-c="true"
+           sync-j="8" />
 
   <default revision="refs/heads/lineage-23.0"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="8" />
 
   <contactinfo bugurl="go/repo-bug" />
 
@@ -1010,5 +1016,5 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
 
-  <include name="snippets/lineage.xml" />
+  <include name="snippets/aicp.xml" />
 </manifest>
