@@ -18,7 +18,7 @@
   <!-- AICP -->
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
   <remove-project name="LineageOS/android_packages_resources_devicesettings" />
-  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <!--remove-project name="LineageOS/android_packages_apps_Settings" /-->
   <remove-project name="LineageOS/android_packages_apps_Updater" />
   <remove-project name="LineageOS/android_prebuilts_tools-lineage" />
   <remove-project name="LineageOS/android_vendor_crowdin" />
