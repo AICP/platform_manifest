@@ -3,7 +3,7 @@
   <remove-project name="LineageOS/android" />
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_build_soong" />
-  <!-- remove-project name="LineageOS/android_frameworks_base" / -->
+  <remove-project name="LineageOS/android_frameworks_base" />
 
   <!-- remove LOS internal stuff -->
   <remove-project name="LineageOS/charter" />
