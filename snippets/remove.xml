@@ -16,6 +16,7 @@
   <remove-project name="LineageOS/lineage_wiki" />
 
   <!-- AICP -->
+  <remove-provect name="LineageOS/android_packages_apps_Launcher3" />
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
   <remove-project name="LineageOS/android_packages_resources_devicesettings" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
