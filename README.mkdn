@@ -12,7 +12,7 @@ Initializing Repository
 
 Repo initialization:
 
-    $ repo init -u https://github.com/AICP/platform_manifest.git -b v16.0 --git-lfs
+    $ repo init -u https://github.com/AICP/platform_manifest.git -b w16.0 --git-lfs
 
 
 sync repo :
