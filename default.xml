@@ -37,7 +37,7 @@
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp" />
-  <project path="build/release" name="LineageOS/android_build_release" groups="pdk,tradefed,sysui-studio" />
+  <project path="build/release" name="platform/build/release" groups="pdk,tradefed,sysui-studio" remote="aosp" />
   <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed,sysui-studio" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -779,7 +779,7 @@
   <project path="packages/modules/Gki" name="platform/packages/modules/Gki" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" groups="pdk" remote="aosp" />
-  <project path="packages/modules/IntentResolver" name="LineageOS/android_packages_modules_IntentResolver" groups="pdk,sysui-studio" />
+  <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" groups="pdk,sysui-studio" remote="aosp" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" groups="pdk" remote="aosp" />
   <project path="packages/modules/Media" name="platform/packages/modules/Media" groups="pdk" remote="aosp" />
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" remote="aosp" />
