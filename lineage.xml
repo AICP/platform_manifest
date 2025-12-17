@@ -29,6 +29,7 @@
   <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" remote="lineage" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="lineage" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" remote="lineage" />
+  <project path="external/libjpeg-turbo" name="LineageOS/android_external_libjpeg-turbo" groups="pdk" remote="lineage" />
   <project path="external/libvpx" name="LineageOS/android_external_libvpx" groups="pdk" remote="lineage" />
   <project path="external/libxml2" name="LineageOS/android_external_libxml2" groups="pdk,libxml2" remote="lineage" />
   <project path="external/pdfium" name="LineageOS/android_external_pdfium" groups="pdk" remote="lineage" />
@@ -40,6 +41,7 @@
   <project path="external/setupcompat" name="LineageOS/android_external_setupcompat" remote="lineage" />
   <project path="external/skia" name="LineageOS/android_external_skia" groups="pdk,qcom_msm8x26" remote="lineage" />
   <project path="external/sonivox" name="LineageOS/android_external_sonivox" remote="lineage" />
+  <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" remote="lineage" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="lineage" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/unrar" name="LineageOS/android_external_unrar" remote="lineage" />
@@ -90,6 +92,7 @@
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="lineage" />
   <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+  <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" groups="pdk-fs" remote="lineage" />
