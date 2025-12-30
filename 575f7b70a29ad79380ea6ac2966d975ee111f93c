@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2bcefe30_29ca8e89",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2025-12-30T12:13:00Z",
+      "side": 1,
+      "message": "all nightlys failing because of this:error: packages/apps/camerahal/Android.bp:1:1: \"CameraHALChecker\" depends on undefined module \"accompanist_systemuicontroller\". please add it per devices at dependencies files, as stated before.",
+      "revId": "575f7b70a29ad79380ea6ac2966d975ee111f93c",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
