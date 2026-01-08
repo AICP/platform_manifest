@@ -18,7 +18,6 @@
   <!-- AICP -->
   <remove-project name="LineageOS/android_packages_apps_Launcher3" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
-  <remove-project name="LineageOS/android_packages_overlays_Lineage" />
   <remove-project name="LineageOS/android_packages_resources_devicesettings" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
