@@ -8,7 +8,7 @@
   <remove-project name="LineageOS/android_packages_apps_Launcher3" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
-
+  <remove-project name="LineageOS/android_system_core" />
 
 <!-- remove lineage non-platform -->
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
