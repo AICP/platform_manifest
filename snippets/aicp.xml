@@ -87,6 +87,7 @@
  <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
 
   <!-- Other additions -->
+  <project path="frameworks/libs/systemui" name="DerpFest-AOSP/android_frameworks_libs_systemui" remote="github" revision="16.2" />
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc-qpr3" />
   <project path="external/hosts" name="StevenBlack/hosts" remote="github" revision="master" clone-depth="10" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc-qpr3" />
