@@ -69,6 +69,7 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
+  <project path="frameworks/libs/systemui" name="AICP/frameworks_libs_systemui" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
   <project path="packages/apps/ThemePicker" name="AICP/packages_apps_ThemePicker" remote="aicp" />
