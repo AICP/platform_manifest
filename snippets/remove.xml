@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- remove lineage platform -->
   <remove-project name="LineageOS/android" />
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_build_soong" />
   <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_packages_apps_Launcher3" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
 
-  <!-- remove LOS internal stuff -->
+
+<!-- remove lineage non-platform -->
+  <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <remove-project name="LineageOS/android_packages_resources_devicesettings" />
+  <remove-project name="LineageOS/android_prebuilts_tools-lineage" />
+  <remove-project name="LineageOS/android_vendor_crowdin" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+
+  <!-- remove lineage internal -->
   <remove-project name="LineageOS/charter" />
   <remove-project name="LineageOS/cm_crowdin" />
   <remove-project name="LineageOS/contributors-cloud-generator" />
   <remove-project name="LineageOS/hudson" />
+  <remove-project name="LineageOS/lineage_wiki" />
   <remove-project name="LineageOS/mirror" />
   <remove-project name="LineageOS/scripts" />
   <remove-project name="LineageOS/www" />
-  <remove-project name="LineageOS/lineage_wiki" />
 
-  <!-- AICP -->
-  <remove-project name="LineageOS/android_packages_apps_Launcher3" />
-  <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
-  <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
-  <remove-project name="LineageOS/android_packages_resources_devicesettings" />
-  <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <remove-project name="LineageOS/android_packages_apps_Updater" />
-  <remove-project name="LineageOS/android_prebuilts_tools-lineage" />
-  <remove-project name="LineageOS/android_vendor_crowdin" />
-  <remove-project name="LineageOS/android_vendor_lineage" />
-  <!-- remove-project name="platform/packages/apps/OnDeviceAppPrediction" / -->
+  <!-- remove aosp platform -->
   <remove-project name="platform/packages/modules/DnsResolver" />
 </manifest>
