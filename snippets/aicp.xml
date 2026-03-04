@@ -33,22 +33,29 @@
            sync-c="true"
            sync-j="8" />
 
+  <!-- Include Lineage repos -->
   <include name="snippets/lineage.xml" />
 
-  <!-- Remove Packages -->
+  <!-- Remove some AOSP and Lineage Repos -->
   <include name="snippets/remove.xml" />
 
-  <!-- AICP additions -->
+  <!-- AICP non-platform -->
   <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
-  <!-- <project path="external/colorkt" name="AICP/external_colorkt" remote="aicp" />
-  <project path="external/themelib" name="AICP/external_themelib" remote="aicp" /> -->
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
   <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
+  <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
+  <project path="packages/apps/GameSpace" name="AICP/packages_apps_GameSpace" remote="aicp" />
+  <project path="packages/apps/SetupWizard" name="AICP/packages_apps_SetupWizard" remote="aicp" />
+  <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
+  <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" remote="aicp" />
+  <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
+  <project path="packages/resources/deviceparts" name="AICP/packages_resources_deviceparts" remote="aicp" />
+  <project path="packages/resources/devicesettings" name="AICP/packages_resources_devicesettings" remote="aicp" />
   <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
+  <project path="prebuilts/tools-aicp" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
-  <!--project path="vendor/jenkins" name="AICP/vendor_jenkins" remote="aicp" / -->
 
-  <!-- AICP AOSP Repos -->
+  <!-- AICP platform -->
   <project path="build/make" name="AICP/build" groups="pdk,sysui-studio" remote="aicp" >
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
@@ -61,29 +68,12 @@
     <linkfile dest="Android.bp" src="root.bp" />
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
-
-  <!-- AICP -->
-
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
-  <!-- <project path="frameworks/libs/net" name="AICP/frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" remote="aicp" /> -->
-  <!--<project path="external/pulse" name="AICP/external_pulse" groups="pdk" remote="aicp" />-->
-  <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
-  <project path="packages/apps/GameSpace" name="AICP/packages_apps_GameSpace" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
-  <!-- project path="packages/apps/OnDeviceAppPrediction" name="AICP/packages_apps_OnDeviceAppPrediction" groups="pdk-fs" remote="aicp" / -->
-  <!-- <project path="packages/apps/Pif" name="AICP/packages_apps_Pif" remote="aicp" /> -->
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
-  <project path="packages/apps/SetupWizard" name="AICP/packages_apps_SetupWizard" remote="aicp" />
-  <!-- <project path="packages/apps/SimpleDeviceConfig" name="AICP/packages_apps_SimpleDeviceConfig" remote="aicp" /> -->
   <project path="packages/apps/ThemePicker" name="AICP/packages_apps_ThemePicker" remote="aicp" />
-  <project path="packages/apps/TilesWallpaper" name="AICP/packages_apps_TilesWallpaper" remote="aicp" />
-  <project path="packages/apps/Updater" name="AICP/packages_apps_Updater" remote="aicp" />
   <project path="packages/modules/DnsResolver" name="AICP/packages_modules_DnsResolver" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
-  <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
-  <project path="packages/resources/deviceparts" name="AICP/packages_resources_deviceparts" remote="aicp" />
-  <project path="packages/resources/devicesettings" name="AICP/packages_resources_devicesettings" remote="aicp" />
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
-  <project path="prebuilts/tools-aicp" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
 
   <!-- Other additions -->
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc-qpr3" />
