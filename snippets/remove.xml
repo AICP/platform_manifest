@@ -12,6 +12,10 @@
   <remove-project name="LineageOS/android_system_core" />
 
 <!-- remove lineage non-platform -->
+  <remove-project name="LineageOS/android_device_google_car" />
+  <remove-project name="LineageOS/android_device_lineage_atv" />
+  <remove-project name="LineageOS/android_device_lineage_car" />
+  <remove-project  name="LineageOS/android_packages_apps_Car_Settings" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
   <remove-project name="LineageOS/android_packages_resources_devicesettings" />
@@ -30,5 +34,41 @@
   <remove-project name="LineageOS/www" />
 
   <!-- remove aosp platform -->
+  <remove-project name="device/generic/car"  />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/cuttlefish" />
+  <remove-project name="device/google/cuttlefish_prebuilts" />
+  <remove-project name="device/google/cuttlefish_vmm" />
+  <remove-project name="device/google/trout" />
+  <remove-project name="kernel/prebuilts/6.1/arm64" />
+  <remove-project name="kernel/prebuilts/6.1/x86-64" />
+  <remove-project name="kernel/prebuilts/6.6/arm64" />
+  <remove-project name="kernel/prebuilts/6.6/x86-64" />
+  <remove-project name="kernel/prebuilts/6.12/arm64" />
+  <remove-project name="kernel/prebuilts/6.12/x86-64" />
+  <remove-project name="kernel/prebuilts/mainline/arm64" />
+  <remove-project name="kernel/prebuilts/mainline/x86-64" />
+  <remove-project name="kernel/prebuilts/common-modules/trusty/6.6/arm64" />
+  <remove-project name="kernel/prebuilts/common-modules/trusty/6.12/arm64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.12/arm64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" />
+  <remove-project name="platform/frameworks/opt/car/services" />
+  <remove-project name="platform/frameworks/opt/car/setupwizard" />
+  <remove-project name="platform/packages/apps/Car/SettingsIntelligence" />
   <remove-project name="platform/packages/modules/DnsResolver" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/build-tools" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/linux-x86" />
 </manifest>
