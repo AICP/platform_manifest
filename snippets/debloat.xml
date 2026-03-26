@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- remove lineage platform -->
+  <remove-project name="LineageOS/android_device_generic_car"  />
+  <remove-project name="LineageOS/android_device_google_atv" />
+  <remove-project name="LineageOS/android_device_google_car" />
+  <remove-project name="LineageOS/android_packages_apps_Car_References"  />
+  <remove-project name="LineageOS/android_packages_apps_Car_Settings" />
+  <remove-project name="LineageOS/android_packages_apps_Car_SystemUI" />
+  <remove-project name="LineageOS/android_packages_apps_TvSettings" />
+  <remove-project name="LineageOS/android_packages_apps_TvSystemUI" />
+  <remove-project name="LineageOS/android_packages_services_Car" />
+
   <!-- remove lineage non-platform -->
+  <remove-project name="LineageOS/android_device_lineage_atv" />
+  <remove-project name="LineageOS/android_device_lineage_car" />
   <remove-project name="LineageOS/android_vendor_crowdin" />
 
   <!-- remove lineage internal -->
@@ -12,4 +25,46 @@
   <remove-project name="LineageOS/mirror" />
   <remove-project name="LineageOS/scripts" />
   <remove-project name="LineageOS/www" />
+
+  <!-- remove aosp platform -->
+  <remove-project name="device/google/cuttlefish" />
+  <remove-project name="device/google/cuttlefish_prebuilts" />
+  <remove-project name="device/google/cuttlefish_vmm" />
+  <remove-project name="device/google/trout" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.12/arm64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" />
+  <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" />
+  <remove-project name="platform/frameworks/opt/car/services" />
+  <remove-project name="platform/frameworks/opt/car/setupwizard" />
+  <remove-project name="platform/frameworks/opt/tv/tvsystem" />
+  <remove-project name="platform/packages/apps/Car/CalendarPrebuilt" />
+  <remove-project name="platform/packages/apps/Car/Cluster" />
+  <remove-project name="platform/packages/apps/Car/DataSubscriptionReference" />
+  <remove-project name="platform/packages/apps/Car/DebuggingRestrictionController" />
+  <remove-project name="platform/packages/apps/Car/DialerPrebuilt" />
+  <remove-project name="platform/packages/apps/Car/DriverUIPrebuilt" />
+  <remove-project name="platform/packages/apps/Car/LatinIME" />
+  <remove-project name="platform/packages/apps/Car/Launcher" />
+  <remove-project name="platform/packages/apps/Car/LinkViewer" />
+  <remove-project name="platform/packages/apps/Car/LocalMediaPlayer" />
+  <remove-project name="platform/packages/apps/Car/MediaPrebuilt" />
+  <remove-project name="platform/packages/apps/Car/MessengerPrebuilt" />
+  <remove-project name="platform/packages/apps/Car/Notification" />
+  <remove-project name="platform/packages/apps/Car/Provision" />
+  <remove-project name="platform/packages/apps/Car/RadioPrebuilt" />
+  <remove-project name="platform/packages/apps/Car/RotaryController" />
+  <remove-project name="platform/packages/apps/Car/RotaryImePrebuilt" />
+  <remove-project name="platform/packages/apps/Car/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/Car/systemlibs" />
+  <remove-project name="platform/packages/apps/Car/SystemUpdater" />
+  <remove-project name="platform/packages/apps/Car/Templates" />
+  <remove-project name="platform/packages/apps/Car/VoiceControl" />
+  <remove-project name="platform/packages/apps/TV" />
+  <remove-project name="platform/packages/apps/TvFeedbackConsent" />
+  <remove-project name="platform/packages/providers/TvProvider" />
 </manifest>
