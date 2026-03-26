@@ -36,8 +36,11 @@
   <!-- Include Lineage repos -->
   <include name="snippets/lineage.xml" />
 
-  <!-- Remove some AOSP and Lineage Repos -->
+  <!-- Remove needed AOSP and Lineage Repos that we have a fork of-->
   <include name="snippets/remove.xml" />
+
+  <!-- Remove Lineage repos that we don't have a fork of and don't need -->
+  <include name="snippets/debloat.xml" />
 
   <!-- AICP non-platform -->
   <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
