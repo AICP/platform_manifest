@@ -71,7 +71,6 @@
   </project>
   <project path="frameworks/av" name="AICP/frameworks_av" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
-  <project path="frameworks/libs/systemui" name="AICP/frameworks_libs_systemui" remote="aicp" />
   <project name="AICP/packages_apps_Dialer" path="packages/apps/Dialer" remote="aicp" />
   <project path="packages/apps/Launcher3" name="AICP/packages_apps_Launcher3" remote="aicp" />
   <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" groups="pdk-fs" remote="aicp" />
