@@ -16,6 +16,24 @@
       "message": "I would like to put this in device dependencies, not global",
       "revId": "a2051b9f7aaed6d7e2be697f9b4b01336e510cf4",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "648e686e_d23c46f9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2026-04-07T06:58:44Z",
+      "side": 1,
+      "message": "I like that idea",
+      "parentUuid": "4efc62b3_0c3ce0a4",
+      "revId": "a2051b9f7aaed6d7e2be697f9b4b01336e510cf4",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
