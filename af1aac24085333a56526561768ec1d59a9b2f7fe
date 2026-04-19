@@ -16,6 +16,23 @@
       "message": "https://github.com/AICP/vendor_aicp/blob/w16.2/build/tasks/kernel.mk#L127\n\n## Internal variables\nCOLLECT_MODULE_DEPS_CMD :\u003d python3 $(BUILD_TOP)/lineage/scripts/collect-kernel-module-deps/collect-kernel-module-deps.py --non-interactive",
       "revId": "af1aac24085333a56526561768ec1d59a9b2f7fe",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f5db373_19480f4d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2026-04-19T20:19:05Z",
+      "side": 1,
+      "message": "we ned to trackthis on our side. Repo is created",
+      "revId": "af1aac24085333a56526561768ec1d59a9b2f7fe",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
