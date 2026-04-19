@@ -46,6 +46,7 @@
   <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
   <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
+  <project path="lineage/scripts" name="AICP/scripts" groups="tools" remote="aicp" revision="main" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
   <project path="packages/apps/GameSpace" name="AICP/packages_apps_GameSpace" remote="aicp" />
   <project path="packages/apps/LineageParts" name="AICP/packages_apps_LineageParts" remote="aicp" />
