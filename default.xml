@@ -1036,5 +1036,6 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
 
+  <include name="snippets/lineage.xml" />
   <include name="snippets/aicp.xml" />
 </manifest>
