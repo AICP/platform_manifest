@@ -33,14 +33,8 @@
            sync-c="true"
            sync-j="8" />
 
-  <!-- Include Lineage repos -->
-  <include name="snippets/lineage.xml" />
-
   <!-- Remove needed AOSP and Lineage Repos that we have a fork of-->
   <include name="snippets/remove.xml" />
-
-  <!-- Remove Lineage repos that we don't have a fork of and don't need -->
-  <include name="snippets/debloat.xml" />
 
   <!-- AICP non-platform -->
   <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
@@ -90,4 +84,14 @@
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc-qpr3" />
   <project path="vendor/lawnicons" name="ProtonAOSP/android_vendor_lawnicons" remote="github" revision="sc-qpr3" />
 
+
+  <!-- Remove Lineage internal repos -->
+  <remove-project name="LineageOS/android_vendor_crowdin" />
+  <remove-project name="LineageOS/charter" />
+  <remove-project name="LineageOS/cm_crowdin" />
+  <remove-project name="LineageOS/contributors-cloud-generator" />
+  <remove-project name="LineageOS/hudson" />
+  <remove-project name="LineageOS/lineage_wiki" />
+  <remove-project name="LineageOS/mirror" />
+  <remove-project name="LineageOS/www" />
 </manifest>
