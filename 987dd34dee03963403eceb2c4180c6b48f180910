@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e1f9ec86_93893bb6",
+        "filename": "default.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 1039,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2026-05-07T13:43:23Z",
+      "side": 1,
+      "message": "We already change default.xml by having the aicp include there, this makes it closer to lineage upstream by having the lineage include added back",
+      "parentUuid": "2da0742c_11f3a08a",
+      "revId": "987dd34dee03963403eceb2c4180c6b48f180910",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e62aa501_c997418f",
         "filename": "snippets/aicp.xml",
         "patchSetId": 4
@@ -31,6 +49,24 @@
       "writtenOn": "2026-05-07T13:00:31Z",
       "side": 1,
       "message": "why are we no put this in remove.xml?",
+      "revId": "987dd34dee03963403eceb2c4180c6b48f180910",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c2aa28d5_81aa8d85",
+        "filename": "snippets/aicp.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2026-05-07T13:43:23Z",
+      "side": 1,
+      "message": "Because we are not updating and tracking our own fork of it right now",
+      "parentUuid": "e62aa501_c997418f",
       "revId": "987dd34dee03963403eceb2c4180c6b48f180910",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
