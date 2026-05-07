@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- remove lineage non-platform -->
+  <!-- Remove Lineage internal repos -->
   <remove-project name="LineageOS/android_vendor_crowdin" />
-
-  <!-- remove lineage internal -->
   <remove-project name="LineageOS/charter" />
   <remove-project name="LineageOS/cm_crowdin" />
   <remove-project name="LineageOS/contributors-cloud-generator" />
