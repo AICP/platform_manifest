@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1995442c_a4fea4b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2026-05-11T18:49:47Z",
+      "side": 1,
+      "message": "Ok unterstood, what you do with default.xml. only thing is, maybe then keep debloat.xml. really not sure about this.",
+      "revId": "987dd34dee03963403eceb2c4180c6b48f180910",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2da0742c_11f3a08a",
