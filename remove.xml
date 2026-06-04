@@ -71,6 +71,7 @@
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/expat" />
+  <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/webp" />
   <remove-project name="platform/external/wpa_supplicant_8" />
@@ -107,6 +108,7 @@
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/EmergencyInfo" />
+  <remove-project name="platform/packages/apps/KeyChain" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/apps/Messaging"/>
