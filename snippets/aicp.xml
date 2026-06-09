@@ -54,17 +54,14 @@
 
   <!-- AICP platform -->
   <project path="build/make" name="AICP/build" groups="pdk,sysui-studio" remote="aicp" >
-    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
-    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
-    <linkfile dest="build/core" src="core" />
-    <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
-    <linkfile dest="build/target" src="target" />
-    <linkfile dest="build/tools" src="tools" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="AICP/build_soong" groups="pdk,tradefed" remote="aicp" >
-    <linkfile dest="Android.bp" src="root.bp" />
-    <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
-  </project>
+  <project path="build/soong" name="AICP/build_soong" groups="pdk,tradefed,sysui-studio"  remote="aicp" />
   <project path="frameworks/av" name="AICP/frameworks_av" remote="aicp" />
   <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" />
   <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
