@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8562ca01_07e9912d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2026-06-12T13:23:39Z",
+      "side": 1,
+      "message": "why",
+      "revId": "5ea2b0064fd8694258064041ebd0a423fd925010",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a6e74029_58dbcbb5",
+        "filename": "snippets/aicp.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1375
+      },
+      "writtenOn": "2026-06-12T13:23:39Z",
+      "side": 1,
+      "message": "this is same, bute reordered.",
+      "revId": "5ea2b0064fd8694258064041ebd0a423fd925010",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
