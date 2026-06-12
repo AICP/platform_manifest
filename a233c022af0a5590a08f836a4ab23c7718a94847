@@ -16,6 +16,24 @@
       "message": "why do we want to remove this?",
       "revId": "a233c022af0a5590a08f836a4ab23c7718a94847",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67448eab_a3db8187",
+        "filename": "snippets/aicp.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2026-06-12T14:16:09Z",
+      "side": 0,
+      "message": "To match lineage and aosp\n\nhttps://github.com/AICP/platform_manifest/commit/e792ac0af3f24bfaabfe4bd4e7cc7d2226fc81ab",
+      "parentUuid": "045ac462_e57bde00",
+      "revId": "a233c022af0a5590a08f836a4ab23c7718a94847",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
