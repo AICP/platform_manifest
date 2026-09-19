@@ -63,6 +63,7 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/pdfium" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/sonivox" />
@@ -118,6 +119,7 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/Traceur" />
+  <remove-project name="platform/packages/apps/TV" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/common" />
@@ -141,6 +143,7 @@
   <remove-project name="platform/system/ca-certificates" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/incremental_delivery" />
   <remove-project name="platform/system/libfmq" />
   <remove-project name="platform/system/libhidl" />
   <remove-project name="platform/system/logging" />

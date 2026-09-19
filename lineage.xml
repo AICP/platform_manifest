@@ -16,6 +16,7 @@
   <project path="external/freetype" name="LineageOS/android_external_freetype" groups="pdk" remote="lineage"/>
   <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="lineage" />
   <project path="external/htop" name="LineageOS/android_external_htop" remote="lineage" />
+  <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk" remote="lineage" />
   <project path="external/libjpeg-turbo" name="LineageOS/android_external_libjpeg-turbo" groups="pdk" remote="lineage" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="lineage" />
   <project path="external/libpng" name="LineageOS/android_external_libpng" groups="pdk" remote="lineage" />
@@ -63,6 +64,7 @@
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" remote="lineage" />
   <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_Keychain" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="lineage" />
+  <project path="packages/apps/TV" name="LineageOS/android_packages_apps_TV" groups="pdk" remote="lineage" />
   <project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="lineage"/>
   <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="lineage" />
   <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="lineage" />
@@ -84,6 +86,7 @@
   <project path="system/bt" name="LineageOS/android_system_bt" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" groups="pdk" remote="lineage"/>
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="lineage" />
+  <project path="system/incremental_delivery" name="LineageOS/android_system_incremental_delivery" groups="pdk" remote="lineage" />
   <project path="system/libfmq" name="LineageOS/android_system_libfmq" groups="pdk" remote="lineage" />
   <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" remote="lineage" />
   <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" remote="lineage" />
