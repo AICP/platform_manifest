@@ -20,6 +20,7 @@
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libpng" /> 
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libxml2" />
   <remove-project name="platform/external/mksh" />
@@ -74,6 +75,7 @@
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/EmergencyInfo" />
+  <remove-project name="platform/apps/KeyChain" /> 
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/apps/Messaging"/>
   <remove-project name="platform/packages/apps/Nfc" />
@@ -106,6 +108,7 @@
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/services/Car" />
   <remove-project name="platform/packages/services/Mms" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
