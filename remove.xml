@@ -135,6 +135,7 @@
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/services/BuiltInPrintService" />
   <remove-project name="platform/packages/services/Mms" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
@@ -146,6 +147,7 @@
   <remove-project name="platform/system/incremental_delivery" />
   <remove-project name="platform/system/libfmq" />
   <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/libufdt" />
   <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/nfc" />
