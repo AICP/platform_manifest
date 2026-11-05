@@ -104,6 +104,7 @@
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Car/Settings" />
   <remove-project name="platform/packages/apps/CertInstaller" />
   <remove-project name="platform/packages/apps/Contacts"/>
   <remove-project name="platform/packages/apps/DeskClock" />
@@ -121,6 +122,7 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/Traceur" />
   <remove-project name="platform/packages/apps/TV" />
+  <remove-project name="platform/packages/apps/TvSettings" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/modules/common" />
