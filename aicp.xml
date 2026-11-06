@@ -42,7 +42,7 @@
   <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
   <project path="frameworks/opt/slimrecent" name="AICP/frameworks_opt_slimrecent" remote="aicp" />
   <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
-  <project path="packages/apps/TvSettings" name="AICP/packages_apps_TvSettings" groups="pdk" remote="aicp" />
+  <project path="packages/apps/TvSettings" name="AICP/packages_apps_TvSettings" remote="aicp" />
   <project path="packages/services/OmniJaws" name="AICP/packages_services_OmniJaws" remote="aicp" />
   <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
   <!--<project path="system/sepolicy" name="AICP/system_sepolicy" groups="pdk" remote="aicp" />-->
